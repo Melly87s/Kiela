@@ -1,0 +1,14 @@
+{
+  "version": "1.2.36",
+  "executableLines": 12837,
+  "aliases": 383,
+  "formulas": 156,
+  "bytes": 3716816,
+  "sha256": "34db8429c70dafbe743b5cb82abb7705c3d465e20ba7261606724300cbfbefe9",
+  "equivalentRules": true,
+  "repository": "https://github.com/Melly87s/Kiela",
+  "mode": "softcore ladder",
+  "distribution": "standalone PD2 filter",
+  "dependencies": [],
+  "generatorIncluded": false
+}
