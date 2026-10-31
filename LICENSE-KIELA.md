@@ -1,6 +1,6 @@
-# Kiela original-contribution license
+# Melindaa original-contribution license (formerly Kiela)
 
-Copyright (c) 2026 Kiela project author(s).
+Copyright (c) 2026 Melinda Kiela.
 
 Official project: https://github.com/Melly87s/Kiela
 
