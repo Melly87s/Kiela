@@ -1,4 +1,4 @@
-# Kiela v1.2.40
+# Kiela v1.2.41
 
 Project Diablo 2 loot filter with clear item labels, graded symbol accents and
 automatic player-class runeword recommendations.
@@ -70,7 +70,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.40**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.41**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
@@ -120,7 +120,7 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.40** in the displayed profile name. Start with a
+   look for **Kiela v1.2.41** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Assign increase/decrease strictness keys in the game's **Configure Controls**
    if desired. F7/F8 are an example, not automatic bindings supplied by the filter.
@@ -154,6 +154,8 @@ Filter selection, then reopen the launcher. If items are hidden, lower strictnes
   requires a **Perfect** gem; lower grades show the upgrade reminder.
 - **Price** is the NPC vendor sell-price field. **Global price** is an available
   market estimate, not the amount an NPC pays and not a guaranteed sale.
+- Skiller prices marked **STR / DEX, all rolls** pool the same skill tree and
+  attribute mod across different attribute rolls. Exact-roll matches take priority.
 - **Roll %** rates tracked variable stats; it is not a universal build score or
   a guarantee that an item is valuable.
 - Red and blue potion labels show recovery amounts, for example **+320** and **+250**.
