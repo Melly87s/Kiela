@@ -1,4 +1,4 @@
-# Melindaa v1.2.37
+# Melindaa v1.2.38
 
 Project Diablo 2 loot filter with clear item labels, graded symbol accents and
 automatic player-class runeword recommendations.
@@ -68,7 +68,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Melindaa v1.2.37**.
+lygį turi būti rodomas profilio pavadinimas su **Melindaa v1.2.38**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
@@ -119,7 +119,7 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Melindaa.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Melindaa v1.2.37** in the displayed profile name. Start with a
+   look for **Melindaa v1.2.38** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Assign increase/decrease strictness keys in the game's **Configure Controls**
    if desired. F7/F8 are an example, not automatic bindings supplied by the filter.
