@@ -1,4 +1,4 @@
-# Kiela v1.2.44
+# Kiela v1.2.45
 
 Project Diablo 2 loot filter with clear item labels, graded symbol accents and
 automatic player-class runeword recommendations.
@@ -70,7 +70,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.44**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.45**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
@@ -80,9 +80,22 @@ kovinėms bazėms taikomi 5 / 10 / 15 ED slenksčiai, paladino skydams –
 Crystal / Broad / Long Sword, Flail ir Monarch išimtys nereikalauja ED.
 Aukščiausias lygis nėra skirtas parodyti viską.
 
-Filtro griežtumo didinimo ir mažinimo klavišus priskirk pačiame žaidime per
-**Configure Controls**. Pavyzdžiui, gali pasirinkti **F7** mažinimui ir **F8**
-didinimui, jei jie nesikerta su tavo įgūdžių klavišais. Filtras pats klavišų nekeičia.
+### Griežtumo klavišai žaidime
+
+1. Žaidime spausk **Esc → Options → Configure Controls**.
+2. Nuslink iki loot filtro komandų, parodytų PD2 valdymo sąraše.
+3. Prie **Increase Filter Level** spausk pirmą klavišo laukelį ir paspausk
+   **Num Pad +** (arba laisvą **F8**) — didina strictness, slepia daugiau daiktų.
+4. Prie **Decrease Filter Level** priskirk **Num Pad -** (arba laisvą **F7**)
+   — mažina strictness, rodo daugiau daiktų.
+5. Spausk **Accept**, grįžk į žaidimą ir išbandyk klavišus. Turi pasirodyti
+   naujas **Filter level** su Kiela versija ir profilio pavadinimu.
+
+**Num Pad + / -** yra skaičių klaviatūros klavišai, ne pagrindinės eilės + / -.
+Jei šie klavišai jau priskirti įgūdžiams, pasirink kitus laisvus klavišus.
+Pasirinktinai gali priskirti **Reload Loot Filter** filtro perkrovimui ir
+**Restore Previous Level** ankstesniam griežtumui grąžinti.
+Pats `.filter` failas klavišų automatiškai nepriskiria.
 
 **Žaidimui užtenka vieno `.filter` failo. Node.js, generatoriaus, atskiro
 paleidiklio, aktyvacijos rakto ar pakeistų šriftų įdiegti nereikia.**
@@ -124,10 +137,16 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.44** in the displayed profile name. Start with a
+   look for **Kiela v1.2.45** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
-5. Assign increase/decrease strictness keys in the game's **Configure Controls**
-   if desired. F7/F8 are an example, not automatic bindings supplied by the filter.
+5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
+   to **Increase Filter Level** and **Decrease Filter Level**. Click the first
+   key field beside each command, then press **Num Pad +** / **Num Pad -**,
+   or unused **F8** / **F7**. Click **Accept** and test them in game.
+   Increasing the level hides more items; decreasing shows more.
+   Numpad keys are separate from the main keyboard + / - keys.
+   Optional commands: **Reload Loot Filter** and **Restore Previous Level**.
+   The filter does not bind keys automatically.
 
 Only the `.filter` file is needed to play. No generator, Node.js, activation key,
 custom loader or font installation is required. This is for **Project Diablo 2**,
@@ -152,11 +171,17 @@ Filter selection, then reopen the launcher. If items are hidden, lower strictnes
 - Green recommendations include the runes in insertion order. On unsocketed bases,
   very long lists may end with **+N other RW** to fit PD2's tooltip limit.
   Socketed bases show matching recipes for their exact socket count.
+- **Cube: adds 1-N random sockets** means cubing the unsocketed item with the
+  listed runes and Perfect gem. It does not guarantee the socket count needed
+  for a runeword. The recipe uses the item itself; **Perfect Amethyst** is written out.
 - Socket tips show the base cap and method limits: **Larzuk** = quest,
   **Piece / Box** = Larzuk's Puzzlepiece / Puzzlebox, **Malus** = Larzuk's Malus.
   **WSS max** is a possible corruption result, not a guaranteed safe outcome.
-- Gem tooltips list all crafting slots and their runes by gem family. Crafting
-  requires a **Perfect** gem; lower grades show the upgrade reminder.
+- Only **Perfect** gem tooltips list crafting families, slots and runes.
+  Lower gem grades show the upgrade recipe.
+- Mod-based charm estimates pool the same modifier set across all rolls, including
+  FHR + resist Small Charms, life + mana Large Charms, and class-specific Torches.
+  Exact-roll matches take priority; pooled estimates are labeled **Approx. / all rolls**.
 - **Price** is the NPC vendor sell-price field. **Global price** is an available
   market estimate, not the amount an NPC pays and not a guaranteed sale.
 - Skiller prices marked **STR / DEX, all rolls** pool the same skill tree and
@@ -169,6 +194,10 @@ Filter selection, then reopen the launcher. If items are hidden, lower strictnes
 - **Roll %** rates tracked variable stats; it is not a universal build score or
   a guarantee that an item is valuable.
 - Red and blue potion labels show recovery amounts, for example **+320** and **+250**.
+
+The cube tooltip separates **Filter updated** (release build time in Lithuania)
+from **Prices** (the baseline price-data date). Charm estimates show their own
+market-snapshot date. A filter edit does not claim that every price was refreshed.
 
 Market estimates in this release are a **softcore ladder snapshot**, not a live
 in-game market connection or hardcore pricing. Prices can become stale, and
