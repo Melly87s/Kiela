@@ -1,9 +1,9 @@
-# Melindaa v1.2.38
+# Kiela v1.2.39
 
 Project Diablo 2 loot filter with clear item labels, graded symbol accents and
 automatic player-class runeword recommendations.
 
-**[Download Melindaa.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Melindaa.filter)**
+**[Download Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**
 
 **[Lietuviška instrukcija](#diegimas-lietuviškai)** · **[English instructions](#installation-english)**
 
@@ -13,23 +13,23 @@ Official project: https://github.com/Melly87s/Kiela
 
 ### 1. Atsisiųsk vieną failą
 
-Spausk **[Atsisiųsti Melindaa.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Melindaa.filter)**.
+Spausk **[Atsisiųsti Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**.
 
 Jeigu naršyklėje atsidaro tekstas, spausk **Ctrl+S** ir išsaugok failą pavadinimu
-**Melindaa.filter**. Jei renkiesi failo tipą, pasirink **All files / Visi failai**.
+**Kiela.filter**. Jei renkiesi failo tipą, pasirink **All files / Visi failai**.
 
 Failo pavadinimas turi būti tiksliai:
 
 ```text
-Melindaa.filter
+Kiela.filter
 ```
 
 Jis neturi baigtis `.txt` ar `.html`. Windows File Explorer meniu įjunk
 **View / Rodymas → Show / Rodyti → File name extensions / Failų vardų plėtiniai**,
-kad matytum tikrąjį pavadinimą. Jei gavosi `Melindaa.filter.txt`, pašalink tik
+kad matytum tikrąjį pavadinimą. Jei gavosi `Kiela.filter.txt`, pašalink tik
 galinį `.txt`.
 
-Taip pat gali atsidaryti [filtro failą GitHub](https://github.com/Melly87s/Kiela/blob/main/Melindaa.filter)
+Taip pat gali atsidaryti [filtro failą GitHub](https://github.com/Melly87s/Kiela/blob/main/Kiela.filter)
 ir spausti **Download raw file**. Visos GitHub svetainės puslapio kaip HTML saugoti nereikia.
 
 ### 2. Įdėk failą į savo PD2 aplanką
@@ -43,7 +43,7 @@ ProjectD2\filters\local
 Pavyzdžiui, jei Diablo II įdiegtas `C:\Diablo II`, galutinis failo kelias bus:
 
 ```text
-C:\Diablo II\ProjectD2\filters\local\Melindaa.filter
+C:\Diablo II\ProjectD2\filters\local\Kiela.filter
 ```
 
 Tavo diskas ir pagrindinio aplanko pavadinimas gali skirtis. Svarbu naudoti savo
@@ -59,7 +59,7 @@ nuorodų aplankas, atidaryk tikrojo launcherio failo vietą.
 1. Atidaryk įprastą **Project Diablo 2 launcherį**.
 2. Spausk **Item Filter Profiles**.
 3. Pasirink **Local Filter**.
-4. Vietinių filtrų sąraše pasirink **Melindaa.filter**.
+4. Vietinių filtrų sąraše pasirink **Kiela.filter**.
 5. Spausk **Save Filter / Save** ir paleisk žaidimą.
 
 Tai vietinis filtras. Jo nereikia ieškoti tarp internetinių autorių profilių.
@@ -68,7 +68,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Melindaa v1.2.38**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.39**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
@@ -84,7 +84,7 @@ paleidiklio, aktyvacijos rakto ar pakeistų šriftų įdiegti nereikia.**
 ### Atnaujinimas
 
 Uždaryk žaidimą, iš naujo atsisiųsk filtrą iš tos pačios nuorodos ir pakeisk seną
-`ProjectD2\filters\local\Melindaa.filter`. Launcheryje patikrink pasirinkimą
+`ProjectD2\filters\local\Kiela.filter`. Launcheryje patikrink pasirinkimą
 ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujina.
 
 ### Jei neveikia
@@ -94,7 +94,7 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 | Failo nėra sąraše | Jis turi būti tikrame `ProjectD2\filters\local` aplanke. Iš naujo atidaryk launcherį ir pasirink **Local Filter**. |
 | Failas vadinasi `.filter.txt` | Įjunk Windows failų plėtinių rodymą ir pašalink galinį `.txt`. |
 | Išsisaugojo HTML puslapis | Atsisiųsk per tiesioginę nuorodą arba GitHub **Download raw file**. |
-| Vis dar rodo kitą filtrą | Dar kartą pasirink Melindaa ir spausk **Save Filter**, tada iš naujo paleisk žaidimą. |
+| Vis dar rodo kitą filtrą | Dar kartą pasirink Kiela ir spausk **Save Filter**, tada iš naujo paleisk žaidimą. |
 | Po atnaujinimo liko sena versija | Patikrink, ar pakeitei failą tame pačiame PD2 įdiegimo aplanke, kurio launcherį paleidi. |
 | Nerodo dalies daiktų | Sumažink strict. Tai gali būti įprastas filtravimas, o ne diegimo klaida. |
 | F7 / F8 nieko nedaro | Klavišus pirmiausia priskirk per **Configure Controls**. |
@@ -102,24 +102,24 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 
 ## Installation (English)
 
-1. **[Download Melindaa.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Melindaa.filter)**.
+1. **[Download Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**.
    If your browser displays text, press **Ctrl+S**, choose **All files** if asked,
-   and save it as exactly **Melindaa.filter**, without `.txt` or `.html`.
+   and save it as exactly **Kiela.filter**, without `.txt` or `.html`.
    You can also use GitHub's **Download raw file** button on the filter's file page.
 2. Find your **Project Diablo 2** installation and put the file in
    **`ProjectD2\filters\local`**. For example:
 
    ```text
-   C:\Diablo II\ProjectD2\filters\local\Melindaa.filter
+   C:\Diablo II\ProjectD2\filters\local\Kiela.filter
    ```
 
    Your drive and main installation folder may differ. Create `filters\local`
    inside your actual `ProjectD2` folder if necessary. Do not use the Downloads
    folder or a Diablo II Resurrected installation.
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
-   **Melindaa.filter** → **Save Filter / Save**, then start the game.
+   **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Melindaa v1.2.38** in the displayed profile name. Start with a
+   look for **Kiela v1.2.39** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Assign increase/decrease strictness keys in the game's **Configure Controls**
    if desired. F7/F8 are an example, not automatic bindings supplied by the filter.
@@ -156,7 +156,7 @@ exact-stat charm price coverage is limited. Missing matching data is not a zero 
 ## Authorship and use
 
 Copyright (c) 2026 Melinda Kiela, original Kiela contributions only.
-Melindaa builds on the third-party work acknowledged in
+Kiela builds on the third-party work acknowledged in
 **[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md)**.
 
 Free to download and use for PD2 under the scoped

@@ -1,4 +1,4 @@
-# Melindaa original-contribution license (formerly Kiela)
+# Kiela original-contribution license
 
 Copyright (c) 2026 Melinda Kiela.
 
