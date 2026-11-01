@@ -1,13 +1,182 @@
 # Kiela v1.2.45
 
-Project Diablo 2 loot filter with clear item labels, graded symbol accents and
-automatic player-class runeword recommendations.
+Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
 **[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** · **[Download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)**
 
 **[Lietuviška instrukcija](#diegimas-lietuviškai)** · **[English instructions](#installation-english)**
 
 Official project: https://github.com/Melly87s/Kiela
+
+## What Kiela does
+
+## Market prices and roll percentages — the heart of Kiela
+
+Kiela is built around two core features: **in-game market-price estimates and item roll percentages**. Inspect supported items to see their estimated trade value in **HR / WSS** and how strong their tracked stat rolls are. This helps you decide what to keep, trade, upgrade or leave behind.
+
+Market estimates come from collected listings on the live PD2 trade market and are included in filter updates. **The filter does not fetch live prices while you play.** Prices are dated snapshots of asking prices, not guaranteed sale values. For supported charms, skillers and class-specific Torches, approximate modifier-based prices can be shown even when the collected data has no exact-roll match.
+
+## Set your own strictness hotkeys
+
+Assign these keys yourself in **Esc → Options → Configure Controls**:
+
+- **Increase Filter Level → Num Pad +**: increases strictness and hides more ordinary loot.
+- **Decrease Filter Level → Num Pad -**: lowers strictness and shows more loot.
+- Optionally assign **Reload Loot Filter** to a free key for reloading an updated local file.
+
+Click each command's key field, press the desired key, then select **Accept**. We recommend the numeric keypad **+** and **-**. The filter file does not assign these keys automatically.
+
+## Clear ground labels and a distinct visual style
+
+Kiela uses compact symbols and colored labels to make different kinds of drops easier to recognize. It retains the underlying item-quality color system while adding accents for selected high-value categories.
+
+- Small, Large and Grand Charms use the same familiar symbol with bright cyan size tags: **☯ [SC]**, **☯ [LC]** and **☯ [GC]**.
+- Unique charms retain their recognizable item names alongside their size marker.
+- Runes have numbered ground labels, making their position in the rune progression easier to recognize. Higher rune groups have stronger visual accents.
+- Gem names follow their gem type's color. Different gem grades use compact symbols, with Perfect gems receiving their own distinctive marker.
+- Healing potions use red recovery labels such as **+320**. Mana potions use blue labels such as **+250**. These are the recovery-point values in the installed PD2 data, not a promise of the exact amount every class will recover.
+- Antidote potions use the short green label **anti**.
+- Selected item groups use minimap markers and drop notifications. Selected valuable categories have drop sounds, applied to newly dropped items rather than ordinary inventory movement.
+
+The result is a recognizable presentation with less ground-label clutter and useful information available when you inspect an item.
+
+## Eleven strictness levels
+
+Kiela provides a progression of filter levels:
+
+1. Campaign — Normal
+2. Campaign — Nightmare
+3. Campaign — Hell
+4. Baal Runs
+5. Farming — Strict
+6. Farming — Stricter
+7. Endgame
+8. Endgame — Stricter
+9. Endgame — Strict
+10. Endgame — Fast Mapping
+11. Endgame — Minimal
+
+Lower levels provide a broader selection for progression. Higher levels hide more ordinary drops and apply stricter requirements to protected runeword bases.
+
+**From Farming, level 5 onward, only Perfect gems are shown on the ground.** Lower-grade gems are hidden at these levels. Gems already in your inventory can still be inspected normally.
+
+For curated combat and armor bases, the middle levels use progressive quality requirements. Levels 5–6 use a 5% ED threshold; levels 7–8 use 10%. Paladin shield resistance thresholds also become stricter.
+
+**Levels 9–11 use maximum relevant rolls for protected runeword bases:** 20% enhanced damage for weapon bases, 20% enhanced defense for armor bases, 30 all resistance for eligible Paladin shields, or selected +3 skill bonuses for class bases. Selected best-tier quivers have their own base exception.
+
+These are rules for the stats that matter to that type of base. A maximum selected stat does not mean every possible skill combination, durability value and property on the item is perfect.
+
+Useful low-requirement caster bases, such as compatible Crystal Swords, Broad Swords, Long Swords, Flails and Monarchs, have exceptions at lower and middle strictness levels. Those exceptions do not bypass the maximum-roll requirement at levels 9–11.
+
+## Runeword bases selected for usefulness
+
+Kiela distinguishes between an item that can technically accept a runeword and a base worth keeping at your selected strictness.
+
+Higher strictness levels use a curated selection of weapon, armor, shield and class-specific bases instead of treating every socketable elite item as desirable. Niche bases can be hidden even when a runeword is technically possible in them.
+
+Ground labels can identify a kept item as a **Runeword base**. Suitable bases can instead show a compact **Possible RW:** label with recommendations for your current character class.
+
+The base-selection rules account for relevant properties such as enhanced damage, enhanced defense, Paladin shield resistance, useful skill bonuses, socket count and socket capacity. Ethereal status is used in selected base-selection rules; the filter does not treat every ethereal item as an automatic upgrade.
+
+## Automatic class-aware runeword recommendations
+
+Kiela uses PD2's native character-class checks to choose recommendations for Amazon, Assassin, Barbarian, Druid, Necromancer, Paladin and Sorceress characters.
+
+When you change character class, the relevant recommendations change automatically. There is no need to install a separate filter for each class.
+
+- Recommended runewords are highlighted in **green** in a base's tooltip.
+- Other compatible options use **dark gray** text.
+- Recommended entries on unsocketed bases include the required runes in insertion order.
+- Required socket counts are shown with the runeword lists.
+- Socketed bases show recipes appropriate to their exact socket count.
+- Unsocketed bases show possible options within the base's socket capacity.
+
+Class recognition is automatic; build recognition is not. Druid recommendations are tuned toward Summon, while the other classes use general shortlists. Weapon type and class restrictions still apply.
+
+The tooltip has a fixed length limit in PD2. If an unsocketed base has too many possible options, Kiela preserves the recommended recipes and may summarize omitted ordinary entries as **+N other RW**.
+
+## Socketing instructions on equipment
+
+Kiela adds socket information to relevant equipment, including the base's capacity and the limits of available methods.
+
+Depending on the item and its quality, the tooltip can show:
+
+- Maximum socket capacity.
+- Larzuk quest socket count or range.
+- Larzuk's Puzzlepiece or Puzzlebox socket range.
+- Larzuk's Malus socket information.
+- The possible socket cap from a Worldstone Shard corruption.
+- A Horadric Cube socket recipe where applicable.
+- A warning that an already socketed item cannot receive additional sockets through those methods.
+- The Hel rune + Town Portal Scroll recipe for clearing socket contents.
+
+Cube instructions state both the ingredients and the result. For example, a suitable Flail can show **Cube: adds 1–5 random sockets**, followed by **Recipe: item + Ral + Amn + Perfect Amethyst**.
+
+A random socket recipe does not guarantee the count needed for a particular runeword. Corruption is also a risk, not a guaranteed socket upgrade. Clearing sockets destroys their contents and does not change the number of sockets.
+
+## Stat-roll ratings
+
+Kiela provides roll information for supported magic and rare items, charms, unique and set items, and runewords.
+
+- **Roll %** summarizes the tracked variable properties against their modeled maxima.
+- **GOOD** and **TOP** labels distinguish stronger tracked rolls.
+- **BAD ROLL** identifies a lower result in that model.
+- **FIXED** means there are no variable rolls in the supported model.
+- **Tracked roll** means some base-dependent properties have been excluded because they cannot be reliably separated from the runeword's own contribution.
+- **Roll: CHECK** means the filter cannot confidently provide a supported percentage for that item in its current state.
+
+The rating is not a universal build score. A lower overall percentage can still include a valuable stat, and a high percentage does not automatically make an unwanted item valuable.
+
+Runeword models include the fixed effects of inserted runes. Relevant base contributions are handled separately, including base block on shields. Modified items and unsupported combinations may require manual checking.
+
+## Charm combinations and skillers
+
+Kiela recognizes useful charm combinations and can highlight combinations such as life + mana or life + resistance.
+
+Charm tooltips also provide roll information and the magic-charm reroll recipe:
+
+**Magic charm + any 3 Perfect gems in the Horadric Cube.**
+
+This works for magic Small, Large and Grand Charms. It replaces the existing magic properties. It is not a recipe for rerolling unique charms.
+
+The price data includes plain skillers across all 21 skill trees, selected exact-stat charm combinations, skillers with STR or DEX, broader modifier-set estimates, and class-specific Torch estimates where enough supported listings are available.
+
+## NPC prices and market-price estimates
+
+Kiela keeps vendor value and trade-market estimates separate:
+
+- **Price: ... gold** is the NPC sell-price field on supported equipment.
+- **Global price: ... HR / WSS** is a market estimate from collected trade listings.
+
+For charms, an available exact-roll price match takes priority. If no exact-roll match is available but a supported modifier group has enough data, Kiela can show an approximate price for that group, pooling different rolls.
+
+Examples include FHR + resistance Small Charms, life + mana Large Charms, STR/DEX skillers, and Torches grouped by character class and modifier set.
+
+Approximate entries explicitly say **No exact-roll match in price data** and **Approx. / all rolls**. This refers to the filter's collected dataset; it does not claim that no matching item exists anywhere on the live market.
+
+Grouped charm estimates require at least three supported listings from at least two sellers. Prices are asking-price medians, not confirmed sale prices. The current data is for **softcore ladder**. It is not a live in-game market connection or a hardcore price list.
+
+When there is insufficient supported data, the filter reports limited market information rather than inventing a price. Roll quality, demand, season timing, corruption and unusual combinations can all change what an item actually sells for.
+
+## Crafting and cube help
+
+**Perfect gems** list their crafting family, supported equipment slots and required runes. The families include Caster, Blood, Hitpower, Safety, Bountiful, Brilliant and Vampiric.
+
+The tooltip explains the general recipe and gives slot-specific rune information for amulets, rings, belts, gloves, boots, helms, armor, shields and weapons.
+
+Lower-grade gems show their upgrade recipe instead of a list of crafts they cannot yet perform. Rune tooltips retain useful crafting and rune-upgrade information without displaying a long list of every runeword containing that rune.
+
+Map tooltips can show baseline monster resistance ranges. These are reference
+values, not live measurements of every monster after all map modifiers.
+
+Additional tooltips provide relevant help for map-crafting materials, Worldstone Shards, socket clearing, item-base upgrades and other supported cube uses. These instructions apply to eligible items; an ingredient alone does not guarantee a recipe is valid for every target.
+
+## Version and update information
+
+The Horadric Cube tooltip displays the loaded Kiela version, selected profile, filter build time in Lithuania and the baseline price-data date.
+
+**Filter updated** and **Prices** are separate dates. Editing the filter updates the release timestamp; it does not falsely refresh every market-price record. Individual charm estimates include their own snapshot date.
+
 
 ## Diegimas lietuviškai
 
@@ -75,9 +244,11 @@ lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.45**.
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
 geresnių atrinktų runeword bazių statų. Nuo 5 lygio nišinės bazės slepiamos;
-kovinėms bazėms taikomi 5 / 10 / 15 ED slenksčiai, paladino skydams –
-20 / 25 / 30 res. Naudingi +3 skill bazių variantai išlaikomi. Tinkamų socketų
+kovinėms bazėms taikomi 5 / 10 / 20 ED slenksčiai, paladino skydams –
+20 / 25 / 30 res. Naudingi +3 skill bazių variantai išlaikomi. Iki 8 lygio tinkamų socketų
 Crystal / Broad / Long Sword, Flail ir Monarch išimtys nereikalauja ED.
+9–11 lygiuose saugomoms bazėms reikia maksimalaus svarbaus priedo.
+Nuo Farming, 5 lygio, ant žemės rodomi tik Perfect gemai.
 Aukščiausias lygis nėra skirtas parodyti viską.
 
 ### Griežtumo klavišai žaidime
@@ -181,7 +352,9 @@ Filter selection, then reopen the launcher. If items are hidden, lower strictnes
   Lower gem grades show the upgrade recipe.
 - Mod-based charm estimates pool the same modifier set across all rolls, including
   FHR + resist Small Charms, life + mana Large Charms, and class-specific Torches.
-  Exact-roll matches take priority; pooled estimates are labeled **Approx. / all rolls**.
+  Exact-roll matches take priority; pooled estimates say **No exact-roll match in
+  price data** and **Approx. / all rolls**. This does not claim that no exact item
+  exists anywhere on the live market.
 - **Price** is the NPC vendor sell-price field. **Global price** is an available
   market estimate, not the amount an NPC pays and not a guaranteed sale.
 - Skiller prices marked **STR / DEX, all rolls** pool the same skill tree and
@@ -202,6 +375,24 @@ market-snapshot date. A filter edit does not claim that every price was refreshe
 Market estimates in this release are a **softcore ladder snapshot**, not a live
 in-game market connection or hardcore pricing. Prices can become stale, and
 exact-stat charm price coverage is limited. Missing matching data is not a zero price.
+
+## PD2 launcher catalog
+
+The launcher submission uses a dedicated folder containing only the canonical
+`Kiela.filter` and its documentation. Root-level legacy filter names remain for
+compatibility with existing local installations.
+
+Proposed launcher entry:
+
+```json
+{"name":"Kiela","url":"https://api.github.com/repos/Melly87s/Kiela/contents/launcher","author":"Melinda Kiela"}
+```
+
+The official PD2 team must approve and merge the `filters.json` pull request
+before the filter appears in the launcher catalog. Until then, use **Local Filter**.
+After approval: select **Melinda Kiela → Kiela.filter → Save Filter**. The online
+selection lets the launcher download the latest filter when you press Play.
+See the [official creator instructions](https://github.com/Project-Diablo-2/LootFilters#for-loot-filter-creators).
 
 ## Authorship and use
 
