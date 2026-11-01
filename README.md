@@ -4,9 +4,11 @@ Project Diablo 2 loot filter built around **market-price estimates and item roll
 
 **[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** · **[Download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)**
 
-**[Lietuviška instrukcija](#diegimas-lietuviškai)** · **[English instructions](#installation-english)**
+**[English installation instructions](#installation-english)** · **[Lietuviška instrukcija](#diegimas-lietuviškai)**
 
 Official project: https://github.com/Melly87s/Kiela
+
+**Only one game file is required: `Kiela.filter`.** Copy only that file into PD2. README files explain installation; license notices and release metadata are documentation, not additional filters.
 
 ## What Kiela does
 
@@ -178,6 +180,44 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 **Filter updated** and **Prices** are separate dates. Editing the filter updates the release timestamp; it does not falsely refresh every market-price record. Individual charm estimates include their own snapshot date.
 
 
+## Installation (English)
+
+1. **[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** and extract it with WinRAR or 7-Zip.
+   Alternatively, **[download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)** and use Windows **Extract All**.
+   The archive contains `Kiela.filter`, instructions and licenses. Copy only **Kiela.filter** into the game folder.
+2. Find your **Project Diablo 2** installation and put the file in
+   **`ProjectD2\filters\local`**. For example:
+
+   ```text
+   C:\Diablo II\ProjectD2\filters\local\Kiela.filter
+   ```
+
+   Your drive and main installation folder may differ. Create `filters\local`
+   inside your actual `ProjectD2` folder if necessary. Do not use the Downloads
+   folder or a Diablo II Resurrected installation.
+3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
+   **Kiela.filter** → **Save Filter / Save**, then start the game.
+4. Make sure the in-game loot filter is enabled. Change its strictness level and
+   look for **Kiela v1.2.45** in the displayed profile name. Start with a
+   lower level; higher strictness intentionally hides more items and weaker bases.
+5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
+   to **Increase Filter Level** and **Decrease Filter Level**. Click the first
+   key field beside each command, then press **Num Pad +** / **Num Pad -**,
+   or unused **F8** / **F7**. Click **Accept** and test them in game.
+   Increasing the level hides more items; decreasing shows more.
+   Numpad keys are separate from the main keyboard + / - keys.
+   Optional commands: **Reload Loot Filter** and **Restore Previous Level**.
+   The filter does not bind keys automatically.
+
+Only the `.filter` file is needed to play. No generator, Node.js, activation key,
+custom loader or font installation is required. This is for **Project Diablo 2**,
+not Diablo II Resurrected. Online launcher-catalog registration is a separate step.
+
+To update, close the game, download the same file again, replace your local copy
+and restart. A manually installed local filter does not update itself from GitHub.
+If it is missing from the launcher, check the path, filename extension and Local
+Filter selection, then reopen the launcher. If items are hidden, lower strictness.
+
 ## Diegimas lietuviškai
 
 ### 1. Atsisiųsk ir išarchyvuok
@@ -290,44 +330,6 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 | F7 / F8 nieko nedaro | Klavišus pirmiausia priskirk per **Configure Controls**. |
 | Simboliai atrodo netaisyklingai | Naudok atnaujintą PD2 su jo HD atvaizdavimu. Šis paketas papildomų šriftų ar žaidimo archyvų nepakeičia. |
 
-## Installation (English)
-
-1. **[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** and extract it with WinRAR or 7-Zip.
-   Alternatively, **[download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)** and use Windows **Extract All**.
-   The archive contains `Kiela.filter`, instructions and licenses. Copy only **Kiela.filter** into the game folder.
-2. Find your **Project Diablo 2** installation and put the file in
-   **`ProjectD2\filters\local`**. For example:
-
-   ```text
-   C:\Diablo II\ProjectD2\filters\local\Kiela.filter
-   ```
-
-   Your drive and main installation folder may differ. Create `filters\local`
-   inside your actual `ProjectD2` folder if necessary. Do not use the Downloads
-   folder or a Diablo II Resurrected installation.
-3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
-   **Kiela.filter** → **Save Filter / Save**, then start the game.
-4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.45** in the displayed profile name. Start with a
-   lower level; higher strictness intentionally hides more items and weaker bases.
-5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
-   to **Increase Filter Level** and **Decrease Filter Level**. Click the first
-   key field beside each command, then press **Num Pad +** / **Num Pad -**,
-   or unused **F8** / **F7**. Click **Accept** and test them in game.
-   Increasing the level hides more items; decreasing shows more.
-   Numpad keys are separate from the main keyboard + / - keys.
-   Optional commands: **Reload Loot Filter** and **Restore Previous Level**.
-   The filter does not bind keys automatically.
-
-Only the `.filter` file is needed to play. No generator, Node.js, activation key,
-custom loader or font installation is required. This is for **Project Diablo 2**,
-not Diablo II Resurrected. Online launcher-catalog registration is a separate step.
-
-To update, close the game, download the same file again, replace your local copy
-and restart. A manually installed local filter does not update itself from GitHub.
-If it is missing from the launcher, check the path, filename extension and Local
-Filter selection, then reopen the launcher. If items are hidden, lower strictness.
-
 ## What the labels mean / Ką reiškia žymos
 
 - Original item-quality colors are retained. Better value categories receive
@@ -378,14 +380,10 @@ exact-stat charm price coverage is limited. Missing matching data is not a zero 
 
 ## PD2 launcher catalog
 
-The launcher submission uses a dedicated folder containing only the canonical
-`Kiela.filter` and its documentation. Root-level legacy filter names remain for
-compatibility with existing local installations.
-
-Proposed launcher entry:
+The repository contains one playable filter: **Kiela.filter**. The remaining files are documentation, licenses and release metadata. Proposed launcher entry:
 
 ```json
-{"name":"Kiela","url":"https://api.github.com/repos/Melly87s/Kiela/contents/launcher","author":"Melinda Kiela"}
+{"name":"Kiela","url":"https://api.github.com/repos/Melly87s/Kiela/contents","author":"Melinda Kiela"}
 ```
 
 The official PD2 team must approve and merge the `filters.json` pull request

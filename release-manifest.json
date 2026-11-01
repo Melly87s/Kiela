@@ -10,7 +10,6 @@
   "equivalentRules": true,
   "name": "Kiela",
   "filterFile": "Kiela.filter",
-  "legacyFile": "Kiela Filter.filter",
   "repository": "https://github.com/Melly87s/Kiela",
   "mode": "softcore ladder",
   "distribution": "standalone PD2 filter",
