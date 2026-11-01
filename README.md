@@ -1,9 +1,9 @@
-# Kiela v1.2.39
+# Kiela v1.2.40
 
 Project Diablo 2 loot filter with clear item labels, graded symbol accents and
 automatic player-class runeword recommendations.
 
-**[Download Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**
+**[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** · **[Download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)**
 
 **[Lietuviška instrukcija](#diegimas-lietuviškai)** · **[English instructions](#installation-english)**
 
@@ -11,12 +11,14 @@ Official project: https://github.com/Melly87s/Kiela
 
 ## Diegimas lietuviškai
 
-### 1. Atsisiųsk vieną failą
+### 1. Atsisiųsk ir išarchyvuok
 
-Spausk **[Atsisiųsti Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**.
+Spausk **[Atsisiųsti Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)**.
+Išarchyvuok su WinRAR arba 7-Zip. Arba atsisiųsk **[Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)**
+ir Windows meniu pasirink **Extract All / Išskleisti viską**.
 
-Jeigu naršyklėje atsidaro tekstas, spausk **Ctrl+S** ir išsaugok failą pavadinimu
-**Kiela.filter**. Jei renkiesi failo tipą, pasirink **All files / Visi failai**.
+Archyve yra `Kiela.filter`, ši instrukcija ir licencijos. Į žaidimo aplanką
+kopijuok tik **Kiela.filter**. Paties `.rar` ar `.zip` į `local` dėti nereikia.
 
 Failo pavadinimas turi būti tiksliai:
 
@@ -68,7 +70,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.39**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.40**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
@@ -102,10 +104,9 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 
 ## Installation (English)
 
-1. **[Download Kiela.filter](https://raw.githubusercontent.com/Melly87s/Kiela/main/Kiela.filter)**.
-   If your browser displays text, press **Ctrl+S**, choose **All files** if asked,
-   and save it as exactly **Kiela.filter**, without `.txt` or `.html`.
-   You can also use GitHub's **Download raw file** button on the filter's file page.
+1. **[Download Kiela.rar](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** and extract it with WinRAR or 7-Zip.
+   Alternatively, **[download Kiela.zip](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)** and use Windows **Extract All**.
+   The archive contains `Kiela.filter`, instructions and licenses. Copy only **Kiela.filter** into the game folder.
 2. Find your **Project Diablo 2** installation and put the file in
    **`ProjectD2\filters\local`**. For example:
 
@@ -119,7 +120,7 @@ ir vėl paleisk žaidimą. Vietinė kopija iš GitHub automatiškai neatsinaujin
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.39** in the displayed profile name. Start with a
+   look for **Kiela v1.2.40** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Assign increase/decrease strictness keys in the game's **Configure Controls**
    if desired. F7/F8 are an example, not automatic bindings supplied by the filter.
@@ -137,12 +138,20 @@ Filter selection, then reopen the launcher. If items are hidden, lower strictnes
 
 - Original item-quality colors are retained. Better value categories receive
   stronger compact symbol accents.
-- **Possible: ...** on a ground base recommends a compatible runeword for the
+- **Possible RW: ...** on a ground base recommends a compatible runeword for the
   current player class. Recommended runeword names are **green** in item tooltips.
   Class detection is automatic; build detection is not. Druid preferences are
   tuned for **Summon**. Add the required sockets before inserting runes.
 - In the possible-runeword list, **2s / 3s / 4s / 5s / 6s** mean the required
   number of sockets. Ordinary entries are dark gray; class recommendations are green.
+- Green recommendations include the runes in insertion order. On unsocketed bases,
+  very long lists may end with **+N other RW** to fit PD2's tooltip limit.
+  Socketed bases show matching recipes for their exact socket count.
+- Socket tips show the base cap and method limits: **Larzuk** = quest,
+  **Piece / Box** = Larzuk's Puzzlepiece / Puzzlebox, **Malus** = Larzuk's Malus.
+  **WSS max** is a possible corruption result, not a guaranteed safe outcome.
+- Gem tooltips list all crafting slots and their runes by gem family. Crafting
+  requires a **Perfect** gem; lower grades show the upgrade reminder.
 - **Price** is the NPC vendor sell-price field. **Global price** is an available
   market estimate, not the amount an NPC pays and not a guaranteed sale.
 - **Roll %** rates tracked variable stats; it is not a universal build score or
