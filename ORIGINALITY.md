@@ -1,4 +1,4 @@
-# Kiela v1.2.54: selection engine and preserved features
+# Kiela v1.2.55: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -142,3 +142,8 @@ From Endgame Strict (profile 9), lower-tier set templates no longer bypass set s
 ## v1.2.54: item levels at the bottom of descriptions
 
 Every final item description ends with plain text Item level: N. Item level is not included in ground or inventory names. This follows the user’s clarification; quantities, selection, prices, recipes and roll processing remain unchanged.
+
+
+## v1.2.55: unconditional PD2 special-drop protection
+
+Every hide gate explicitly excludes PD2 maps (including any native MAPTIER > 0), map modification materials/orbs, corruption shards, puzzle tools, crafting ingredients, fragments, boss keys/organs/essences, special books/keys, event/PvP maps and runes. Selection is based on installed game-table types and includes inactive/event records. The protected catalog contains 180 records, including 42 maps. Protection continues into quantity, price, recipe and roll handling; it is not an early terminal display return. Ordinary chest keys, consumable potions, lesser gems and equipment selection retain their requested policies.
