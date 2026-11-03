@@ -1,4 +1,4 @@
-# Kiela v1.2.46: selection engine and preserved features
+# Kiela v1.2.47: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -58,3 +58,10 @@ grades, cube profile numbers and individual item codes. Text comparison alone
 does not prove independent authorship or guarantee that no similarity exists.
 This report concerns the current release; it does not rewrite the provenance
 of earlier releases. Automated checks do not replace an in-game playtest.
+
+## v1.2.47: skill safety
+
+All strictness levels exempt +2-or-higher all/class/tree/single-skill and oskill
+items from every hide gate. Unidentified magic and rare equipment is retained
+until its affixes can be assessed. The protection is an exception to hiding,
+not an early display return, so Kiela prices, roll ratings and help still run.

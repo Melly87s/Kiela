@@ -1,4 +1,4 @@
-# Kiela v1.2.46
+# Kiela v1.2.47
 
 Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
@@ -43,6 +43,10 @@ Kiela uses compact symbols and colored labels to make different kinds of drops e
 - Selected item groups use minimap markers and drop notifications. Selected valuable categories have drop sounds, applied to newly dropped items rather than ordinary inventory movement.
 
 The result is a recognizable presentation with less ground-label clutter and useful information available when you inspect an item.
+
+## Skill-item protection
+
+From v1.2.47, every strictness level protects items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** from hiding. Unidentified magic and rare equipment remains visible because its hidden affixes cannot be safely judged. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
 
 ## Eleven strictness levels
 
@@ -200,7 +204,7 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.46** in the displayed profile name. Start with a
+   look for **Kiela v1.2.47** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
    to **Increase Filter Level** and **Decrease Filter Level**. Click the first
@@ -281,7 +285,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.46**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.47**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
