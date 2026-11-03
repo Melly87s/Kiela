@@ -1,4 +1,4 @@
-# Kiela v1.2.47
+# Kiela v1.2.48
 
 Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
@@ -46,7 +46,18 @@ The result is a recognizable presentation with less ground-label clutter and use
 
 ## Skill-item protection
 
-From v1.2.47, every strictness level protects items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** from hiding. Unidentified magic and rare equipment remains visible because its hidden affixes cannot be safely judged. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
+From v1.2.47, every strictness level protects items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** from hiding. Normal/Nightmare and Farming-or-higher retain unidentified magic and rare equipment. Hell/Baal use the cautious progression rules below, including exceptions for bases whose native affix level permits skill or strong-mod rolls. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
+
+## Early progression (v1.2.48)
+
+- **Normal and Nightmare:** show all items, including low-level equipment and small gold piles.
+- **Hell:** a broad selection; ordinary magic/rare equipment uses ilvl 35/20 as initial guidance, with useful-stat and potential-affix exceptions. Show Flawless and Perfect gems.
+- **Baal Runs:** somewhat tighter; ordinary magic/rare equipment uses ilvl 55/35 as guidance, with the same safety exceptions. There is no hard ilvl-85 requirement. Show Flawless and Perfect gems.
+- **Farming and all higher profiles:** show Perfect gems; all runes and uniques remain visible at every profile.
+- From **Hell onward**, hide Stamina, Thawing and Oil potions, plus loose Identify and Town Portal scrolls. Tomes and rejuvenation potions remain visible.
+- Rejuvenation ground and inventory labels are purple **35%** and **☺FULL☺**.
+
+Known +2 skill items, quest items and protected item categories override early hiding. Unidentified bases that can roll +2 skills or selected strong modifiers at their native affix level also override the early level guidance. Item level is not character level.
 
 ## Eleven strictness levels
 
@@ -204,7 +215,7 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.47** in the displayed profile name. Start with a
+   look for **Kiela v1.2.48** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
    to **Increase Filter Level** and **Decrease Filter Level**. Click the first
@@ -285,7 +296,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.47**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.48**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja

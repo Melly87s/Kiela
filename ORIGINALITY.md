@@ -1,4 +1,4 @@
-# Kiela v1.2.47: selection engine and preserved features
+# Kiela v1.2.48: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -65,3 +65,17 @@ All strictness levels exempt +2-or-higher all/class/tree/single-skill and oskill
 items from every hide gate. Unidentified magic and rare equipment is retained
 until its affixes can be assessed. The protection is an exception to hiding,
 not an early display return, so Kiela prices, roll ratings and help still run.
+
+## v1.2.48: early progression
+
+Normal/Nightmare show all items. Hell and Baal use cautious magic/rare ilvl
+guidance (35/20 and 55/35), with protected categories, visible useful stats and
+native-ALVL affix-potential exceptions. No ilvl-85 cutoff is used. Potential
++2 skills and selected useful modifiers are derived from PD2 affix/type tables,
+including rare eligibility, staffmods and automagic. These exceptions may keep
+weak rolls; they do not predict an unidentified item's actual affixes.
+
+Hell/Baal retain Flawless and Perfect gems; Farming+ retain Perfect only.
+Runes, uniques and Perfect gems remain visible at every level. From Hell,
+hide Stamina/Thawing/Oil potions and loose ID/TP scrolls; keep tomes. Restored
+purple rejuvenation ground and inventory labels: 35% and smiling FULL.
