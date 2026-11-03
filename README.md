@@ -424,3 +424,7 @@ the standalone filter embeds the MIT notice.
 
 This repository contains the prepared filter and release documents. The generator
 and readable authoring sources are maintained separately.
+
+Freezing/cold throwing potions (all three sizes) remain visible through Baal Runs
+and are hidden from Farming Strict (level 5) onward. Thawing potions remain
+hidden from Hell as specified separately.

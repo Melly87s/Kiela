@@ -79,3 +79,7 @@ Hell/Baal retain Flawless and Perfect gems; Farming+ retain Perfect only.
 Runes, uniques and Perfect gems remain visible at every level. From Hell,
 hide Stamina/Thawing/Oil potions and loose ID/TP scrolls; keep tomes. Restored
 purple rejuvenation ground and inventory labels: 35% and smiling FULL.
+
+Freezing/cold throwing potions (all three sizes) remain visible through Baal Runs
+and are hidden from Farming Strict (level 5) onward. Thawing potions remain
+hidden from Hell as specified separately.
