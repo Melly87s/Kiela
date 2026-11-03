@@ -1,4 +1,4 @@
-# Kiela v1.2.49: selection engine and preserved features
+# Kiela v1.2.50: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -109,3 +109,13 @@ Farming magic candidates and identified jewelry are narrower. Final profiles
 retain useful rare/charm/jewel exceptions, not blanket unidentified ordinary
 blue equipment. Every profile name describes U/R/S/RW; read the menu legend in
 the README. Automated checks do not replace an in-game playtest.
+
+## v1.2.50: uniform 90% set threshold
+
+Profiles 9, 10 and 11 now require 90% or better on supported identified set
+rolls. A known lower roll no longer bypasses that requirement through a skill
+bonus. Unknown/unidentified/modified candidate safeguards and fixed eligible
+templates remain. Unique selection and other rarity policies are unchanged.
+
+Profile summaries in this release use full category names and plain Lithuanian
+words instead of U/R/S/RW shorthand or numeric rarity abbreviations.

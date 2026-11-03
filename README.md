@@ -1,4 +1,4 @@
-# Kiela v1.2.49
+# Kiela v1.2.50
 
 Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
@@ -48,9 +48,9 @@ The result is a recognizable presentation with less ground-label clutter and use
 
 Colored skill items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** remain protected. White/gray runeword bases follow the more specific progressive base selection from v1.2.49, including the final perfect/socketed requirement. Normal/Nightmare retain unidentified magic and rare equipment. Farming and higher now use curated magic-base candidates rather than retaining every blue; rare candidates become narrower in the final profiles. Hell/Baal use the cautious progression rules below, including exceptions for bases whose native affix level permits skill or strong-mod rolls. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
 
-## Current strictness and menu legend (v1.2.49)
+## Current strictness and menu legend (v1.2.50)
 
-Each in-game profile now includes a compact summary: **U = Unique, R = Rare, S = Set, RW = runeword bases**. Unique items remain visible at every profile. Levels 1–8 retain sets; levels 9/10/11 use higher-level/endgame or market-supported set candidates with supported scalar rolls of at least 70/80/90%. Fixed eligible templates remain eligible. Unidentified shared-base candidates, modified/unsupported roll cases and protected skill items remain visible because their exact value cannot be safely inferred.
+Each in-game profile now spells out **Unique, Rare, Set and Runeword bazes** in full. The Lithuanian labels mean: **visi/visos = all**, **atrinkti = selected**, **naudingos = useful**, **geros/geresnes = good/better**, **perf su socketais = perfect with actual sockets**. Normal and Nightmare show all items. Unique items remain visible at every profile. Levels 1–8 retain sets; levels 9/10/11 use higher-level/endgame or market-supported set candidates with supported scalar rolls of at least 90% in all three profiles. Fixed eligible templates remain eligible. Unidentified shared-base candidates and modified/unsupported roll cases retain their safety exceptions. A known identified set roll below 90% is hidden even if the item has a skill bonus. Fixed eligible templates have no variable roll to grade.
 
 From Farming, identified magic/rare jewelry needs useful skill, FCR, leech, resistance, life/mana or other supported strong properties. Unidentified jewelry remains a candidate, not a guaranteed valuable item. The final profiles retain useful charm/jewel/rare exceptions together with runes, uniques, selected sets, Perfect gems and PD2 maps/materials/orbs/essences/keys. Ordinary chest keys and gas/fire throwing potions are filtered at the documented later levels.
 
@@ -223,7 +223,7 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.49** in the displayed profile name. Start with a
+   look for **Kiela v1.2.50** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
    to **Increase Filter Level** and **Decrease Filter Level**. Click the first
@@ -304,7 +304,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.49**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.50**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
