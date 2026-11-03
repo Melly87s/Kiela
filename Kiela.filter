@@ -413,7 +413,7 @@ ItemDisplay[(RARE OR CRAFT) ID (ARMOR OR QUIVER) NORM !RW]: %NAME%{%NAME%%NL%Upg
 ItemDisplay[(RARE OR CRAFT) ID (ARMOR OR QUIVER) EXC !RW]: %NAME%{%NAME%%NL%Upgrade base: item+Ko+Pul+Perfect Amethyst.}%CONTINUE%
 ItemDisplay[(UNI OR SET) MAXSOCKETS=0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Max sockets: 0.}%CONTINUE%
 ItemDisplay[(UNI OR SET) SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Sockets: %SOCKETS%/%MAXSOCKETS%; cannot add more.}%CONTINUE%
-ItemDisplay[(UNI OR SET) SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Clear: item+Hel+TP (contents lost).}%CONTINUE%
+ItemDisplay[(UNI OR SET) SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Clear sockets: item + Hel + TP.}%CONTINUE%
 ItemDisplay[(UNI OR SET) SOCK=0 !RW MAXSOCKETS=1 NMAG !INF WEAPON (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Ral + Amn + Perfect Amethyst.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
 ItemDisplay[(UNI OR SET) SOCK=0 !RW MAXSOCKETS=1 NMAG !INF CHEST (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Tal + Thul + Perfect Topaz.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
 ItemDisplay[(UNI OR SET) SOCK=0 !RW MAXSOCKETS=1 NMAG !INF (HELM OR CIRC OR BAR OR DRU) (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Ral + Thul + Perfect Sapphire.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
@@ -524,7 +524,7 @@ ItemDisplay[(UNI OR SET) SOCK=0 !RW MAXSOCKETS=6 (RARE OR CRAFT) !(WEAPON (2H OR
 ItemDisplay[(UNI OR SET) SOCK=0 !RW MAXSOCKETS=6 (UNI OR SET) !(WEAPON (2H OR BOW OR XBOW)) (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Max soc:6; Larzuk:1; Box:1-2; Malus:1.}%CONTINUE%
 ItemDisplay[!UNI !SET MAXSOCKETS=0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Max sockets: 0.}%CONTINUE%
 ItemDisplay[!UNI !SET SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Sockets: %SOCKETS%/%MAXSOCKETS%; cannot add more.}%CONTINUE%
-ItemDisplay[!UNI !SET SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Clear: item+Hel+TP (contents lost).}%CONTINUE%
+ItemDisplay[!UNI !SET SOCK>0 MAXSOCKETS>0 (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Clear sockets: item + Hel + TP.}%CONTINUE%
 ItemDisplay[!UNI !SET SOCK=0 !RW MAXSOCKETS=1 NMAG !INF WEAPON (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Ral + Amn + Perfect Amethyst.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
 ItemDisplay[!UNI !SET SOCK=0 !RW MAXSOCKETS=1 NMAG !INF CHEST (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Tal + Thul + Perfect Topaz.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
 ItemDisplay[!UNI !SET SOCK=0 !RW MAXSOCKETS=1 NMAG !INF (HELM OR CIRC OR BAR OR DRU) (WEAPON OR ARMOR OR QUIVER OR rin OR amu)]: %NAME%{%NAME%%NL%%GRAY%Recipe: item + Ral + Thul + Perfect Sapphire.%NL%Cube: adds 1-1 random sockets.}%CONTINUE%
