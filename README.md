@@ -6,6 +6,8 @@ Project Diablo 2 loot filter built around **market-price estimates and item roll
 
 **[English installation instructions](#installation-english)** · **[Lietuviška instrukcija](#diegimas-lietuviškai)**
 
+**[Changelog / Pakeitimų istorija](./CHANGELOG.md)**
+
 Official project: https://github.com/Melly87s/Kiela
 
 **Only one game file is required: `Kiela.filter`.** Copy only that file into PD2. README files explain installation; license notices and release metadata are documentation, not additional filters.
