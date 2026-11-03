@@ -1,4 +1,4 @@
-# Kiela v1.2.53: selection engine and preserved features
+# Kiela v1.2.54: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -137,3 +137,8 @@ From v1.2.52, Farming Strict gold minimum is 2000, rising by exactly 1000 at eve
 ## v1.2.53: enforce late set selection
 
 From Endgame Strict (profile 9), lower-tier set templates no longer bypass set selection through +skill bonuses. This also applies to corrupted lower-tier items when their identity is known. Selected higher-tier/market-supported set candidates and the supported 90% roll requirement remain as before. Ambiguous shared-base or unsupported-roll candidates remain conservative; inventory and unique visibility are preserved. Levels 1–8 retain their existing set behavior.
+
+
+## v1.2.54: item levels at the bottom of descriptions
+
+Every final item description ends with plain text Item level: N. Item level is not included in ground or inventory names. This follows the user’s clarification; quantities, selection, prices, recipes and roll processing remain unchanged.
