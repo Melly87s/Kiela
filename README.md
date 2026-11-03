@@ -398,10 +398,9 @@ Copyright (c) 2026 Melinda Kiela, original Kiela contributions only.
 Kiela builds on the third-party work acknowledged in
 **[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md)**.
 
-Free to download and use for PD2 under the scoped
-**[Kiela terms](./LICENSE-KIELA.md)**. Do not pass off Kiela's original contributions
-as your own work or rebrand modified copies without permission. Upstream MIT
-rights remain unchanged; the standalone filter embeds the MIT notice.
+The public filter repository does not include a Kiela-specific license or
+additional Kiela usage restrictions. Upstream MIT rights remain unchanged;
+the standalone filter embeds the MIT notice.
 
 This repository contains the prepared filter and release documents. The generator
 and readable authoring sources are maintained separately.

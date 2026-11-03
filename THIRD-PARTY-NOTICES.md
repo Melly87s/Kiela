@@ -23,7 +23,7 @@ including Maaaark and Hiimdave. Kiela retains and adapts visibility policies,
 item rules and recipe information from that source.
 
 No separate license grant for that source was captured in the local provenance
-record. These Kiela terms neither supply that permission nor restrict any rights
+record. These notices neither supply that permission nor restrict any rights
 held by its authors. Attribution is not a substitute for redistribution
 permission. Confirm applicable upstream redistribution permission before
 publishing a combined release to a public repository.
