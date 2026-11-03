@@ -1,12 +1,12 @@
 {
-  "version": "1.2.45",
-  "executableLines": 14787,
-  "aliases": 384,
+  "version": "1.2.46",
+  "executableLines": 6458,
+  "aliases": 6,
   "formulas": 156,
   "formulaReferences": 837,
   "renderedFormulaTokens": 169,
-  "bytes": 5318744,
-  "sha256": "976de0051020a571ca0df95795e03a05377f4c0797a5534948ec137ce7055284",
+  "bytes": 3820314,
+  "sha256": "a547c9fb10a9889553718f7326d35811ea1cc7f9083e6a35e1ee0e6d07b8d2ce",
   "equivalentRules": true,
   "name": "Kiela",
   "filterFile": "Kiela.filter",
@@ -14,5 +14,13 @@
   "mode": "softcore ladder",
   "distribution": "standalone PD2 filter",
   "dependencies": [],
-  "generatorIncluded": false
+  "generatorIncluded": false,
+  "engine": "kiela-original",
+  "originality": {
+    "readableSourceSha256": "c54f8493ccc8790938518ded76ea1ecaf9fe8a38d033b4d738678852ccc6ac34",
+    "identicalRules": 0,
+    "identicalRulesIgnoringWhitespaceAndCase": 0,
+    "duplicateRules": 0,
+    "externalFilterInputs": 0
+  }
 }

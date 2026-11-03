@@ -13,20 +13,18 @@ license is retained unchanged in `LICENSE` in the private source project and in
 embedded in the standalone `.filter` so that downloading that file alone keeps
 the notice. These permissions remain in effect for the covered upstream work.
 
-## Kassahi / Hiim filter rules
+## Historical filter provenance
 
-Source used: https://github.com/Maaaaaarrk/HiimFilter-PD2-Filter
+Versions before Kiela v1.2.46 included and adapted rules from the Kassahi / Hiim
+filter (Season 14 build 129), by Kassahi and the Hiim contributors including
+Maaaark and Hiimdave. Historical source:
+https://github.com/Maaaaaarrk/HiimFilter-PD2-Filter
 
-Source file: `filtergroups/kassahi/Kassahi.filter`, Season 14 build 129,
-retrieved 2026-10-29. Attribution: Kassahi and the Hiim filter contributors,
-including Maaaark and Hiimdave. Kiela retains and adapts visibility policies,
-item rules and recipe information from that source.
-
-No separate license grant for that source was captured in the local provenance
-record. These notices neither supply that permission nor restrict any rights
-held by its authors. Attribution is not a substitute for redistribution
-permission. Confirm applicable upstream redistribution permission before
-publishing a combined release to a public repository.
+Starting with v1.2.46, the current filter uses a new Kiela selection engine and
+does not import that filter's rules or aliases. Runeword and crafting facts are
+compiled directly from installed PD2 game tables. The old map resistance table
+is no longer included. This historical credit does not claim permission or
+ownership over the earlier source. See ORIGINALITY.md for the current audit.
 
 ## Game and market information
 
