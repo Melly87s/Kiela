@@ -1,4 +1,4 @@
-# Kiela v1.2.50: selection engine and preserved features
+# Kiela v1.2.51: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -119,3 +119,8 @@ templates remain. Unique selection and other rarity policies are unchanged.
 
 Profile summaries in this release use full category names and plain Lithuanian
 words instead of U/R/S/RW shorthand or numeric rarity abbreviations.
+
+
+## v1.2.51: useful properties and clear ground labels
+
+Farming magic equipment/jewelry needs two useful properties. Identified rares need 3/4/4/5/6/6/6 useful properties at levels 5–11. From level 7 ordinary blue gear is hidden, including +skill items; charms/jewels/jewelry remain separately selected. These explicit requests supersede universal skill protection. Unidentified rare candidates remain because their stats cannot be graded. The score counts useful properties, not affix slots, and does not estimate market value. Ground labels expose actual identified bonuses; class RW labels use full names and green recipe text. HR/WSS snapshots and the 156 owned roll formulas are preserved.
