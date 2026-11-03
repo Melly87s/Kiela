@@ -1,4 +1,4 @@
-# Kiela v1.2.51: selection engine and preserved features
+# Kiela v1.2.52: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -124,3 +124,11 @@ words instead of U/R/S/RW shorthand or numeric rarity abbreviations.
 ## v1.2.51: useful properties and clear ground labels
 
 Farming magic equipment/jewelry needs two useful properties. Identified rares need 3/4/4/5/6/6/6 useful properties at levels 5–11. From level 7 ordinary blue gear is hidden, including +skill items; charms/jewels/jewelry remain separately selected. These explicit requests supersede universal skill protection. Unidentified rare candidates remain because their stats cannot be graded. The score counts useful properties, not affix slots, and does not estimate market value. Ground labels expose actual identified bonuses; class RW labels use full names and green recipe text. HR/WSS snapshots and the 156 owned roll formulas are preserved.
+
+
+## v1.2.52: quantities on every ground label
+
+Every visible ground item now shows its actual stack count, or x1 for a nonstackable item. The count precedes the name to remain visible within the native name-length limit. Gem labels avoid double counts; potion and identified-equipment name replacements retain the count. HR/WSS figures remain the existing per-item estimates and are not multiplied by stack size.
+
+
+From v1.2.52, Farming Strict gold minimum is 2000, rising by exactly 1000 at every subsequent level: profiles 5–11 use 2000/3000/4000/5000/6000/7000/8000. Earlier profiles retain their previous gold behavior. Every ground item shows an actual quantity or x1; gold shows its actual amount once.
