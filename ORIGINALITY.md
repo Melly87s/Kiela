@@ -1,4 +1,4 @@
-# Kiela v1.2.48: selection engine and preserved features
+# Kiela v1.2.49: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -83,3 +83,29 @@ purple rejuvenation ground and inventory labels: 35% and smiling FULL.
 Freezing/cold throwing potions (all three sizes) remain visible through Baal Runs
 and are hidden from Farming Strict (level 5) onward. Thawing potions remain
 hidden from Hell as specified separately.
+
+## v1.2.49: actual BH rule expansion and late selection
+
+Corrected alias dependency order to match the one-pass BH engine. Added tests
+that reproduce the old unresolved-alias failure and verify every published
+condition resolves. Screenshot fixtures cover Oil/HP/MP/Thawing/scroll hiding,
+weak magic shields/crossbow, the retained +3 Phoenix/+2 Blade Fury dagger, and
+the excluded plain Chain Mail base.
+
+Curated RW bases progressively require ED/defense 5/8/10/12/15/18/20 in profiles
+5–11, Paladin resistance 20/22/24/26/28/29/30 or scaled physical automagic, and
+skill tiers 1/2/2/2/3/3/3. Final candidates must have actual recipe-compatible
+sockets and perfect relevant base bonuses; a visible +3 staffmod does not
+excuse other displayed +1/+2 staffmods or partial ED/defense at that level.
+Completed runewords are unaffected. Inventory is never hidden. Possible RW
+recommendations from Farming now require a qualifying base even in inventory.
+
+The final three set tiers use supported roll minima 70/80/90 on higher-level,
+endgame-family, market-supported or explicitly useful templates. Unidentified
+and unsupported candidate rolls are not guessed. Fixed eligible set templates
+are not penalized for lacking a variable roll. Skill safety remains in place.
+
+Farming magic candidates and identified jewelry are narrower. Final profiles
+retain useful rare/charm/jewel exceptions, not blanket unidentified ordinary
+blue equipment. Every profile name describes U/R/S/RW; read the menu legend in
+the README. Automated checks do not replace an in-game playtest.

@@ -1,4 +1,4 @@
-# Kiela v1.2.48
+# Kiela v1.2.49
 
 Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
@@ -46,9 +46,17 @@ The result is a recognizable presentation with less ground-label clutter and use
 
 ## Skill-item protection
 
-From v1.2.47, every strictness level protects items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** from hiding. Normal/Nightmare and Farming-or-higher retain unidentified magic and rare equipment. Hell/Baal use the cautious progression rules below, including exceptions for bases whose native affix level permits skill or strong-mod rolls. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
+Colored skill items with **+2 or more to all skills, class skills, a skill tree, an individual class skill or an oskill** remain protected. White/gray runeword bases follow the more specific progressive base selection from v1.2.49, including the final perfect/socketed requirement. Normal/Nightmare retain unidentified magic and rare equipment. Farming and higher now use curated magic-base candidates rather than retaining every blue; rare candidates become narrower in the final profiles. Hell/Baal use the cautious progression rules below, including exceptions for bases whose native affix level permits skill or strong-mod rolls. This deliberately increases loot visibility. These exceptions continue through the existing HR/WSS price, roll and help rules.
 
-## Early progression (v1.2.48)
+## Current strictness and menu legend (v1.2.49)
+
+Each in-game profile now includes a compact summary: **U = Unique, R = Rare, S = Set, RW = runeword bases**. Unique items remain visible at every profile. Levels 1–8 retain sets; levels 9/10/11 use higher-level/endgame or market-supported set candidates with supported scalar rolls of at least 70/80/90%. Fixed eligible templates remain eligible. Unidentified shared-base candidates, modified/unsupported roll cases and protected skill items remain visible because their exact value cannot be safely inferred.
+
+From Farming, identified magic/rare jewelry needs useful skill, FCR, leech, resistance, life/mana or other supported strong properties. Unidentified jewelry remains a candidate, not a guaranteed valuable item. The final profiles retain useful charm/jewel/rare exceptions together with runes, uniques, selected sets, Perfect gems and PD2 maps/materials/orbs/essences/keys. Ordinary chest keys and gas/fire throwing potions are filtered at the documented later levels.
+
+The v1.2.48 alias ordering bug has been corrected: the build now validates actual BH single-pass expansion before release. This fixes hide rules that could previously leave potions, scrolls, small gold piles and weak bases visible.
+
+## Early progression
 
 - **Normal and Nightmare:** show all items, including low-level equipment and small gold piles.
 - **Hell:** a broad selection; ordinary magic/rare equipment uses ilvl 35/20 as initial guidance, with useful-stat and potential-affix exceptions. Show Flawless and Perfect gems.
@@ -81,11 +89,11 @@ Lower levels provide a broader selection for progression. Higher levels hide mor
 
 For curated combat and armor bases, the middle levels use progressive quality requirements. Levels 5–6 use a 5% ED threshold; levels 7–8 use 10%. Paladin shield resistance thresholds also become stricter.
 
-**Levels 9–11 use maximum relevant rolls for protected runeword bases:** 20% enhanced damage for weapon bases, 20% enhanced defense for armor bases, 30 all resistance for eligible Paladin shields, or selected +3 skill bonuses for class bases. Selected best-tier quivers have their own base exception.
+**RW base requirements now rise at every level from Farming:** ED/defense thresholds are 5/8/10/12/15/18/20 across levels 5–11, with increasing class-skill and Paladin-shield requirements. Level 11 additionally requires actual sockets matching a runeword recipe. The final relevant maxima are 20% enhanced damage/defense, 30 Paladin shield resistance (or the supported physical automagic maximum), and +3 staffmods; displayed lower staffmods and partial ED/defense bonuses do not qualify as perfect. Best-tier two-socket quivers have their own base exception.
 
 These are rules for the stats that matter to that type of base. A maximum selected stat does not mean every possible skill combination, durability value and property on the item is perfect.
 
-Useful low-requirement caster bases, such as compatible Crystal Swords, Broad Swords, Long Swords, Flails and Monarchs, have exceptions at lower and middle strictness levels. Those exceptions do not bypass the maximum-roll requirement at levels 9–11.
+Useful low-requirement caster bases, such as compatible Crystal Swords, Broad Swords, Long Swords, Flails and Monarchs, have exceptions at lower and middle strictness levels. Those exceptions no longer bypass the progressive base requirements from Farming. The final profile requires perfect relevant bonuses and actual recipe-compatible sockets.
 
 ## Runeword bases selected for usefulness
 
@@ -215,7 +223,7 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.48** in the displayed profile name. Start with a
+   look for **Kiela v1.2.49** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
    to **Increase Filter Level** and **Decrease Filter Level**. Click the first
@@ -296,7 +304,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.48**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.49**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
