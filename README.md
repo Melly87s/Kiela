@@ -1,4 +1,4 @@
-# Kiela v1.2.58
+# Kiela v1.2.59
 
 ## English
 
@@ -25,6 +25,12 @@ Farming retains all set items. Endgame selects higher-tier/useful set candidates
 
 The same short English summaries appear when changing strictness in game. Profile names omit Kiela/version. The Horadric Cube description shows the version, selected profile and visibility reminder.
 
+### Magic equipment and runeword bases
+
+Normal/Nightmare show all magic equipment. Hell/Baal retain cautious useful candidates. Farming keeps selected exceptional/elite ETH craft bases and strong skill/speed or socket combinations, such as skills + IAS gloves, sockets + block shields and sockets + life armor. Endgame narrows ETH crafting to elite bases; strong magic exceptions remain. All charms and jewels stay visible, including low-roll jewels used for crafting.
+
+Farming RW selection requires advanced-recipe suitability and good relevant base properties. Starter-only candidates, including Lore-only bases, are hidden. Useful low-requirement CTA swords/HOTO flails remain exceptions. Endgame requires maximum relevant bonuses plus actual matching sockets. High item level alone does not qualify a base. Green recommendations are class-appropriate; gray choices are generic compatible options, not detection of the player's exact build.
+
 ### Features and limits
 
 - HR/WSS prices are dated asking-price snapshots, not live game queries or guaranteed sale values. NPC gold prices are separate. The baseline price date remains 2026-10-29.
@@ -41,7 +47,7 @@ The same short English summaries appear when changing strictness in game. Profil
 1. Extract the archive. Only **Kiela.filter** is needed by the game.
 2. Copy it to your actual `ProjectD2\filters\local` folder, for example `C:\Diablo II\ProjectD2\filters\local\Kiela.filter`.
 3. In the PD2 launcher choose **Item Filter Profiles → Local Filter → Kiela.filter → Save**, then launch the game with the loot filter enabled.
-4. Check **v1.2.58** in the Horadric Cube description. Configure **Increase Filter Level**, **Decrease Filter Level** and optionally **Reload Loot Filter** under **Esc → Options → Configure Controls**. Suggested keys: Num Pad + and Num Pad -. The filter does not bind keys automatically.
+4. Check **v1.2.59** in the Horadric Cube description. Configure **Increase Filter Level**, **Decrease Filter Level** and optionally **Reload Loot Filter** under **Esc → Options → Configure Controls**. Suggested keys: Num Pad + and Num Pad -. The filter does not bind keys automatically.
 
 For v1.2.58, fully close and restart PD2 to test the first-game initialization change. Shared expressions and compact RW dispatch reduce initialization work; this is not a measured loading-time guarantee or confirmation that connection interruptions are fixed.
 
@@ -76,12 +82,18 @@ Nuo Farming paliekamos pažangių RW bazės su CTA/HOTO caster/buff išimtimis; 
 
 Nuo Hell slepiami Stamina/Thawing/Oil potionai ir palaidi ID/TP scrolls. Farming papildomai slepia įprastus HP/MP, Antidote ir cold/gas/fire throwing potionus. Rejuvenation lieka violetiniai 35% ir FULL.
 
+### Magic įranga ir runeword bazės
+
+Normal/Nightmare rodo visą magic įrangą. Hell/Baal palieka atsargiai atrinktus galimai naudingus kandidatus. Farming palieka atrinktas exceptional/elite ETH craft bazes ir stiprius skill/speed ar socket derinius, pvz., skills + IAS pirštines, socketai + block skydus ar socketai + life šarvus. Endgame ETH craft bazes siaurina iki elite; stiprių magic derinių išimtys lieka. Visi charmai ir jewels matomi, taip pat prasto roll jewels craftinimui.
+
+Farming RW atranka reikalauja tinkamumo pažangiems receptams ir gerų aktualių bazės savybių. Tik starter receptams, pvz., Lore, tinkamos bazės slepiamos. Naudingos žemų reikalavimų CTA kardų/HOTO flailų išimtys lieka. Endgame reikia maksimalių aktualių bonusų ir tikrų tinkamų socketų. Vien aukšto item level nepakanka. Žalios rekomendacijos skirtos klasei, pilki variantai – bendros tinkamos galimybės; tikslus build neatpažįstamas.
+
 ### Diegimas (lietuviškai)
 
 1. Išarchyvuok paketą. Žaidimui reikia tik **Kiela.filter**.
 2. Įkelk į savo `ProjectD2\filters\local`, pvz., `C:\Diablo II\ProjectD2\filters\local\Kiela.filter`.
 3. PD2 launcheryje pasirink **Item Filter Profiles → Local Filter → Kiela.filter → Save**. Paleisk žaidimą ir įjunk loot filtrą.
-4. Horadric Cube aprašyme patikrink **v1.2.58**. Mygtukus **Increase Filter Level**, **Decrease Filter Level** ir **Reload Loot Filter** priskirk per **Esc → Options → Configure Controls**. Siūlome Num Pad + ir Num Pad -; filtras mygtukų pats nepriskiria.
+4. Horadric Cube aprašyme patikrink **v1.2.59**. Mygtukus **Increase Filter Level**, **Decrease Filter Level** ir **Reload Loot Filter** priskirk per **Esc → Options → Configure Controls**. Siūlome Num Pad + ir Num Pad -; filtras mygtukų pats nepriskiria.
 
 Bandydamas v1.2.58 pirmo žaidimo užkrovimą, visiškai uždaryk ir iš naujo paleisk PD2. Sumažintas inicializavimo darbas dar nėra išmatuotas žaidimo krovimo laikas ar patvirtintas ryšio nutrūkimo pataisymas.
 

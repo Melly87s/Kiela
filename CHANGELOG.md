@@ -8,6 +8,14 @@ We are developing Kiela to be as original as possible, with a build process that
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Clear magic and runeword descriptions
+
+- Expanded the filter description and in-game profile text to explain the existing magic/RW selection. This release changes descriptions, not item visibility.
+- Normal/Nightmare show all magic equipment; Hell/Baal use cautious candidate selection. Farming keeps selected exceptional/elite ETH craft bases and strong combinations such as skills + IAS, sockets + block or sockets + life. Endgame narrows ETH crafting to elite bases while retaining strong magic exceptions. All charms and jewels remain visible, including jewels for crafting.
+- Farming RW bases must suit advanced recipes; starter-only bases such as Lore candidates are excluded. Useful low-requirement CTA sword/HOTO flail exceptions remain. Endgame requires maximum relevant base bonuses and actual recipe-compatible sockets; high item level alone is insufficient.
+- Class-recommended runewords and recipe help are green; generic compatible options are gray. The filter recognizes class, not the exact build.
+- Farming/Endgame keep all unidentified rare equipment. Identified rares use useful combinations; Endgame adds 90% where reliable grading is supported. Farming keeps all sets; Endgame selects useful sets with supported 90% grading and conservative identity/roll exceptions. All uniques remain for grail collecting; runes and protected PD2 special drops remain visible.
+
 ### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Six profiles, safer rare visibility and lighter initialization
 
 - Simplified strictness to Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. Short English in-game summaries now explain set selection, Perfect gems and late RW bases without the Kiela/version prefix.
@@ -141,6 +149,14 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Aiškesni magic ir runeword aprašymai
+
+- Papildyti filtro aprašymas ir profilių tekstas žaidime: aiškiau paaiškinta esama magic/RW atranka. Šis leidimas keičia aprašymus, ne daiktų matomumą.
+- Normal/Nightmare rodo visą magic įrangą; Hell/Baal taiko atsargią kandidatų atranką. Farming palieka atrinktas exceptional/elite ETH craft bazes ir stiprius derinius, pvz., skills + IAS, socketai + block ar socketai + life. Endgame ETH craft bazes siaurina iki elite, išlaikydamas stiprių magic derinių išimtis. Visi charmai ir jewels lieka matomi, taip pat jewels craftinimui.
+- Farming RW bazės turi tikti pažangiems receptams; tik starter receptams, pvz., Lore, tinkamos bazės slepiamos. Lieka naudingos žemų reikalavimų CTA kardų/HOTO flailų išimtys. Endgame reikia maksimalių aktualių bazės bonusų ir tikrų receptui tinkamų socketų; vien aukšto item level nepakanka.
+- Klasei rekomenduojami RW ir receptų pagalba žali; bendri tinkami variantai pilki. Atpažįstama klasė, ne tikslus build.
+- Farming/Endgame palieka visą neidentifikuotą rare įrangą. Identifikuoti rare atrenkami pagal naudingus derinius; Endgame taiko 90%, kai galima patikimai vertinti. Farming palieka visus set; Endgame atrenka naudingus set su palaikoma 90% riba ir atsargiomis tapatybės/roll išimtimis. Visi unique lieka grail kolekcijai; runos ir saugomi PD2 specialūs daiktai matomi visada.
 
 ### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Šeši profiliai, platesnis rare matomumas ir lengvesnis inicializavimas
 
