@@ -8,6 +8,16 @@ We are developing Kiela to be as original as possible, with a build process that
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Category-based strictness
+
+- Replaced universal modifier counts with Kiela combinations for eleven categories: gloves, boots, belts, circlets, helmets, shields, body armor, weapons, quivers, rings and amulets.
+- Identified items are assessed by relevant core/support combinations. Strong items with fewer properties can survive, while many weak properties do not make an item valuable.
+- Unidentified candidates use installed game-table affix availability and native ALVL. Farming retains broader craft-only magic candidates using CRAFTALVL. The filter does not assume unidentified rolled stats.
+- Added strong magic exceptions throughout late profiles, including skill/speed gloves, socket/block shields, socket/life armor, socket/movement circlets and stacked skill equipment.
+- Profile 5 is balanced, 6–7 focused, and 8–11 require top combinations. Selected numeric stat thresholds are 5% more lenient than Kiela's chosen baseline, rounded up; socket, skill and actual affix availability requirements remain exact.
+- Preserved progressive runeword base selection, all uniques and runes, PD2 special-drop protection, potion/gem/gold policies, HR/WSS data, ROLL and stack labels.
+- Added category regressions and checked exact and normalized duplicate directives in readable and distributed filters. No duplicate directives were found.
+
 ### [v1.2.56](https://github.com/Melly87s/Kiela/releases/tag/v1.2.56) — English profiles and compact stack labels
 
 - Strictness names and descriptions are now in English. Removed the Kiela name and version from profile lines to save space.
@@ -119,6 +129,16 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Atranka pagal daikto kategoriją
+
+- Bendrą modų skaičiavimą pakeitė Kiela deriniai vienuolikai kategorijų: pirštinėms, batams, diržams, circlet tipo šalmams, kitiems šalmams, skydams, šarvams, ginklams, strėlinėms, žiedams ir amuletams.
+- Identifikuotiems daiktams vertinamas aktualus pagrindinių ir papildomų bonusų derinys. Stiprus daiktas gali likti su mažiau savybių; daug silpnų savybių savaime vertės nesuteikia.
+- Neidentifikuotų kandidatų atranka remiasi žaidimo lentelių affix galimybėmis ir native ALVL. Farming palieka platesnę magic crafting bazių atranką pagal CRAFTALVL. Nežinomi bonusai nėra spėjami.
+- Vėlyvuose profiliuose paliktos stiprių magic derinių išimtys: skill/greičio pirštinės, socket/bloko skydai, socket/life šarvai, socket/judėjimo circlet ir besisumuojančių skill bonusų įranga.
+- 5 lygis subalansuotas, 6–7 griežtesni, 8–11 reikalauja geriausių derinių. Mūsų pasirinktoms statų riboms taikomas 5% atlaidumas, apvalinant aukštyn; socketų, skill ir tikrų affix galimybių reikalavimai išlieka tikslūs.
+- Išsaugota progresyvi RW bazių atranka, visų unique ir runų rodymas, PD2 specialių daiktų apsauga, potionų/gemų/goldo taisyklės, HR/WSS, ROLL ir krūvelių žymos.
+- Pridėti kategorijų patikrinimai ir tikslių bei normalizuotų dublikatų auditas privačiame ir platinamame filtre. Pasikartojančių direktyvų nerasta.
 
 ### [v1.2.56](https://github.com/Melly87s/Kiela/releases/tag/v1.2.56) — Angliški profiliai ir trumpesnis kiekių rodymas
 

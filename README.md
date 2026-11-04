@@ -1,4 +1,4 @@
-# Kiela v1.2.56
+# Kiela v1.2.57
 
 Project Diablo 2 loot filter built around **market-price estimates and item roll percentages**, with clear item labels, graded symbol accents and automatic player-class runeword recommendations.
 
@@ -46,17 +46,19 @@ Kiela uses compact symbols and colored labels to make different kinds of drops e
 
 The result is a recognizable presentation with less ground-label clutter and useful information available when you inspect an item.
 
-## Skill-item protection
+## Category-based equipment selection
 
-Normal through Baal retain the cautious +2 skill safety rules. From Farming Strict, identified magic equipment and jewelry need at least two useful properties, and identified rare equipment/jewelry need 3 / 4 / 4 / 5 / 6 / 6 / 6 useful properties at levels 5–11. These are useful stat categories, not a claim to count hidden affix slots. Different skill fields count once; useful individual resistances count separately. Low dexterity and other weak incidental bonuses do not qualify.
+Normal through Baal keep their cautious skill and progression rules. From Farming, identified equipment uses combinations chosen for its slot rather than a universal modifier count. Examples include skill/speed gloves, movement/resistance boots, recovery/life belts, skill/casting equipment, physical damage/attack-speed weapons and useful jewelry pairs. Supporting roll thresholds scale with the category's existing game-derived rare ranges. Kiela's selected numeric quality minima receive a 5% leniency factor, rounded up to whole units; socket counts, skill requirements and factual affix availability remain exact.
 
-From Endgame (level 7), ordinary magic weapons, armor and quivers are hidden even with skill bonuses, whether identified or not. Magic charms, jewels, rings and amulets follow their separate useful-property rules. Unidentified rare candidates retain existing safety checks because their true modifiers cannot yet be evaluated. Inventory items remain inspectable. White/gray runeword bases follow their separate progressive requirements.
+Profile 5 uses balanced combinations, 6–7 use focused combinations, and 8–11 use top combinations. Strong magic combinations remain explicit exceptions at every late profile: socket/block shields, socket/life armor, socket/movement circlets, skill/speed gloves, stacked skill gear and useful skill-buff items. An ordinary blue item is not kept just because it has a skill bonus.
 
-## Current strictness and menu legend (v1.2.56)
+Unidentified equipment is evaluated using game-derived affix availability and native ALVL, not assumed rolled stats or a universal ilvl-85 cutoff. Broader craft-only magic candidates remain at Farming using native CRAFTALVL; later profiles focus on equipment-use candidates. These are possible useful drops, not guarantees of value. Inventory items remain inspectable. White/gray runeword bases have independent progressive requirements.
+
+## Current strictness and menu legend (v1.2.57)
 
 Strictness descriptions are in English and use the category names **Unique, Rare, Set and Runeword bases**. Profile names omit the Kiela name and version to save display space. Normal and Nightmare show all items. Unique items remain visible at every profile. Levels 1–8 retain sets; levels 9/10/11 use higher-level/endgame or market-supported set candidates with supported scalar rolls of at least 90% in all three profiles. Fixed eligible templates remain eligible. Unidentified shared-base candidates and modified/unsupported roll cases retain their safety exceptions. A known identified set roll below 90% is hidden even if the item has a skill bonus. Fixed eligible templates have no variable roll to grade.
 
-From Farming, identified magic/rare jewelry needs useful skill, FCR, leech, resistance, life/mana or other supported strong properties. Unidentified jewelry remains a candidate, not a guaranteed valuable item. The final profiles retain selected charm/jewel/jewelry exceptions and rares meeting the useful-property count together with runes, uniques, selected sets, Perfect gems and PD2 maps/materials/orbs/essences/keys. Ordinary chest keys and gas/fire throwing potions are filtered at the documented later levels.
+From Farming, identified magic/rare jewelry needs useful skill, FCR, leech, resistance, life/mana or other supported strong properties. Unidentified jewelry remains a candidate, not a guaranteed valuable item. The final profiles retain selected charm/jewel/jewelry exceptions and rares meeting their category combination requirements together with runes, uniques, selected sets, Perfect gems and PD2 maps/materials/orbs/essences/keys. Ordinary chest keys and gas/fire throwing potions are filtered at the documented later levels.
 
 The v1.2.48 alias ordering bug has been corrected: the build now validates actual BH single-pass expansion before release. This fixes hide rules that could previously leave potions, scrolls, small gold piles and weak bases visible.
 
@@ -227,7 +229,7 @@ The Horadric Cube tooltip displays the loaded Kiela version, selected profile, f
 3. Open the PD2 launcher → **Item Filter Profiles** → **Local Filter** →
    **Kiela.filter** → **Save Filter / Save**, then start the game.
 4. Make sure the in-game loot filter is enabled. Change its strictness level and
-   look for **Kiela v1.2.56** in the displayed profile name. Start with a
+   look for **Kiela v1.2.57** in the displayed profile name. Start with a
    lower level; higher strictness intentionally hides more items and weaker bases.
 5. Bind strictness in game: **Esc → Options → Configure Controls**. Scroll down
    to **Increase Filter Level** and **Decrease Filter Level**. Click the first
@@ -308,7 +310,7 @@ Vien GitHub repozitoriumas automatiškai neįtraukia jo į PD2 internetinių fil
 ### 4. Patikrink žaidime
 
 Įsitikink, kad PD2 nustatymuose įjungtas loot filtras. Pakeitus filtro griežtumo
-lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.56**.
+lygį turi būti rodomas profilio pavadinimas su **Kiela v1.2.57**.
 
 Pasirink norimą **Filter level / strictness**. Pradėk nuo žemesnio lygio ir kelk
 jį pagal poreikį: aukštesnis strict slepia daugiau paprastų daiktų ir reikalauja
