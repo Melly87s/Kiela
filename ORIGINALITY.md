@@ -1,4 +1,4 @@
-# Kiela v1.2.57: selection engine and preserved features
+# Kiela v1.2.58: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -159,3 +159,9 @@ Class runeword ground recommendations are green. If no class-specific recommenda
 ## v1.2.57: category-based equipment selection
 
 Replaced universal modifier counts with independently authored signatures for eleven equipment categories. Identified items need relevant core/support combinations; unidentified candidates use installed game-table affix availability and native ALVL/CRAFTALVL. Balanced selection at level 5, focused at 6–7, top combinations at 8–11. Selected numeric quality minima receive 5% leniency with whole-unit rounding; exact socket, skill and affix availability facts are preserved. Strong magic exceptions remain at every late profile. Progressive RW bases, all uniques/runes, PD2 special protection, gold/consumables, quantities, prices and the owned ROLL formulas remain. This entry supersedes the universal counts and blanket late-magic exclusion described in v1.2.51.
+
+## v1.2.58
+
+Six profiles now separate Farming and Endgame. Unidentified rare equipment remains visible to reduce loss risk; supported identified Endgame rare/set rolls require 90%. All uniques remain for grail collecting, and all charms/jewels and protected PD2 drops remain visible. Advanced RW purpose, selected ETH crafting and strong magic exceptions use our generator and game facts. Shared named expressions and compact recipe dispatch reduce initialization work without adding external filter inputs. See FILTER-SPECIFICATION.md for the bilingual current policy.
+
+Šeši profiliai atskiria Farming ir Endgame. Neidentifikuota rare įranga lieka matoma praradimo rizikai mažinti; palaikomiems identifikuotiems Endgame rare/set reikia 90%. Visi unique lieka grail kolekcijai; charmai/jewels ir saugomi PD2 daiktai rodomi visada. Pažangios RW bazės, atrinktos ETH craft bazės ir magic išimtys remiasi mūsų generatoriumi ir žaidimo faktais. Bendros vardinės išraiškos ir kompaktiškas receptų apdorojimas mažina inicializavimo darbą. Dabartinė dvikalbė politika pateikta FILTER-SPECIFICATION.md.

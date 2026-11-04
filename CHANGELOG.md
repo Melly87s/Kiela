@@ -8,6 +8,18 @@ We are developing Kiela to be as original as possible, with a build process that
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Six profiles, safer rare visibility and lighter initialization
+
+- Simplified strictness to Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. Short English in-game summaries now explain set selection, Perfect gems and late RW bases without the Kiela/version prefix.
+- Farming and Endgame preserve all unidentified rare equipment to reduce the risk of losing a valuable item before identification. Some stricter approaches hide more unidentified rare bases and accept that risk; Kiela deliberately favors greater visibility. Hidden rolls are never guessed.
+- Farming evaluates identified gear by useful slot-specific combinations. Endgame requires stronger combinations and 90%+ for identified rare/set rolls where reliable grading is supported. Unsupported/modified cases retain conservative exceptions.
+- Farming shows all sets. Endgame selects higher-tier/useful sets, preserves ambiguous shared-base candidates and requires 90% where applicable. All uniques remain visible even in Endgame for unique grail collecting.
+- All charms, jewels, jewel fragments, runes, maps, PD2 orbs, crafting/map-upgrade materials, essences and protected special drops remain visible at every profile.
+- Farming retains selected exceptional/elite ETH craft candidates and valuable skill/socket magic exceptions; Endgame narrows ETH crafting to elite candidates. Anti potions are hidden from Farming. Gold minimums are 2,000 at Farming and 3,000 at Endgame; both show only Perfect gems.
+- Farming RW bases must suit advanced recipes, with useful caster/buff exceptions such as CTA/HOTO. Endgame requires perfect relevant bonuses and matching actual sockets. Starter-only bases and late Lore recommendations are excluded.
+- Reduced first-load rule expansion and repeated expression compilation using shared formulas and compact runeword dispatch. This reduces initialization work; actual loading time and connection interruptions still require an in-game test after fully restarting PD2.
+- Preserved dated HR/WSS data, the owned ROLL engine, crafting/socket help, ground bonus labels, stack-only counts and item level at the bottom of descriptions. Added a bilingual filter specification.
+
 ### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Category-based strictness
 
 - Replaced universal modifier counts with Kiela combinations for eleven categories: gloves, boots, belts, circlets, helmets, shields, body armor, weapons, quivers, rings and amulets.
@@ -129,6 +141,18 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Šeši profiliai, platesnis rare matomumas ir lengvesnis inicializavimas
+
+- Palikti Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. Trumpi angliški žaidimo aprašymai paaiškina set atranką, Perfect gemus ir vėlyvas RW bazes be Kiela/versijos prierašo.
+- Farming ir Endgame palieka visą neidentifikuotą rare įrangą, kad sumažintume gero daikto praradimo riziką prieš identifikavimą. Kai kurie griežtesni atrankos būdai slepia daugiau tokių bazių ir priima šią riziką; mes sąmoningai pasirenkame didesnį matomumą. Paslėptų roll neatspėjame.
+- Farming identifikuotą įrangą atrenka pagal kategorijai naudingus derinius. Endgame reikalauja stipresnių derinių ir 90%+ identifikuotiems rare/set, kai roll palaikomas ir patikimai įvertinamas. Nepalaikomiems/pakeistiems atvejams lieka atsargios išimtys.
+- Farming rodo visus set. Endgame atrenka aukštesnio lygio/naudingus set, palieka neaiškias bendras bazes ir taiko 90%, kai galima. Visi unique lieka ir Endgame, kad žaidėjai galėtų rinkti unique grail kolekciją.
+- Visuose profiliuose lieka charmai, jewels, jewel fragmentai, runos, mapai, PD2 orbai, craft/map-upgrade medžiagos, essences ir saugomi specialūs daiktai.
+- Farming palieka atrinktas exceptional/elite ETH craft bazes bei vertingas skill/socket magic išimtis; Endgame ETH craft atranka siaurinama iki elite. Nuo Farming slepiami anti potionai. Gold minimumai: Farming 2 000, Endgame 3 000; abu rodo tik Perfect gemus.
+- Farming RW bazės turi tikti pažangiems receptams, su naudingomis CTA/HOTO caster/buff išimtimis. Endgame reikia maksimalių aktualių bonusų ir tikrų tinkamų socketų. Starter-only bazės bei vėlyvos Lore rekomendacijos pašalintos.
+- Bendros formulės ir kompaktiškas RW apdorojimas sumažino pirmo krovimo taisyklių išplėtimą bei pasikartojantį išraiškų kompiliavimą. Tikrą krovimo laiką ir ryšio nutrūkimą dar reikia patikrinti visiškai iš naujo paleidus PD2.
+- Išsaugotos datuotos HR/WSS kainos, mūsų ROLL variklis, craft/socket pagalba, bonusai ant žemės, tik krūvelių kiekiai ir item level aprašymo apačioje. Pridėta dvikalbė filtro specifikacija.
 
 ### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Atranka pagal daikto kategoriją
 
