@@ -1,4 +1,4 @@
-# Kiela v1.2.55: selection engine and preserved features
+# Kiela v1.2.56: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -147,3 +147,10 @@ Every final item description ends with plain text Item level: N. Item level is n
 ## v1.2.55: unconditional PD2 special-drop protection
 
 Every hide gate explicitly excludes PD2 maps (including any native MAPTIER > 0), map modification materials/orbs, corruption shards, puzzle tools, crafting ingredients, fragments, boss keys/organs/essences, special books/keys, event/PvP maps and runes. Selection is based on installed game-table types and includes inactive/event records. The protected catalog contains 180 records, including 42 maps. Protection continues into quantity, price, recipe and roll handling; it is not an early terminal display return. Ordinary chest keys, consumable potions, lesser gems and equipment selection retain their requested policies.
+
+
+## v1.2.56: English profiles and compact stack counts
+
+Strictness names/descriptions use English and omit the Kiela/version prefix. Keep full readable category names. Quantity labels appear only when QTY > 1, with the number before x (2x Key, 5x Worldstone Shard). Single/nonstackable items and single potions have no 1x/x1 marker. Native gold labels keep their original amount. Quantity behavior must also survive potion and identified-equipment name resets. Other selection and PD2 special protections remain unchanged.
+
+Class runeword ground recommendations are green. If no class-specific recommendation matches the base, display compatible generic runeword names in gray. Generic fallback still requires the same selected base and recipe-compatible socket/capacity checks.

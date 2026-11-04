@@ -4,6 +4,15 @@ Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesire
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
 
+## [v1.2.56](https://github.com/Melly87s/Kiela/releases/tag/v1.2.56) — Angliški profiliai ir trumpesnis kiekių rodymas
+
+- Strict lygių pavadinimai ir aprašymai pakeisti į anglų kalbą. Iš profilių eilučių pašalintas Kiela pavadinimas ir versija, kad tekstas užimtų mažiau vietos.
+- Kiekis ant žemės rodomas tik tikroms krūvelėms nuo 2 vienetų: `2x Key`, `5x Worldstone Shard`.
+- Nuo pavienių ir nesikaupiančių daiktų bei pavienių potionų pašalintas `x1`.
+- Goldo pavadinimas išlaiko įprastą sumos rodymą. Atrankos taisyklės ir PD2 specialių daiktų apsauga išsaugotos.
+
+- Klasei rekomenduojami runeword ant žemės rodomi žaliai. Kai klasei tinkamos rekomendacijos nėra, `Possible RW` rodo kitus suderinamus runeword pavadinimus pilkai.
+
 ## [v1.2.55](https://github.com/Melly87s/Kiela/releases/tag/v1.2.55) — PD2 specialių daiktų apsauga
 
 - Visuose strict lygiuose atskirai apsaugoti mapai, jų gerinimo medžiagos ir orbai, WSS, Puzzlebox, Puzzlepiece, Malus, crafting medžiagos, fragmentai, essences, boss raktai bei kiti kataloge esantys specialūs daiktai.
