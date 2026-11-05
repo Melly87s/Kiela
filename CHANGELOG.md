@@ -8,6 +8,16 @@ We are developing Kiela to be as original as possible, with a build process that
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Compact drop details, five-day quotes and clear Endgame selection
+
+- Shortened all six in-game profile summaries to at most 85 characters. Replaced vague gear wording with Magic/Rare guidance, `Perf gems`, and clear Endgame exclusions. Full details remain in the Cube and specification.
+- Compact ground tags now show actual identified equipment, charm and jewel bonuses, e.g. `BarbSk1`, `DruSumm1`, `PoisDmg4%`, `IAS30%` and `STR24`. Identified charms/jewels use short base labels, with important skill/damage bonuses before secondary stats.
+- Endgame hides all ordinary magic equipment, identified or not, including ETH items, rings and amulets. Charms, jewels, protected PD2 maps/materials and all completed orange crafted items remain visible at every profile. Farming retains useful magic equipment combinations/potential, but crafting potential alone no longer keeps a blue base after Baal Runs.
+- White/gray ETH runeword bases remain separate: Farming uses looser advanced-base selection; Endgame requires maximum relevant bonuses and actual matching sockets. Magic equipment cannot be made into a runeword.
+- Refreshed charm/skiller data using five days (120 hours) of official listing/bump activity. Added bounded magic-jewel samples and normal Monarch quotes. Quotes expire after five days; exact-stat matches precede clearly labeled approximate mod groups.
+- Supported charm/jewel/base quotes now also appear on the ground without erasing bonus tags. Missing supported quotes are explained explicitly; NPC gold is separate. A missing quote does not mean no market listings exist. Other baseline prices retain their original dates.
+- Preserved all unidentified rare equipment at Farming/Endgame, all uniques for grail collecting, runes, Perfect gems, completed crafts and protected PD2 drops. Added regressions for screenshot labels, five-day expiry, price matching and Endgame magic exclusion.
+
 ### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Clear magic and runeword descriptions
 
 - Expanded the filter description and in-game profile text to explain the existing magic/RW selection. This release changes descriptions, not item visibility.
@@ -149,6 +159,16 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Trumpi drop bonusai, 5 parų kainos ir aiškesnis Endgame
+
+- Šešių profilių žaidimo santraukos sutrumpintos iki ne daugiau kaip 85 simbolių. Neaiškūs įrangos terminai pakeisti Magic/Rare gairėmis, `Perf gems` ir aiškiomis Endgame išimtimis. Pilna informacija lieka Cube bei specifikacijoje.
+- Ant žemės sutrumpintai rodomi tikri identifikuotos įrangos, charmų ir jewels bonusai, pvz., `BarbSk1`, `DruSumm1`, `PoisDmg4%`, `IAS30%`, `STR24`. Identifikuoti charmai/jewels naudoja trumpas bazės žymas; svarbūs skill/damage bonusai eina prieš antrines savybes.
+- Endgame slepia visą įprastą magic įrangą, identifikuotą ir neidentifikuotą, taip pat ETH daiktus, žiedus ir amuletus. Charmai, jewels, saugomi PD2 mapai/medžiagos ir visi pagaminti oranžiniai crafted daiktai lieka visuose profiliuose. Farming palieka naudingus magic įrangos derinius/potencialą, bet po Baal Runs vien craft potencialo mėlynai bazei nepakanka.
+- Baltos/pilkos ETH runeword bazės vertinamos atskirai: Farming atranka laisvesnė, Endgame reikia maksimalių aktualių bonusų ir tikrų tinkamų socketų. Iš magic įrangos runeword nepagaminsi.
+- Charmų/skillerių duomenys atnaujinti pagal 5 parų (120 val.) oficialių skelbimų/pakėlimų aktyvumą. Pridėta ribota magic jewels imtis ir paprastų Monarch įverčiai. Įverčiai galioja 5 paras; tikslūs stat deriniai turi pirmenybę prieš aiškiai pažymėtas apytiksles modų grupes.
+- Palaikomos charmų/jewels/bazių kainos rodomos ir ant žemės, išlaikant bonusų žymas. Nepalaikoma rinkos kaina paaiškinama aiškiai; NPC gold yra atskira kaina. Įverčio nebuvimas nereiškia, kad nėra skelbimų. Kitų bazinių kainų pradinės datos išsaugotos.
+- Išsaugotas visos neidentifikuotos rare įrangos matomumas Farming/Endgame, visi unique grail kolekcijai, runos, Perfect gemai, pagaminti craft ir saugomi PD2 daiktai. Pridėtos screenshot žymų, 5 parų galiojimo, kainų atitikimo ir Endgame magic slėpimo patikros.
 
 ### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Aiškesni magic ir runeword aprašymai
 

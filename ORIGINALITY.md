@@ -1,4 +1,4 @@
-# Kiela v1.2.59: selection engine and preserved features
+# Kiela v1.2.60: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -165,3 +165,9 @@ Replaced universal modifier counts with independently authored signatures for el
 Six profiles now separate Farming and Endgame. Unidentified rare equipment remains visible to reduce loss risk; supported identified Endgame rare/set rolls require 90%. All uniques remain for grail collecting, and all charms/jewels and protected PD2 drops remain visible. Advanced RW purpose, selected ETH crafting and strong magic exceptions use our generator and game facts. Shared named expressions and compact recipe dispatch reduce initialization work without adding external filter inputs. See FILTER-SPECIFICATION.md for the bilingual current policy.
 
 Šeši profiliai atskiria Farming ir Endgame. Neidentifikuota rare įranga lieka matoma praradimo rizikai mažinti; palaikomiems identifikuotiems Endgame rare/set reikia 90%. Visi unique lieka grail kolekcijai; charmai/jewels ir saugomi PD2 daiktai rodomi visada. Pažangios RW bazės, atrinktos ETH craft bazės ir magic išimtys remiasi mūsų generatoriumi ir žaidimo faktais. Bendros vardinės išraiškos ir kompaktiškas receptų apdorojimas mažina inicializavimo darbą. Dabartinė dvikalbė politika pateikta FILTER-SPECIFICATION.md.
+
+## v1.2.60
+
+Compact labels and five-day charm/jewel/base quote matching are independently implemented from owned models and official listing data. Endgame ordinary magic exclusion, permanent completed-craft visibility and post-Baal removal of craft-only blue bases follow the current product policy. Runtime builds still have no external-filter input.
+
+Trumpi bonusai ir 5 parų charmų/jewels/bazių kainų atitikimas įgyvendinti savarankiškai iš mūsų modelių bei oficialių skelbimų. Endgame įprastų magic slėpimas, pagamintų craft matomumas ir mėlynų craft-only bazių atranka atitinka dabartinę politiką. Kiti filtrai nėra kūrimo įvestis.

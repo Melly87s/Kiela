@@ -2,7 +2,7 @@
 
 ## English
 
-Current policy: **v1.2.59**, six profiles: Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. See the [profile table and installation guide](./README.md).
+Current policy: **v1.2.60**, six profiles: Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. See the [profile table and installation guide](./README.md).
 
 ### Permanent visibility
 
@@ -20,9 +20,9 @@ After identification, Farming requires relevant combinations for the equipment s
 - **Endgame: selected higher-tier/useful set candidates.** Known lower-tier sets are hidden. Reliably supported variable rolls must reach 90%; fixed selected sets have no variable roll to grade.
 - Unidentified bases shared with eligible sets remain candidates. A base known to contain only excluded sets can be hidden. Ambiguous identities and unsupported/modified roll cases retain safety exceptions; these exceptions do not make every low-tier set eligible.
 
-### Magic equipment
+### Magic equipment and completed crafts
 
-Farming retains selected exceptional/elite ETH crafting bases; Endgame narrows these to elite ETH bases. Native crafting affix availability must be sufficient. Explicit strong skill/speed, socket/block, socket/life and other useful combinations remain exceptions. Unidentified magic equipment uses base/affix potential, never guessed hidden modifiers. Ordinary blue equipment is not universally preserved. All charms and jewels remain visible as collectibles and crafting material, regardless of these equipment checks.
+Craft-only blue base selection stops after Baal Runs. Farming keeps useful magic equipment signatures and unidentified equipment potential, not a general ETH crafting exception. Endgame hides all ordinary magic equipment, identified or not, including ETH weapons/armor, rings and amulets. Charms, jewels and protected magic PD2 maps/materials remain visible. All completed orange crafted items remain visible at every level; they can be useful in Endgame and have a separate purpose from blue crafting inputs.
 
 ### Runeword bases
 
@@ -36,7 +36,7 @@ Class recommendations and required runes are green; generic compatible options a
 
 Normal/Nightmare show all items. Hell/Baal use cautious equipment guidance without a universal item-level-85 cutoff and show Flawless/Perfect gems. Farming/Endgame show only Perfect gems. Gold minimums are 2,000 and 3,000 respectively. Hell hides loose ID/TP scrolls and Stamina/Thawing/Oil potions. Farming also hides ordinary HP/MP, Antidote and cold/gas/fire throwing potions; both rejuvenation sizes remain.
 
-Stack labels appear only for quantities above one, e.g. `5x Worldstone Shard`. Item level appears as plain text at the bottom of descriptions. HR/WSS quotes retain their snapshot dates and remain per-item asking-price estimates.
+Stack labels appear only for quantities above one, e.g. `5x Worldstone Shard`. Item level appears as plain text at the bottom of descriptions. Charm/skiller, magic-jewel and supported normal Monarch quotes use a five-day (120-hour) listing/bump window and five-day snapshot validity. Exact matches take priority over approximate pooled-roll mod groups. Supported normal Monarch quotes distinguish socket count and ETH, pooling base-defense rolls; they do not price Superior or filled/corrupted bases. Unknown quotes are stated explicitly, never inferred from NPC gold. Baseline unique/set data retains its original date.
 
 ### Initialization and validation
 
@@ -44,7 +44,7 @@ Repeated expressions are compiled through shared named formulas; RW eligibility 
 
 ## Lietuviškai
 
-Dabartinė politika: **v1.2.59**, šeši profiliai: Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
+Dabartinė politika: **v1.2.60**, šeši profiliai: Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
 
 ### Kas visada matoma
 
@@ -62,9 +62,9 @@ Identifikavus Farming vertina kategorijai naudingus derinius, ne universalų sav
 - **Endgame atrenka aukštesnio lygio/naudingus set.** Žinomi žemos vertės šablonai slepiami. Palaikomiems ir patikimai vertinamiems kintamiems roll reikia 90%; atrinkti fiksuotų savybių set neturi kintamo procento.
 - Neidentifikuotos bendros bazės paliekamos, jeigu jose gali būti tinkamas set. Bazę, kuri turi tik atmestus set, galima slėpti. Neaiški tapatybė ir nepalaikomi/pakeisti roll vertinami atsargiau; tai nėra bendras leidimas visiems prastiems set.
 
-### Magic įranga
+### Magic įranga ir pagaminti craft
 
-Farming palieka atrinktas exceptional/elite ETH craft bazes, Endgame – tik elite ETH. Reikia pakankamos native crafting affix galimybės. Taip pat paliekamos aiškios stiprių skill/speed, socket/block, socket/life ir kitų naudingų derinių išimtys. Neidentifikuoti magic vertinami pagal bazės ir affix potencialą, ne išgalvotas paslėptas savybes. Įprasti blue nėra saugomi visi. Charmai ir jewels lieka visada, taip pat craft naudojimui.
+Mėlynų bazių rodymas vien craftinimui baigiasi po Baal Runs. Farming palieka naudingus magic įrangos derinius ir neidentifikuotos įrangos potencialą, ne bendrą ETH craft išimtį. Endgame slepia visą įprastą magic įrangą, identifikuotą ir neidentifikuotą, įskaitant ETH ginklus/šarvus, žiedus ir amuletus. Charmai, jewels ir saugomi magic PD2 mapai/medžiagos lieka. Visi jau pagaminti oranžiniai crafted daiktai matomi visuose lygiuose; jie gali būti naudingi ir Endgame, o mėlyna craft bazė yra kitas dalykas.
 
 ### Runeword bazės
 
@@ -78,7 +78,7 @@ Klasei rekomenduojami RW ir runos žali, bendri tinkami variantai pilki. Atpaž�
 
 Normal/Nightmare rodo viską. Hell/Baal naudoja atsargias įrangos gaires be bendros item level 85 ribos; rodo Flawless/Perfect gemus. Farming/Endgame rodo tik Perfect gemus. Gold minimumai atitinkamai 2 000 ir 3 000. Hell slepia palaidus ID/TP scrolls ir Stamina/Thawing/Oil potionus. Farming papildomai slepia įprastus HP/MP, Antidote ir cold/gas/fire throwing potionus; abu rejuvenation dydžiai lieka.
 
-Kiekis rodomas tik krūvelėms nuo 2 vnt., pvz., `5x Worldstone Shard`. Item level rašomas paprastu tekstu aprašymo apačioje. HR/WSS kainos lieka datuoti vieneto prašomos kainos įverčiai.
+Kiekis rodomas tik krūvelėms nuo 2 vnt., pvz., `5x Worldstone Shard`. Item level rašomas paprastu tekstu aprašymo apačioje. Charmų/skillerių, magic jewels ir palaikomų paprastų Monarch kainos naudoja 5 parų (120 val.) skelbimų/atnaujinimų langą bei 5 parų įverčio galiojimą. Tikslūs deriniai turi pirmenybę prieš apytiksles modų grupes. Paprastiems Monarch atskiriami socketai ir ETH, sujungiami defense roll; Superior ar užpildytoms/corrupted bazėms šis įvertis netaikomas. Nežinomas įvertis pažymimas aiškiai, ne išvedamas iš NPC gold. Bazinės unique/set kainos išlaiko pradinę datą.
 
 ### Inicializavimas ir patikra
 
