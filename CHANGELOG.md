@@ -8,6 +8,25 @@ We are developing Kiela to be as original as possible, with a build process that
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Close weak RW-base skill bypass
+
+- Farming and Endgame now apply the same curated RW-base requirements to one-socket and non-socketable white/gray equipment. A skill bonus alone cannot keep an unusable base, including the reported one-socket Burnt Wand. Earlier profiles, completed crafts, uniques and protected PD2 materials remain unaffected.
+- Includes the ownership markers, practical RW guidance, compact stats, Item class descriptions and estimated-price improvements described below.
+
+### [v1.2.61](https://github.com/Melly87s/Kiela/releases/tag/v1.2.61) — Owned markers, practical RW targets and clearer price estimates
+
+- Added **[owned]** to unique/set ground names when PD2's native collection state reports every candidate variant group owned. This is current ownership, not discovery history or a find counter. Ambiguous unidentified variants are handled conservatively; ownership never hides a unique. After selling the last copy, the marker clears when PD2 reports it no longer owned; another retained copy keeps it. Immediate versus rejoin update timing still needs in-game verification.
+- Reworked magic selection with independently authored signatures: Farming keeps broader useful equipment combinations/potential; Endgame keeps narrower strong skill/speed, socket/block/life, stacked-skill and elite ETH combat candidates. Craft-only blue bases stop after Baal. All completed orange crafts, charms, jewels and protected PD2 special drops remain visible.
+- Replaced generic legal-recipe lists with practical base-role recommendations. Great Poleaxe targets include mercenary 4-socket Insight/Infinity/Pride and 5-socket Obedience/Doomsayer; CTA uses low-requirement Crystal Swords/Flails. Class recommendations stay green. Ground labels show up to three short RW names plus a remaining count, with fuller recipe help in descriptions.
+- Clarified socket capacity versus required sockets. Removed the standard normal-only random socket Cube recipe from Superior bases. Exact recipe socket counts remain mandatory; maximum capacity is not a guaranteed socketing result.
+- Added plain Item class labels for equipment and supported item families, distinguishing Hammer/Mace/Club/Scepter/Polearm/Staff.
+- Shortened ground bonus text, including **max dmg 1**, **min dmg 8** and **Ltng1-5** and **GF8%**. Added compound elemental-damage decoding to charm/jewel price matching, preserving element and skill identities.
+- Renamed every market display to **Estimated price**. Generic unique/set snapshots explicitly state that exact roll/socket/corruption is not matched. Dated asking-price estimates are not guaranteed sale prices.
+- Added five-day rare/crafted comparable intervals, matched by base/quality/ETH/sockets and core modifiers/roll bands; broader core matches explicitly pool secondary stats. No number is invented without sufficient independent listings.
+- Prioritized known baseline items at 1 HR or more for tighter five-day unique/set comparisons, matching class/tree skills, primary rolls, ETH and empty-socket count where enough evidence exists. Unsupported variants show an unverified-variant explanation and label the old broad reference separately. Corrupted/filled variants are not priced as clean items.
+- Expanded RW-base samples by sockets, ETH, Normal/Superior and ED/durability bands. Added plain-map and map-material/tool samples with unambiguous per-item offers. Rolled/modified maps are not priced as plain maps.
+- Preserved all unidentified rare equipment at Farming/Endgame, all uniques for grail, runes, Perfect gems, completed crafts and special-drop protection. Added native regressions for ownership, stricter magic, practical RW/socket rules, element matching and valuable-item variants. Final exact/normalized duplicate audits are part of release validation.
+
 ### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Compact drop details, five-day quotes and clear Endgame selection
 
 - Shortened all six in-game profile summaries to at most 85 characters. Replaced vague gear wording with Magic/Rare guidance, `Perf gems`, and clear Endgame exclusions. Full details remain in the Cube and specification.
@@ -159,6 +178,25 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Silpnų RW bazių skill išimties pataisa
+
+- Farming ir Endgame ta pati atrinktų RW bazių patikra taikoma ir vieno socketo bei socketų neturinčiai baltai/pilkai įrangai. Vien skill bonusas nebepalieka netinkamos bazės, įskaitant parodytą vieno socketo Burnt Wand. Ankstesni lygiai, pagaminti craft, unique ir saugomos PD2 medžiagos nepakeisti.
+- Įtrauktos toliau aprašytos owned žymos, praktiški RW patarimai, trumpi statai, Item class aprašymai ir apytikslių kainų patobulinimai.
+
+### [v1.2.61](https://github.com/Melly87s/Kiela/releases/tag/v1.2.61) — Owned žymos, praktiškos RW bazės ir aiškesni kainų įverčiai
+
+- Pridėta **[owned]** žyma unique/set daiktams ant žemės, kai PD2 native kolekcijos būsena rodo, kad turimos visos galimos kandidatų grupės. Tai dabartinis turėjimas, ne radimo istorija ar radimų skaitiklis. Neaiškūs neidentifikuoti variantai vertinami atsargiai; owned niekada neslepia unique. Pardavus paskutinę kopiją žyma dingsta, kai PD2 praneša, kad daikto nebeturi; likus kitai kopijai žyma lieka. Ar būsena atsinaujina iškart, ar po naujo prisijungimo, dar reikia patikrinti žaidime.
+- Magic atranka pakeista savarankiškais deriniais: Farming palieka platesnius naudingos įrangos derinius/potencialą; Endgame – siauresnes stiprių skill/speed, socket/block/life, sudėtų skill ir elite ETH kovinių kandidatų išimtis. Mėlynos craft-only bazės baigiasi po Baal. Visi pagaminti oranžiniai craft, charmai, jewels ir saugomi PD2 daiktai lieka matomi.
+- Bendri techniškai galimų receptų sąrašai pakeisti praktiškomis bazės paskirties rekomendacijomis. Great Poleaxe taikiniai apima merc 4 socketų Insight/Infinity/Pride ir 5 socketų Obedience/Doomsayer; CTA naudoja žemų reikalavimų Crystal Sword/Flail. Klasei tinkamos rekomendacijos lieka žalios. Ant žemės rodoma iki trijų trumpų RW vardų ir likusių kiekis; pilnesnė receptų pagalba lieka aprašyme.
+- Paaiškintas skirtumas tarp maksimalios talpos ir reikiamų socketų. Superior bazėms pašalintas tik normal kokybei tinkamas random socket Cube receptas. Reikia tikslaus recepto socketų skaičiaus; talpa negarantuoja socketinimo rezultato.
+- Pridėtos paprastos Item class žymos įrangai ir palaikomoms kategorijoms, atskiriant Hammer/Mace/Club/Scepter/Polearm/Staff.
+- Sutrumpinti bonusai ant žemės, pvz., **max dmg 1**, **min dmg 8**, **Ltng1-5** ir **GF8%**. Charmų/jewels kainų atitikimui pridėtas elementinio damage intervalų išskaidymas, išlaikant elemento ir skill tapatybę.
+- Visos rinkos žymos pervadintos į **Estimated price**. Bendri unique/set įverčiai aiškiai nurodo, kad konkretus roll/socket/corruption neatitiktas. Datuotos prašomos kainos nėra garantuota pardavimo vertė.
+- Pridėti 5 parų rare/crafted palyginamų daiktų intervalai pagal bazę/kokybę/ETH/socket ir pagrindinius modus bei jų ribas; platesni palyginimai aiškiai sujungia antrines savybes. Be pakankamai nepriklausomų skelbimų kaina neišgalvojama.
+- Žinomiems baziniams daiktams nuo 1 HR suteiktas prioritetas tikslesniems 5 parų unique/set palyginimams pagal class/tree skills, pagrindinius roll, ETH ir tuščių socketų skaičių, kai duomenų pakanka. Nepalaikomam variantui rodomas paaiškinimas, o senas bendras įvertis pažymimas atskirai. Corrupted/užpildyti variantai nekainuojami kaip nepakeisti.
+- Išplėstos RW bazių imtys pagal socketus, ETH, Normal/Superior ir ED/durability ribas. Pridėtos paprastų mapų ir mapų medžiagų/įrankių imtys iš aiškių vieneto pasiūlymų. Išridenti/pakeisti mapai nekainuojami kaip paprasti.
+- Išsaugotas visos neidentifikuotos rare įrangos matomumas Farming/Endgame, visi unique grail kolekcijai, runos, Perfect gemai, pagaminti craft ir specialių drop apsauga. Pridėtos native owned, magic griežtumo, RW/socket, elementų bei brangių variantų patikros. Galutiniai tikslūs/normalizuoti dublikatų auditai įtraukti į leidimo patikrą.
 
 ### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Trumpi drop bonusai, 5 parų kainos ir aiškesnis Endgame
 

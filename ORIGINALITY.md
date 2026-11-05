@@ -1,4 +1,4 @@
-# Kiela v1.2.60: selection engine and preserved features
+# Kiela v1.2.62: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
@@ -171,3 +171,9 @@ Six profiles now separate Farming and Endgame. Unidentified rare equipment remai
 Compact labels and five-day charm/jewel/base quote matching are independently implemented from owned models and official listing data. Endgame ordinary magic exclusion, permanent completed-craft visibility and post-Baal removal of craft-only blue bases follow the current product policy. Runtime builds still have no external-filter input.
 
 Trumpi bonusai ir 5 parų charmų/jewels/bazių kainų atitikimas įgyvendinti savarankiškai iš mūsų modelių bei oficialių skelbimų. Endgame įprastų magic slėpimas, pagamintų craft matomumas ir mėlynų craft-only bazių atranka atitinka dabartinę politiką. Kiti filtrai nėra kūrimo įvestis.
+
+## v1.2.62
+
+The practical RW base-role shortlist, stricter late-Magic signatures, collection ownership labels, five-day comparable/variant models and compact names are independently authored. Inputs are retained owned models, installed PD2 facts, native BH condition documentation and official market observations. Other filters remain isolated comparison fixtures only.
+
+Praktiškos RW bazių paskirtys, griežtesni vėlyvi Magic deriniai, kolekcijos turėjimo žymos, 5 parų palyginimų/variantų modeliai ir trumpi vardai parašyti savarankiškai. Naudojami mūsų modeliai, įdiegto PD2 faktai, native BH sąlygų dokumentacija ir oficialūs rinkos stebėjimai. Kiti filtrai lieka tik izoliuotais palyginimo pavyzdžiais.
