@@ -8,6 +8,22 @@ Kiela uses our own selection rules and features. This changelog records changes 
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### v1.2.70 — Two Farming choices, cautious charm quotes and shorter crafting help
+
+- Added level 5 **Farming with Blue** with independently authored useful Magic combinations/affix-potential candidates, and level 6 **Farming without Blue**, hiding all ordinary Magic gear/jewelry. Charms, jewels and protected PD2 items remain visible. Both Farming profiles share Rare/Set/RW selection; all completed crafts stay visible.
+- Endgame is now level 7: ordinary blue gear hidden, supported identified Rare/selected Set 90%+, perfect relevant RW bonuses and matching sockets. Preserve all uniques, unidentified rares and protected collectibles. Migrate previous six-profile Endgame selections once to 7.
+- From Farming, RW guidance uses concrete practical base/recipe pairs. Removed caster-staff Insight and arbitrary melee Wind/Fury recommendations; retained common caster/buff, mercenary and build-specific bases, intersected with installed game recipes. Merc candidates show **Merc RW** on the ground and **Possible merc RW** in help. Earlier profiles retain broader recipe guidance; quality/socket thresholds remain.
+- Gold thresholds are 2,000 / 3,000 / 4,000 at the two Farming modes and Endgame; earlier profiles retain their thresholds.
+- Pure Gold Find-only Magic charms now say **Estimated price: no reliable price for these mods**, without a numerical quote or a skiller price. Other complete-mod comparisons remain separate.
+- Ground resistance tags now spell out **Fire res / Cold res / Light res / Poison res**, replacing FR/CR/LR/PR.
+- Craft ingredients use **Crafting material**; Perfect-gem recipe lines use the corresponding gem color. Preserve recipes, ROLL and prices. Socket counts now say **Sockets: N/M**, without cannot add more.
+- Retained the v1.2.69 inventory [owned] label, earlier poison/stat labels, pricing updates and safety protections. Native ownership does not expose owned-copy stats; automatic better-than-owned percentages are not claimed.
+
+### v1.2.69 — Inventory ownership labels
+
+- Unique/Set items now show **[owned]** beside their inventory name as well as on the ground, using the same conservative native ALLOWNED check. Names, ROLL and price descriptions remain intact.
+- The flag reports current ownership, not an owned copy’s stats or roll. No automatic roll comparison with stored copies is implied. Existing v1.2.63–68 selection, pricing and presentation updates are retained.
+
 ### v1.2.68 — Restored Cube information and asking-price warning
 
 - Farming Strict now hides every Magic weapon, helm, belt, boot, glove and shield, including circlets/class helms, ID or unID, regardless of bonuses. Rings, amulets, body armor and quivers retain their selected Farming candidates. Endgame also hides all Magic rings and amulets.
@@ -211,6 +227,22 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### v1.2.70 — Du Farming pasirinkimai, atsargesnės charmų kainos ir trumpesnė craft pagalba
+
+- Pridėtas 5 lygio **Farming with Blue** su savarankiškai parašytais naudingais Magic deriniais ir affix potencialo kandidatais bei 6 lygio **Farming without Blue**, slepiantis visą įprastą Magic įrangą/jewelry. Charmai, jewels ir saugomi PD2 daiktai lieka. Abu Farming turi tą pačią Rare/Set/RW atranką; visi pagaminti craft matomi.
+- Endgame dabar 7 lygis: įprasta mėlyna įranga paslėpta, palaikomas identifikuotų Rare/atrinktų Set roll 90%+, maksimalūs aktualūs RW bonusai ir tinkami socketai. Visi unique, neidentifikuoti rare ir saugomi kolekciniai daiktai išlieka. Ankstesnis Endgame vieną kartą perkeliamas į 7.
+- Nuo Farming RW pagalba naudoja konkrečius praktinius bazės/recepto derinius. Caster staff nebesiūlomas Insight, bet kokiems melee nebesiūlomi Wind/Fury. Išsaugotos įprastos caster/buff, merc ir konkrečių buildų bazės pagal žaidimo receptus. Merc kandidatams ant žemės rodoma **Merc RW**, aprašyme **Possible merc RW**. Ankstesni lygiai palieka platesnius receptus; kokybės/socket ribos galioja.
+- Gold ribos: 2 000 / 3 000 / 4 000 abiem Farming ir Endgame. Ankstesnių lygių ribos nepakeistos.
+- Tik Gold Find turintys Magic charmai rodo **Estimated price: no reliable price for these mods**, be skaitinės ar skillerio kainos. Kiti pilnų modų derinių palyginimai išlieka atskiri.
+- Atsparumai ant žemės rašomi **Fire res / Cold res / Light res / Poison res**, vietoj FR/CR/LR/PR.
+- Craft ingredientai žymimi **Crafting material**, Perfect gemų receptai jų spalvomis. Receptai, ROLL ir kainos išsaugoti. Socketai rodo tik **Sockets: N/M**, be cannot add more.
+- Išsaugota v1.2.69 [owned] prie inventoriaus vardo, ankstesnės poison/stat žymos, kainų pataisos ir apsaugos. Native nuosavybė negrąžina laikomos kopijos statų, todėl automatinis geresnio roll skirtumas neteikiamas.
+
+### v1.2.69 — Nuosavybės žymos inventoriuje
+
+- Unique/Set daiktai dabar žymimi **[owned]** prie vardo inventoriuje ir ant žemės pagal tą pačią atsargią native ALLOWNED patikrą. Vardai, ROLL ir kainų aprašymai išsaugoti.
+- Žyma nurodo dabartinį turėjimą, bet ne turimos kopijos status ar roll. Automatinis roll palyginimas su laikomomis kopijomis neteikiamas. Ankstesni v1.2.63–68 atrankos, kainų ir išvaizdos atnaujinimai išsaugoti.
 
 ### v1.2.68 — Grąžinta kubo informacija ir kainų pastaba
 

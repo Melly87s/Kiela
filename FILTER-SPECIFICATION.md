@@ -2,7 +2,7 @@
 
 ## English
 
-Current policy: **v1.2.68**, six profiles: Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. See the [profile table and installation guide](./README.md).
+Current policy: **v1.2.70**, seven profiles: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue and Endgame. See the [profile table and installation guide](./README.md).
 
 ### Permanent visibility
 
@@ -16,13 +16,13 @@ After identification, Farming requires relevant combinations for the equipment s
 
 ### Set items
 
-- **Farming Strict: all sets remain visible.**
+- **Both Farming profiles: all sets remain visible.**
 - **Endgame: selected higher-tier/useful set candidates.** Known lower-tier sets are hidden. Reliably supported variable rolls must reach 90%; fixed selected sets have no variable roll to grade.
 - Unidentified bases shared with eligible sets remain candidates. A base known to contain only excluded sets can be hidden. Ambiguous identities and unsupported/modified roll cases retain safety exceptions; these exceptions do not make every low-tier set eligible.
 
 ### Magic equipment and completed crafts
 
-Craft-only blue base selection stops after Baal Runs. Farming hides all Magic weapons, helms/circlets/class helms, belts, boots, gloves and shields, ID or unID regardless of bonuses. Selected Magic rings, amulets, body armor and quivers remain. Endgame hides all Magic rings, amulets, shields, weapons, belts, gloves, boots and helms, including circlets and class helms, ID or unID, regardless of bonuses. Magic body armor and quivers retain their separate selection. Crafting potential alone is never a bypass. Charms, jewels and protected magic PD2 maps/materials remain visible. All completed orange crafted items remain visible at every level; they can be useful in Endgame and have a separate purpose from blue crafting inputs.
+Craft-only blue bases stop after Baal Runs. Farming with Blue uses Kiela's independent useful skill/speed, caster, physical and socket/life/block signatures plus unidentified affix-potential candidates. Farming without Blue and Endgame hide all ordinary Magic equipment/jewelry, identified or not. Charms, jewels and protected PD2 specials remain visible. All completed orange crafts stay visible at every level. The two Farming modes share Rare/Set/RW selection. Gold: 2000 / 3000 / 4000 at levels 5 / 6 / 7.
 
 ### Runeword bases
 
@@ -44,7 +44,7 @@ Repeated expressions are compiled through shared named formulas; RW eligibility 
 
 ## Lietuviškai
 
-Dabartinė politika: **v1.2.68**, šeši profiliai: Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
+Dabartinė politika: **v1.2.70**, septyni profiliai: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
 
 ### Kas visada matoma
 
@@ -93,3 +93,29 @@ Pasikartojančios išraiškos naudoja bendras vardines formules; pilna RW bazės
 White/gray bases at Farming/Endgame must pass the RW-base selection even with skill bonuses or only one socket.
 
 Baltos/pilkos bazės Farming/Endgame lygiuose turi atitikti RW atranką net turėdamos skill bonusų ar tik vieną socketą.
+
+## v1.2.70 ownership labels / Nuosavybės žymos
+
+**English:** Unique/Set names show [owned] on the ground and in inventory when native ALLOWNED confirms ownership. Pricing and roll details are preserved. The native ownership flag does not provide the owned copy’s stats/roll, so no automatic better-than-owned percentage is claimed.
+
+**Lietuviškai:** Unique/Set vardai žymimi [owned] ant žemės ir inventoriuje, kai native ALLOWNED patvirtina turėjimą. Kainos ir roll informacija išsaugomi. Turėjimo žyma negrąžina turimos kopijos statų/roll, todėl automatinis procentinis palyginimas su ja neteikiamas.
+
+## v1.2.70 current update / Dabartinis atnaujinimas
+
+**English:** Seven profiles; the two Farming modes differ in ordinary blue gear and gold pickup threshold. Both show all Set, all unidentified Rare and completed Craft. Endgame is level 7 with supported identified Rare/selected Set 90% and perfect socketed RW bases. Prior six-profile Endgame selections migrate once to 7. Gold-only Magic charms have no numeric quote; sparse seller offers are not reliable value evidence. Craft ingredients use Crafting material, gem recipe lines use their gem colors, socket counts use Sockets: N/M. Existing ownership and protections remain.
+
+**Lietuviškai:** Septyni profiliai; abu Farming skiriasi įprastos mėlynos įrangos matomumu ir gold riba. Abu rodo visus Set, neidentifikuotus Rare ir pagamintus Craft. Endgame yra 7 lygis su palaikomų identifikuotų Rare/atrinktų Set 90% ir perf socketintomis RW bazėmis. Ankstesnis šešių profilių Endgame vieną kartą perkeliamas į 7. Tik Gold turintiems Magic charmams skaitinė kaina nerodoma: keli pardavėjų pasiūlymai neįrodo vertės. Ingredientai žymimi Crafting material, gemų receptai jų spalvomis, socketai Sockets: N/M. Ankstesnės owned žymos ir apsaugos išlieka.
+
+### Practical runeword bases / Praktiškos runeword bazės
+
+**English:** From Farming, recommendations use an explicit practical base/RW shortlist instead of every legal recipe. Examples: CTA Crystal Sword/Flail or staff-mod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/selected bows; merc Insight/Infinity/Pride/Obedience on selected elite polearms/spears where legal; Fortitude/Innocence on selected armor. Insight is not recommended on caster staves. Generic Wind on arbitrary melee bases is removed; Fury targets selected claws. Mercenary candidates show Merc RW on the ground and Possible merc RW in recipe help. Earlier profile recipes remain broader. Existing quality/socket thresholds still apply: popular does not mean any roll/socket layout qualifies. The shortlist uses game compatibility and a bounded current completed-RW trade sample, not a global popularity census. No other loot-filter rules are build inputs.
+
+**Lietuviškai:** Nuo Farming rekomendacijos remiasi konkrečiu praktinių bazės/RW derinių sąrašu, ne visais techniškai galimais receptais. Pavyzdžiai: CTA Crystal Sword/Flail arba staffmod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/atrinktuose lankuose; merc Insight/Infinity/Pride/Obedience atrinktose elite polearm/spear bazėse, kai leidžia receptas; Fortitude/Innocence atrinktuose šarvuose. Caster staff nebesiūlomas Insight. Bendras Wind bet kokiems melee ginklams pašalintas; Fury paliekamas atrinktoms claws. Merc kandidatams ant žemės rodoma Merc RW, receptuose Possible merc RW. Ankstesnių lygių receptai platesni. Kokybės/socket ribos galioja: populiari bazė nereiškia bet kokio roll/socket varianto. Sąrašas remiasi žaidimo suderinamumu ir ribota dabartinių pagamintų RW prekybos imtimi, ne visų žaidėjų populiarumo statistika. Kitų filtrų taisyklės generatoriui nenaudojamos.
+
+Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus/socket requirement.
+
+Farming palieka atrinktus paprastus ETH elite merc ginklus ir mažų reikalavimų caster/buff bazes net be enhanced damage; Endgame lieka perf bonusų ir tinkamų socketų reikalavimas.
+
+Ground resistance labels use Fire res / Cold res / Light res / Poison res for clarity.
+
+Atsparumai ant žemės rašomi Fire res / Cold res / Light res / Poison res, kad nereikėtų spėlioti trumpinių.
