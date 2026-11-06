@@ -2,7 +2,7 @@
 
 ## English
 
-Current policy: **v1.2.62**, six profiles: Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. See the [profile table and installation guide](./README.md).
+Current policy: **v1.2.68**, six profiles: Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. See the [profile table and installation guide](./README.md).
 
 ### Permanent visibility
 
@@ -22,7 +22,7 @@ After identification, Farming requires relevant combinations for the equipment s
 
 ### Magic equipment and completed crafts
 
-Craft-only blue base selection stops after Baal Runs. Farming keeps useful magic equipment signatures and unidentified equipment potential, not a general ETH crafting exception. Endgame uses narrower strong skill/speed, socket/block/life, stacked-skill and elite ETH combat signatures, with focused unidentified candidates. Weak magic equipment and magic rings are hidden. Crafting potential alone is never a bypass. Charms, jewels and protected magic PD2 maps/materials remain visible. All completed orange crafted items remain visible at every level; they can be useful in Endgame and have a separate purpose from blue crafting inputs.
+Craft-only blue base selection stops after Baal Runs. Farming hides all Magic weapons, helms/circlets/class helms, belts, boots, gloves and shields, ID or unID regardless of bonuses. Selected Magic rings, amulets, body armor and quivers remain. Endgame hides all Magic rings, amulets, shields, weapons, belts, gloves, boots and helms, including circlets and class helms, ID or unID, regardless of bonuses. Magic body armor and quivers retain their separate selection. Crafting potential alone is never a bypass. Charms, jewels and protected magic PD2 maps/materials remain visible. All completed orange crafted items remain visible at every level; they can be useful in Endgame and have a separate purpose from blue crafting inputs.
 
 ### Runeword bases
 
@@ -44,7 +44,7 @@ Repeated expressions are compiled through shared named formulas; RW eligibility 
 
 ## Lietuviškai
 
-Dabartinė politika: **v1.2.62**, šeši profiliai: Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
+Dabartinė politika: **v1.2.68**, šeši profiliai: Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
 
 ### Kas visada matoma
 
@@ -64,7 +64,7 @@ Identifikavus Farming vertina kategorijai naudingus derinius, ne universalų sav
 
 ### Magic įranga ir pagaminti craft
 
-Mėlynų bazių rodymas vien craftinimui baigiasi po Baal Runs. Farming palieka naudingus magic įrangos derinius ir neidentifikuotos įrangos potencialą, ne bendrą ETH craft išimtį. Endgame naudoja siauresnes stiprių skill/speed, socket/block/life, sudėtų skill ir elite ETH kovinių derinių išimtis bei siauresnius neidentifikuotus kandidatus. Silpna magic įranga ir magic žiedai slepiami. Vien craft potencialas atrankos neapeina. Charmai, jewels ir saugomi magic PD2 mapai/medžiagos lieka. Visi jau pagaminti oranžiniai crafted daiktai matomi visuose lygiuose; jie gali būti naudingi ir Endgame, o mėlyna craft bazė yra kitas dalykas.
+Mėlynų bazių rodymas vien craftinimui baigiasi po Baal Runs. Farming slepia visus Magic ginklus, šalmus/circlet/klasių šalmus, diržus, batus, pirštines ir skydus, ID ir unID nepaisant bonusų. Atrinkti Magic žiedai, amuletai, kūno šarvai ir quiver lieka. Endgame slepia visus Magic žiedus, amuletus, skydus, ginklus, diržus, pirštines, batus ir šalmus, įskaitant circlet ir klasių šalmus, ID ir unID, nepaisant bonusų. Magic kūno šarvų ir quiver atranka išlieka atskira. Vien craft potencialas atrankos neapeina. Charmai, jewels ir saugomi magic PD2 mapai/medžiagos lieka. Visi jau pagaminti oranžiniai crafted daiktai matomi visuose lygiuose; jie gali būti naudingi ir Endgame, o mėlyna craft bazė yra kitas dalykas.
 
 ### Runeword bazės
 

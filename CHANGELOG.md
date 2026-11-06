@@ -4,9 +4,42 @@
 
 ## English
 
-We are developing Kiela to be as original as possible, with a build process that does not rely on other loot filters. We preserve Kiela's price displays, ROLL ratings, recipe guidance and useful player features.
+Kiela uses our own selection rules and features. This changelog records changes to strictness, prices, ROLL ratings, recipes and item labels.
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
+
+### v1.2.68 — Restored Cube information and asking-price warning
+
+- Farming Strict now hides every Magic weapon, helm, belt, boot, glove and shield, including circlets/class helms, ID or unID, regardless of bonuses. Rings, amulets, body armor and quivers retain their selected Farming candidates. Endgame also hides all Magic rings and amulets.
+- Fixed charm/jewel crafting help overwriting accumulated ROLL information. Supported variable rolls remain visible alongside recipe help and prices, including the reported 4% fire-resist Small Charm (Roll 36%).
+
+- Fixed Cube/tome descriptions replacing earlier lines. Short continuing actions now preserve accumulated information, including filter version, update time, baseline-price date and selected profile. Cube summaries are kept within the native description budget.
+- Added a short Cube warning that asking prices can be unrealistic and are not guaranteed sales. The main README explains the effect of unrealistic seller prices on estimates.
+- Rewrote the bilingual main description around all six strictness profiles, with exact Farming/Endgame differences and recent changes since v1.2.62.
+
+### v1.2.67 — Poison damage ground labels
+
+- Identified magic/rare/crafted ground labels now include added poison damage and duration. Poison rates are converted to total damage rather than displaying the raw internal stat. Fixes poison-only charms showing just their size tag.
+
+### v1.2.66 — Silent fixed rolls and socket help colors
+
+- Items without variable rolls no longer show FIXED. Fixed runewords remain silently recognized so they do not fall through to an unsupported-roll warning.
+- Antidote potions are visible at every strictness level again.
+- Socket counts, limits, Larzuk/Puzzle/WSS/Cube methods and socket-clearing help use the same light-blue TEAL as ground socket markers. RW socket-count headings and capacity reminders follow the same color; class recipe names remain green.
+
+### v1.2.65 — Quantity labels and cube help
+
+- Removed quantity badges from arrows, bolts and throwing weapons, including javelins, across quality and identification states. Other consumable/material stacks retain their counts.
+- Split cube/tome status and profile help into short continuing actions to avoid the native BuildAction regex limit behind the reported cube-name error. In-game confirmation remains pending.
+
+### v1.2.64 — Endgame magic equipment exclusions
+
+- Endgame hides every magic ring, amulet, shield, weapon, belt, glove, boot and helm (including circlets and class helms), identified or unidentified, regardless of skills, sockets, ETH or other bonuses. Farming retains its previous selection. Magic chest armor/quivers retain their existing selection; charms, jewels and protected PD2 specials remain visible.
+
+### v1.2.63 — Complete modifier-set price comparisons
+
+- Charm and magic-jewel estimates prioritize the same complete modifier set with numeric rolls pooled. Skill tree identities remain separate; one-mod charms cannot inherit two-mod skiller prices. Added missing PD2 large-charm bonus exclusions to all charm quote paths.
+- Rare/crafted comparisons retain core mods and strongest support roll bands; broad fallback quotes that omit support rolls are no longer used. Unsupported samples remain explicitly unquoted. Refreshed the bounded charm modifier-set sample.
 
 ### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Close weak RW-base skill bypass
 
@@ -175,9 +208,42 @@ Price dates change only when the price data itself is updated. Documentation-onl
 
 ## Lietuviškai
 
-Tobuliname Kiela filtrą, kad jis būtų kuo originalesnis, o jo kūrimas nesiremtų kitais filtrais. Išsaugome Kiela kainų rodymą, ROLL vertinimą, receptų pagalbą ir žaidėjui naudingas funkcijas.
+Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### v1.2.68 — Grąžinta kubo informacija ir kainų pastaba
+
+- Farming Strict slepia visus Magic ginklus, šalmus, diržus, batus, pirštines ir skydus, taip pat circlet/klasių šalmus, ID ir unID, nepaisant bonusų. Žiedai, amuletai, kūno šarvai ir quiver išlaiko atrinktus Farming kandidatus. Endgame papildomai slepia visus Magic žiedus ir amuletus.
+- Pataisyta charmų/jewel craft pagalba, kuri perrašydavo sukauptą ROLL informaciją. Palaikomas kintamas roll išlieka kartu su receptais ir kainomis, įskaitant parodytą 4% fire resist Small Charm (Roll 36%).
+
+- Pataisyta kubo/tome aprašymų klaida, kai nauja eilutė pakeisdavo ankstesnes. Trumpos tęstinės taisyklės dabar išsaugo visą informaciją: filtro versiją, atnaujinimo laiką, bazinių kainų datą ir pasirinktą profilį. Kubo santrauka telpa į native aprašymo ribą.
+- Kube pridėta trumpa pastaba, kad prašomos kainos gali būti nerealios ir negarantuoja pardavimo. Pagrindiniame README paaiškinta nerealių pardavėjų kainų įtaka įverčiams.
+- Dvikalbis pagrindinis aprašymas perrašytas pagal visus šešis strictness profilius, tiksliai išvardijant Farming/Endgame skirtumus ir pakeitimus po v1.2.62.
+
+### v1.2.67 — Poison damage žymos ant žemės
+
+- Identifikuotų magic/rare/crafted daiktų žymos ant žemės rodo papildomą poison damage ir trukmę. Vidinis poison greitis perskaičiuojamas į bendrą žalą. Pataisyti vien poison turintys charmai, kuriems buvo rodomas tik dydžio žymėjimas.
+
+### v1.2.66 — Be FIXED žymų ir vienoda socketų spalva
+
+- Daiktai be kintamų roll neberodo FIXED. Fiksuoti runeword atpažįstami tyliai, kad negautų nepalaikomo roll įspėjimo.
+- Antidote potionai vėl rodomi visuose strictness lygiuose.
+- Socketų kiekiai, ribos, Larzuk/Puzzle/WSS/Cube būdai ir socketų išvalymo pagalba naudoja tą pačią šviesiai mėlyną TEAL spalvą kaip socketų žymos ant žemės. Taip pat nuspalvintos RW socketų kiekio antraštės ir talpos priminimai; klasės receptų pavadinimai lieka žali.
+
+### v1.2.65 — Kiekio žymos ir kubo pagalba
+
+- Pašalintos arrows, bolts ir mėtomų ginklų, įskaitant javelin, kiekio žymos visoms kokybėms bei ID/unID būsenoms. Kitų sunaudojamų daiktų ir medžiagų kiekiai išlieka.
+- Kubo/tome būsena ir profilio pagalba suskaidyta į trumpas tęstines taisykles, kad būtų išvengta native BuildAction regex ribos, susijusios su pranešta kubo pavadinimo klaida. Patvirtinimas žaidime dar laukiamas.
+
+### v1.2.64 — Endgame magic įrangos slėpimas
+
+- Endgame slepia visus magic žiedus, amuletus, skydus, ginklus, diržus, pirštines, batus ir šalmus (įskaitant circlet ir klasių šalmus), identifikuotus ir neidentifikuotus, nepriklausomai nuo skill, socketų, ETH ar kitų bonusų. Farming išlaiko ankstesnę atranką. Magic kūno šarvų ir quiver atranka išlieka; charmai, jewel ir saugomi PD2 specialūs daiktai lieka matomi.
+
+### v1.2.63 — Viso modų derinio kainų palyginimas
+
+- Charmų ir magic jewel kainai pirmiausia naudojamas visas sutampantis modų derinys, sujungiant skirtingas skaitines roll reikšmes. Skill medžiai atskiriami; vieno modo charmams netaikomos dviejų modų skillerių kainos. Į visas charmų kainų sąlygas įtrauktos trūkstamos PD2 large charm bonusų išimtys.
+- Rare/crafted palyginimuose išlieka pagrindiniai modai ir stipriausių papildomų modų roll intervalai; platesnės kainos be šių roll palyginimo nebetaikomos. Nepakankama imtis aiškiai paliekama be kainos. Atnaujinta ribota charmų modų derinių skelbimų imtis.
 
 ### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Silpnų RW bazių skill išimties pataisa
 
