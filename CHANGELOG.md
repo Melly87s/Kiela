@@ -8,6 +8,12 @@ Kiela uses our own selection rules and features. This changelog records changes 
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### v1.2.71 — Endgame unsocketed RW bases
+
+- Endgame now accepts shortlisted perfect RW bases with **0 sockets**, provided capacity supports a selected practical recipe. Already-socketed bases must still match a selected recipe’s exact socket count.
+- Renamed the marker to **[owned grail]** on ground and inventory names. Added a dedicated bilingual Owned Grail table explaining native ownership, unidentified ambiguity, selling-state timing and the lack of owned-roll comparison.
+- Perfect relevant bonus checks, both Farming modes, gold thresholds, prices, inventory ownership labels and PD2 safeguards remain unchanged. Capacity does not guarantee the socketing result.
+
 ### v1.2.70 — Two Farming choices, cautious charm quotes and shorter crafting help
 
 - Added level 5 **Farming with Blue** with independently authored useful Magic combinations/affix-potential candidates, and level 6 **Farming without Blue**, hiding all ordinary Magic gear/jewelry. Charms, jewels and protected PD2 items remain visible. Both Farming profiles share Rare/Set/RW selection; all completed crafts stay visible.
@@ -227,6 +233,12 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### v1.2.71 — Endgame RW bazės be socketų
+
+- Endgame leidžia atrinktas perf RW bazes su **0 socketų**, jei talpa leidžia atrinktą praktišką receptą. Jau socketintos bazės vis tiek turi tiksliai atitikti atrinkto recepto socketų skaičių.
+- Žyma pervadinta į **[owned grail]** prie vardų ant žemės ir inventoriuje. Pridėta atskira abiejų kalbų Owned Grail lentelė apie native turėjimą, neidentifikuotų variantų ribas, pardavimo būsenos atnaujinimą ir turimos kopijos roll palyginimo nebuvimą.
+- Perf aktualių bonusų patikros, abu Farming, gold ribos, kainos, owned inventoriuje ir PD2 apsaugos nepakeisti. Talpa negarantuoja socketinimo rezultato.
 
 ### v1.2.70 — Du Farming pasirinkimai, atsargesnės charmų kainos ir trumpesnė craft pagalba
 

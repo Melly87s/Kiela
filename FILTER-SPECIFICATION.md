@@ -2,7 +2,7 @@
 
 ## English
 
-Current policy: **v1.2.70**, seven profiles: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue and Endgame. See the [profile table and installation guide](./README.md).
+Current policy: **v1.2.71**, seven profiles: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue and Endgame. See the [profile table and installation guide](./README.md).
 
 ### Permanent visibility
 
@@ -44,7 +44,7 @@ Repeated expressions are compiled through shared named formulas; RW eligibility 
 
 ## Lietuviškai
 
-Dabartinė politika: **v1.2.70**, septyni profiliai: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
+Dabartinė politika: **v1.2.71**, septyni profiliai: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
 
 ### Kas visada matoma
 
@@ -86,25 +86,25 @@ Pasikartojančios išraiškos naudoja bendras vardines formules; pilna RW bazės
 
 ## v1.2.62 details / Papildymai
 
-**English:** Ground tags use compact actual stats, including `max dmg 1`, `min dmg 8` and `Ltng1-5`. All quotes say Estimated price. Baseline unique/set quotes are not individualized to roll/corruption/sockets. Fresh material/map quotes use unmodified plain-map samples and unambiguous per-item offers; rolled maps are not priced as plain. Rare/crafted comparable intervals preserve skill/element identities, base/quality/ETH/socket identity and core bands, with minimum three listings/two sellers. Broader core comparisons explicitly pool secondary properties. Missing comparable evidence retains an unsupported-quote explanation. Practical RW targets are an independently curated use-case shortlist, intersected with game recipe compatibility; this is not a measured global usage ranking. Exact sockets are mandatory; Superior random-Cube instructions are excluded by the installed CubeMain quality requirement. `[owned]` uses native ALLOWNED, never DISCOVERED; ambiguous unID variants are not claimed owned. No find counter is provided.
+**English:** Ground tags use compact actual stats, including `max dmg 1`, `min dmg 8` and `Ltng1-5`. All quotes say Estimated price. Baseline unique/set quotes are not individualized to roll/corruption/sockets. Fresh material/map quotes use unmodified plain-map samples and unambiguous per-item offers; rolled maps are not priced as plain. Rare/crafted comparable intervals preserve skill/element identities, base/quality/ETH/socket identity and core bands, with minimum three listings/two sellers. Broader core comparisons explicitly pool secondary properties. Missing comparable evidence retains an unsupported-quote explanation. Practical RW targets are an independently curated use-case shortlist, intersected with game recipe compatibility; this is not a measured global usage ranking. Exact sockets are mandatory; Superior random-Cube instructions are excluded by the installed CubeMain quality requirement. `[owned grail]` uses native ALLOWNED, never DISCOVERED; ambiguous unID variants are not claimed owned. No find counter is provided.
 
-**Lietuviškai:** Ant žemės rodoma trumpai, pvz., `max dmg 1`, `min dmg 8`, `Ltng1-5`. Visos kainos vadinamos Estimated price. Baziniai unique/set įverčiai nepritaikyti konkrečiam roll/corruption/socket. Mapų ir medžiagų įverčiai naudoja paprastus nepakeistus mapus ir aiškias vieneto kainas; išridenti mapai nekainuojami kaip paprasti. Rare/crafted palyginimai saugo skill/elemento, bazės/kokybės/ETH/socket tapatybę ir pagrindinių modų ribas; reikia bent 3 skelbimų/2 pardavėjų. Platesni palyginimai aiškiai sujungia antrines savybes. Kai palyginamų duomenų nėra, paliekamas paaiškinimas be išgalvotos kainos. RW sąrašai savarankiškai atrinkti pagal paskirtį ir suderinti su žaidimo receptais; tai nėra išmatuotas visų žaidėjų naudojimo reitingas. Reikia tikslių socketų; Superior random Cube receptas atmetamas pagal CubeMain kokybės ribą. `[owned]` naudoja native ALLOWNED, ne DISCOVERED; neaiškūs neidentifikuoti variantai nežymimi kaip tikrai turimi. Radimų skaitiklio nėra.
+**Lietuviškai:** Ant žemės rodoma trumpai, pvz., `max dmg 1`, `min dmg 8`, `Ltng1-5`. Visos kainos vadinamos Estimated price. Baziniai unique/set įverčiai nepritaikyti konkrečiam roll/corruption/socket. Mapų ir medžiagų įverčiai naudoja paprastus nepakeistus mapus ir aiškias vieneto kainas; išridenti mapai nekainuojami kaip paprasti. Rare/crafted palyginimai saugo skill/elemento, bazės/kokybės/ETH/socket tapatybę ir pagrindinių modų ribas; reikia bent 3 skelbimų/2 pardavėjų. Platesni palyginimai aiškiai sujungia antrines savybes. Kai palyginamų duomenų nėra, paliekamas paaiškinimas be išgalvotos kainos. RW sąrašai savarankiškai atrinkti pagal paskirtį ir suderinti su žaidimo receptais; tai nėra išmatuotas visų žaidėjų naudojimo reitingas. Reikia tikslių socketų; Superior random Cube receptas atmetamas pagal CubeMain kokybės ribą. `[owned grail]` naudoja native ALLOWNED, ne DISCOVERED; neaiškūs neidentifikuoti variantai nežymimi kaip tikrai turimi. Radimų skaitiklio nėra.
 
 White/gray bases at Farming/Endgame must pass the RW-base selection even with skill bonuses or only one socket.
 
 Baltos/pilkos bazės Farming/Endgame lygiuose turi atitikti RW atranką net turėdamos skill bonusų ar tik vieną socketą.
 
-## v1.2.70 ownership labels / Nuosavybės žymos
+## v1.2.71 ownership labels / Nuosavybės žymos
 
-**English:** Unique/Set names show [owned] on the ground and in inventory when native ALLOWNED confirms ownership. Pricing and roll details are preserved. The native ownership flag does not provide the owned copy’s stats/roll, so no automatic better-than-owned percentage is claimed.
+**English:** Unique/Set names show [owned grail] on the ground and in inventory when native ALLOWNED confirms ownership. Pricing and roll details are preserved. The native ownership flag does not provide the owned copy’s stats/roll, so no automatic better-than-owned percentage is claimed.
 
-**Lietuviškai:** Unique/Set vardai žymimi [owned] ant žemės ir inventoriuje, kai native ALLOWNED patvirtina turėjimą. Kainos ir roll informacija išsaugomi. Turėjimo žyma negrąžina turimos kopijos statų/roll, todėl automatinis procentinis palyginimas su ja neteikiamas.
+**Lietuviškai:** Unique/Set vardai žymimi [owned grail] ant žemės ir inventoriuje, kai native ALLOWNED patvirtina turėjimą. Kainos ir roll informacija išsaugomi. Turėjimo žyma negrąžina turimos kopijos statų/roll, todėl automatinis procentinis palyginimas su ja neteikiamas.
 
-## v1.2.70 current update / Dabartinis atnaujinimas
+## v1.2.71 current update / Dabartinis atnaujinimas
 
-**English:** Seven profiles; the two Farming modes differ in ordinary blue gear and gold pickup threshold. Both show all Set, all unidentified Rare and completed Craft. Endgame is level 7 with supported identified Rare/selected Set 90% and perfect socketed RW bases. Prior six-profile Endgame selections migrate once to 7. Gold-only Magic charms have no numeric quote; sparse seller offers are not reliable value evidence. Craft ingredients use Crafting material, gem recipe lines use their gem colors, socket counts use Sockets: N/M. Existing ownership and protections remain.
+**English:** Seven profiles; the two Farming modes differ in ordinary blue gear and gold pickup threshold. Both show all Set, all unidentified Rare and completed Craft. Endgame is level 7 with supported identified Rare/selected Set 90% and perfect RW bases (unsocketed or with matching sockets). Prior six-profile Endgame selections migrate once to 7. Gold-only Magic charms have no numeric quote; sparse seller offers are not reliable value evidence. Craft ingredients use Crafting material, gem recipe lines use their gem colors, socket counts use Sockets: N/M. Existing ownership and protections remain.
 
-**Lietuviškai:** Septyni profiliai; abu Farming skiriasi įprastos mėlynos įrangos matomumu ir gold riba. Abu rodo visus Set, neidentifikuotus Rare ir pagamintus Craft. Endgame yra 7 lygis su palaikomų identifikuotų Rare/atrinktų Set 90% ir perf socketintomis RW bazėmis. Ankstesnis šešių profilių Endgame vieną kartą perkeliamas į 7. Tik Gold turintiems Magic charmams skaitinė kaina nerodoma: keli pardavėjų pasiūlymai neįrodo vertės. Ingredientai žymimi Crafting material, gemų receptai jų spalvomis, socketai Sockets: N/M. Ankstesnės owned žymos ir apsaugos išlieka.
+**Lietuviškai:** Septyni profiliai; abu Farming skiriasi įprastos mėlynos įrangos matomumu ir gold riba. Abu rodo visus Set, neidentifikuotus Rare ir pagamintus Craft. Endgame yra 7 lygis su palaikomų identifikuotų Rare/atrinktų Set 90% ir perf RW bazėmis (be socketų arba su tinkamais socketais). Ankstesnis šešių profilių Endgame vieną kartą perkeliamas į 7. Tik Gold turintiems Magic charmams skaitinė kaina nerodoma: keli pardavėjų pasiūlymai neįrodo vertės. Ingredientai žymimi Crafting material, gemų receptai jų spalvomis, socketai Sockets: N/M. Ankstesnės owned žymos ir apsaugos išlieka.
 
 ### Practical runeword bases / Praktiškos runeword bazės
 
@@ -112,10 +112,14 @@ Baltos/pilkos bazės Farming/Endgame lygiuose turi atitikti RW atranką net tur�
 
 **Lietuviškai:** Nuo Farming rekomendacijos remiasi konkrečiu praktinių bazės/RW derinių sąrašu, ne visais techniškai galimais receptais. Pavyzdžiai: CTA Crystal Sword/Flail arba staffmod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/atrinktuose lankuose; merc Insight/Infinity/Pride/Obedience atrinktose elite polearm/spear bazėse, kai leidžia receptas; Fortitude/Innocence atrinktuose šarvuose. Caster staff nebesiūlomas Insight. Bendras Wind bet kokiems melee ginklams pašalintas; Fury paliekamas atrinktoms claws. Merc kandidatams ant žemės rodoma Merc RW, receptuose Possible merc RW. Ankstesnių lygių receptai platesni. Kokybės/socket ribos galioja: populiari bazė nereiškia bet kokio roll/socket varianto. Sąrašas remiasi žaidimo suderinamumu ir ribota dabartinių pagamintų RW prekybos imtimi, ne visų žaidėjų populiarumo statistika. Kitų filtrų taisyklės generatoriui nenaudojamos.
 
-Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus/socket requirement.
+Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus requirement; 0 sockets are allowed, existing sockets must match a selected recipe.
 
-Farming palieka atrinktus paprastus ETH elite merc ginklus ir mažų reikalavimų caster/buff bazes net be enhanced damage; Endgame lieka perf bonusų ir tinkamų socketų reikalavimas.
+Farming palieka atrinktus paprastus ETH elite merc ginklus ir mažų reikalavimų caster/buff bazes net be enhanced damage; Endgame lieka perf bonusų reikalavimas; leidžiami 0 socketų, o esami socketai turi tikti atrinktam receptui.
 
 Ground resistance labels use Fire res / Cold res / Light res / Poison res for clarity.
 
 Atsparumai ant žemės rašomi Fire res / Cold res / Light res / Poison res, kad nereikėtų spėlioti trumpinių.
+
+**v1.2.71:** Endgame now accepts selected perfect unsocketed RW bases when capacity supports a practical recipe. Existing sockets must match a selected recipe exactly; bonus quality, special-drop protection and all other profiles remain unchanged. Socket capacity is not a guaranteed socketing result.
+
+**v1.2.71:** Endgame leidžia atrinktas perf RW bazes be socketų, kai jų talpa leidžia praktišką receptą. Esami socketai turi tiksliai atitikti atrinktą receptą; bonusų kokybė, PD2 apsaugos ir kiti profiliai nepakeisti. Talpa negarantuoja socketinimo rezultato.

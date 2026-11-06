@@ -1,4 +1,4 @@
-# Kiela v1.2.70
+# Kiela v1.2.71
 
 ## English
 
@@ -16,7 +16,7 @@ Project Diablo 2 loot filter with our own equipment selection, dated HR/WSS esti
 | 4 | Baal Runs | Tighter equipment and plain-base selection than Hell. Flawless and Perfect gems. Useful crafting candidates can still appear. |
 | 5 | Farming with Blue | Selected useful Magic combinations and unidentified candidates: skill + speed/cast, socket/block/life and strong weapon candidates. Useful Rare; all Unique/Set/Craft. Good advanced RW bases and CTA/HOTO exceptions. Perfect gems; gold 2,000+. |
 | 6 | Farming without Blue | Hides all ordinary Magic equipment and jewelry, identified or not. Charms, jewels and PD2 specials remain. Same Rare/Set/RW selection as Farming with Blue. Perfect gems; gold 3,000+. |
-| 7 | Endgame | Hides ordinary Magic gear/jewelry. Stronger identified Rare; selected useful Set; supported Rare/Set roll 90%+. All Unique/Craft and unidentified Rare kept. Perfect relevant RW bonuses + matching sockets. Perfect gems; gold 4,000+. |
+| 7 | Endgame | Hides ordinary Magic gear/jewelry. Stronger identified Rare; selected useful Set; supported Rare/Set roll 90%+. All Unique/Craft and unidentified Rare kept. Perfect relevant RW bonuses; unsocketed or matching existing sockets. Perfect gems; gold 4,000+. |
 
 **Always visible at every level:** all Unique items for grail collecting, completed orange Crafted items, runes, charms, jewels, protected PD2 maps/materials/fragments/boss ingredients/socket tools, both Rejuvenation potions and **Antidote potions**. Inventory items remain inspectable.
 
@@ -29,7 +29,7 @@ Farming/Endgame hide ordinary HP/MP potions, cold/gas/fire throwing potions and 
 - Added Farming with Blue / Farming without Blue; Endgame is now level 7. Gold thresholds from Farming are 2,000 / 3,000 / 4,000. Existing Endgame selections migrate safely.
 - Pure Gold Find-only charms show no reliable price instead of a misleading numeric quote.
 - Ingredients use Crafting material; gem recipes use their gem colors; socketed items show Sockets: N/M.
-- [owned] appears beside Unique/Set names on the ground and in inventory.
+- [owned grail] appears beside Unique/Set names on the ground and in inventory.
 - Antidote potions are visible at every level again.
 - Supported charm ROLL information now survives crafting help and price descriptions.
 - Added poison damage and duration to identified Magic/Rare/Crafted ground labels. A poison-only charm can show **[GC] [Psn 11/2s]**.
@@ -44,13 +44,30 @@ Prices are dated **asking-price estimates**, not guaranteed sale prices. **Selle
 
 ROLL describes supported variable properties, not universal build value. Unknown/modified cases may show CHECK. Ground labels show actual identified bonuses. Socket counts, limits and Larzuk/Puzzle/WSS/Cube help are light blue; class RW recommendations and recipes are green. Maximum socket capacity does not guarantee a socketing result. Superior bases do not use the normal-only random socket Cube recipe.
 
-The **[owned]** marker appears beside Unique/Set item names both on the ground and in inventory. It uses PD2's current Unique/Set collection state, not discovery history or an independent stash scan. Update timing after selling the last copy still needs in-game verification. Item level appears at the bottom of descriptions.
+The **[owned grail]** marker appears beside Unique/Set item names both on the ground and in inventory. It uses PD2's current Unique/Set collection state, not discovery history or an independent stash scan. Update timing after selling the last copy still needs in-game verification. Item level appears at the bottom of descriptions.
+
+
+### Owned Grail
+
+**[owned grail]** is a duplicate-collection hint for Unique and Set items. It appears beside the item name **on the ground and in inventory**, with **Owned Grail: owned** in its description. The name, supported ROLL and price details remain available.
+
+| Situation | What the marker means |
+| --- | --- |
+| Identified Unique/Set | PD2's native collection state reports that exact item variant as currently owned. |
+| Unidentified Unique/Set | Marked only when PD2 confirms ownership for all variants the unknown drop could be. Ambiguous candidates remain unmarked. |
+| Marker absent | Ownership was not confirmed. It is not proof you never found the item or that it is missing from every stash. |
+| Sold or removed last copy | Marker clears when PD2 updates its ownership state. Immediate versus rejoin timing has not been verified in game. |
+| Another owned copy remains | Marker follows PD2's remaining ownership state. Kiela does not independently scan every stash tab. |
+| Previously found, then sold | This is current ownership, not discovery history, a permanent grail achievement or a found-item counter. |
+| Better duplicate rolls | Check the displayed stats/ROLL yourself. The ownership flag does not provide the stored copy's roll, so Kiela cannot calculate an automatic upgrade percentage from it. |
+
+**Owned Grail never hides a Unique item.** Set visibility still follows the selected strictness; this marker itself does not hide items. Ownership information requires PD2's native support and an updated, reloaded filter.
 
 ### Install or update
 
 1. Extract the latest ZIP/RAR and copy **Kiela.filter** into **C:\Diablo II\ProjectD2\filters\local** (adjust for your installation).
 2. Choose **Item Filter Profiles → Local Filter → Kiela.filter → Save** in the PD2 launcher.
-3. Start/restart PD2, or use your configured **Reload Loot Filter** control. Check **v1.2.70** in the Horadric Cube description.
+3. Start/restart PD2, or use your configured **Reload Loot Filter** control. Check **v1.2.71** in the Horadric Cube description.
 4. Change strictness with **Increase Filter Level / Decrease Filter Level** under **Esc → Options → Configure Controls**. The filter does not bind keys automatically.
 
 [Required attribution and rights](./THIRD-PARTY-NOTICES.md) · [MIT license notice](./LICENSE-UPSTREAM-MIT.txt)
@@ -71,7 +88,7 @@ Project Diablo 2 filtras su mūsų sukurta įrangos atranka, datuotais HR/WSS ka
 | 4 | Baal Runs | Griežtesnė įrangos ir paprastų bazių atranka negu Hell. Flawless ir Perfect gemai. Naudingi craft kandidatai dar gali būti rodomi. |
 | 5 | Farming with Blue | Atrinkti naudingi Magic deriniai ir neidentifikuoti kandidatai: skill + speed/cast, socket/block/life bei stiprių ginklų kandidatai. Naudingi Rare; visi Unique/Set/Craft. Geros pažangių RW bazės ir CTA/HOTO išimtys. Tik Perfect gemai; gold nuo 2 000. |
 | 6 | Farming without Blue | Slepia visą įprastą Magic įrangą ir jewelry, ID ir unID. Charmai, jewels ir PD2 specialūs daiktai lieka. Rare/Set/RW atranka tokia pati kaip Farming with Blue. Tik Perfect gemai; gold nuo 3 000. |
-| 7 | Endgame | Slepia įprastą Magic įrangą/jewelry. Stipresni identifikuoti Rare ir atrinkti naudingi Set; palaikomas Rare/Set roll 90%+. Visi Unique/Craft ir neidentifikuoti Rare lieka. RW: maksimalūs aktualūs bonusai + tinkami socketai. Tik Perfect gemai; gold nuo 4 000. |
+| 7 | Endgame | Slepia įprastą Magic įrangą/jewelry. Stipresni identifikuoti Rare ir atrinkti naudingi Set; palaikomas Rare/Set roll 90%+. Visi Unique/Craft ir neidentifikuoti Rare lieka. RW: maksimalūs aktualūs bonusai; be socketų arba su tinkamais esamais socketais. Tik Perfect gemai; gold nuo 4 000. |
 
 **Visuose lygiuose rodomi:** visi Unique grail kolekcijai, jau pagaminti oranžiniai Crafted, runos, charmai, jewels, saugomi PD2 mapai/medžiagos/fragmentai/boss ingredientai/socket įrankiai, abu Rejuvenation ir **Antidote potionai**. Inventoriuje daiktai neslepiami.
 
@@ -84,7 +101,7 @@ Farming/Endgame slepia įprastus HP/MP, cold/gas/fire throwing potionus ir playe
 - Pridėti Farming with Blue / Farming without Blue; Endgame dabar 7 lygis. Gold nuo Farming: 2 000 / 3 000 / 4 000. Ankstesnis Endgame pasirinkimas saugiai perkeliamas.
 - Tik Gold Find turintys charmai rodo, kad patikimos kainos nėra, vietoj klaidinančio skaičiaus.
 - Ingredientai žymimi Crafting material; gemų receptams naudojamos jų spalvos; socketinti daiktai rodo Sockets: N/M.
-- [owned] rodoma prie Unique/Set vardų ant žemės ir inventoriuje.
+- [owned grail] rodoma prie Unique/Set vardų ant žemės ir inventoriuje.
 - Antidote vėl rodomi visuose lygiuose.
 - Palaikoma charmų ROLL informacija išlieka pridėjus craft pagalbą ir kainas.
 - Identifikuotų Magic/Rare/Crafted žymose ant žemės pridėta poison žala ir trukmė, pvz., **[GC] [Psn 11/2s]**.
@@ -99,13 +116,30 @@ Kainos yra datuoti **pardavėjų prašomų kainų įverčiai**, ne garantuota pa
 
 ROLL vertina palaikomas kintamas savybes, ne universalų tinkamumą build. Nežinomi/pakeisti atvejai gali rodyti CHECK. Ant žemės rašomi tikri identifikuoti bonusai. Socketų kiekiai, ribos ir Larzuk/Puzzle/WSS/Cube pagalba šviesiai mėlyni; klasės RW rekomendacijos ir receptai žali. Maksimali socketų talpa negarantuoja socketinimo rezultato. Superior bazėms netaikomas tik normal kokybei skirtas random socket Cube receptas.
 
-**[owned]** rodoma prie Unique/Set daikto vardo ir ant žemės, ir inventoriuje. Ji naudoja dabartinę PD2 Unique/Set kolekcijos turėjimo būseną, ne atradimų istoriją ar savarankišką stash skenavimą. Atnaujinimo laikas pardavus paskutinę kopiją dar tikrinamas žaidime. Item level rašomas aprašymo apačioje.
+**[owned grail]** rodoma prie Unique/Set daikto vardo ir ant žemės, ir inventoriuje. Ji naudoja dabartinę PD2 Unique/Set kolekcijos turėjimo būseną, ne atradimų istoriją ar savarankišką stash skenavimą. Atnaujinimo laikas pardavus paskutinę kopiją dar tikrinamas žaidime. Item level rašomas aprašymo apačioje.
+
+### Owned Grail
+
+**[owned grail]** padeda atpažinti turimų Unique ir Set kolekcijos kopijas. Žyma rodoma prie vardo **ant žemės ir inventoriuje**, o aprašyme — **Owned Grail: owned**. Išlieka vardas, palaikomas ROLL ir kainų informacija.
+
+| Situacija | Ką reiškia žyma |
+| --- | --- |
+| Identifikuotas Unique/Set | PD2 native kolekcijos būsena patvirtina, kad šį konkretų variantą šiuo metu turi. |
+| Neidentifikuotas Unique/Set | Žymima tik jei PD2 patvirtina visų galimų nežinomo drop variantų turėjimą. Neaiškūs kandidatai nežymimi. |
+| Žymos nėra | Turėjimas nepatvirtintas. Tai neįrodo, kad niekada neradai ar kad daikto nėra nė viename stash. |
+| Parduota ar pašalinta paskutinė kopija | Žyma dingsta, kai PD2 atnaujina turėjimo būseną. Ar iškart, ar po naujo prisijungimo — žaidime dar nepatikrinta. |
+| Kita kopija liko | Žyma remiasi PD2 likusio turėjimo būsena. Kiela savarankiškai neskenuoja visų stash tabų. |
+| Kadaise rastas, paskui parduotas | Tai dabartinis turėjimas, ne atradimų istorija, nuolatinis grail pasiekimas ar radimų skaitiklis. |
+| Geresnis naujos kopijos roll | Palygink rodomus status/ROLL pats. Turėjimo žyma negrąžina laikomos kopijos roll, todėl iš jos automatinio pagerėjimo procento apskaičiuoti negalime. |
+
+**Owned Grail neslepia Unique daiktų.** Set rodymas priklauso nuo strictness; pati žyma daiktų neslepia. Reikia PD2 native palaikymo ir atnaujinto, perkrauto filtro.
+
 
 ### Diegimas ir atnaujinimas
 
 1. Išarchyvuok naujausią ZIP/RAR ir nukopijuok **Kiela.filter** į **C:\Diablo II\ProjectD2\filters\local** (arba savo žaidimo vietą).
 2. PD2 launcheryje pasirink **Item Filter Profiles → Local Filter → Kiela.filter → Save**.
-3. Paleisk žaidimą iš naujo arba naudok savo nustatytą **Reload Loot Filter** valdymą. Kubo aprašyme patikrink **v1.2.70**.
+3. Paleisk žaidimą iš naujo arba naudok savo nustatytą **Reload Loot Filter** valdymą. Kubo aprašyme patikrink **v1.2.71**.
 4. Strictness keičiamas **Increase Filter Level / Decrease Filter Level**, esančiais **Esc → Options → Configure Controls**. Filtras pats klavišų nepriskiria.
 
 [Privalomi autorių ir teisių įrašai](./THIRD-PARTY-NOTICES.md) · [MIT licencijos įrašas](./LICENSE-UPSTREAM-MIT.txt)
@@ -116,10 +150,14 @@ ROLL vertina palaikomas kintamas savybes, ne universalų tinkamumą build. Neži
 
 **Lietuviškai:** Nuo Farming rekomendacijos remiasi konkrečiu praktinių bazės/RW derinių sąrašu, ne visais techniškai galimais receptais. Pavyzdžiai: CTA Crystal Sword/Flail arba staffmod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/atrinktuose lankuose; merc Insight/Infinity/Pride/Obedience atrinktose elite polearm/spear bazėse, kai leidžia receptas; Fortitude/Innocence atrinktuose šarvuose. Caster staff nebesiūlomas Insight. Bendras Wind bet kokiems melee ginklams pašalintas; Fury paliekamas atrinktoms claws. Merc kandidatams ant žemės rodoma Merc RW, receptuose Possible merc RW. Ankstesnių lygių receptai platesni. Kokybės/socket ribos galioja: populiari bazė nereiškia bet kokio roll/socket varianto. Sąrašas remiasi žaidimo suderinamumu ir ribota dabartinių pagamintų RW prekybos imtimi, ne visų žaidėjų populiarumo statistika. Kitų filtrų taisyklės generatoriui nenaudojamos.
 
-Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus/socket requirement.
+Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus requirement; 0 sockets are allowed, existing sockets must match a selected recipe.
 
-Farming palieka atrinktus paprastus ETH elite merc ginklus ir mažų reikalavimų caster/buff bazes net be enhanced damage; Endgame lieka perf bonusų ir tinkamų socketų reikalavimas.
+Farming palieka atrinktus paprastus ETH elite merc ginklus ir mažų reikalavimų caster/buff bazes net be enhanced damage; Endgame lieka perf bonusų reikalavimas; leidžiami 0 socketų, o esami socketai turi tikti atrinktam receptui.
 
 Ground resistance labels use Fire res / Cold res / Light res / Poison res for clarity.
 
 Atsparumai ant žemės rašomi Fire res / Cold res / Light res / Poison res, kad nereikėtų spėlioti trumpinių.
+
+**v1.2.71:** Endgame now accepts selected perfect unsocketed RW bases when capacity supports a practical recipe. Existing sockets must match a selected recipe exactly; bonus quality, special-drop protection and all other profiles remain unchanged. Socket capacity is not a guaranteed socketing result.
+
+**v1.2.71:** Endgame leidžia atrinktas perf RW bazes be socketų, kai jų talpa leidžia praktišką receptą. Esami socketai turi tiksliai atitikti atrinktą receptą; bonusų kokybė, PD2 apsaugos ir kiti profiliai nepakeisti. Talpa negarantuoja socketinimo rezultato.

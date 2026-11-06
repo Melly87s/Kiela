@@ -1,4 +1,4 @@
-# Kiela v1.2.70: selection engine and preserved features
+# Kiela v1.2.71: selection engine and preserved features
 
 Kiela v1.2.46 replaces the former Kassahi-derived selection layer with a new
 Kiela generator. The build does not load another author's filter, transform its
