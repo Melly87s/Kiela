@@ -8,6 +8,12 @@ Melindaa uses our own selection rules and features. This changelog records chang
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
 
+### v1.2.74 — Launcher metadata and clearer missing prices
+
+- Added filter_definitions.json with a single Melindaa.filter entry; included it in future public packages and downloads.
+- Items without a supported estimate now show "Estimated price: in development". Existing numeric HR/WSS estimates and their source dates are preserved.
+- Prepared the launcher registration entry using the official name/url/author format and the current Melindaa repository address.
+
 ### v1.2.73 — Simplified public documentation
 
 - Removed the separate ORIGINALITY and THIRD-PARTY-NOTICES documents from the current public package and removed their README links. Internal validation remains private.
@@ -245,6 +251,12 @@ Price dates change only when the price data itself is updated. Documentation-onl
 Melindaa naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### v1.2.74 — Launcher metaduomenys ir aiškesnės trūkstamos kainos
+
+- Pridėtas filter_definitions.json su vieninteliu Melindaa.filter įrašu; jis įtrauktas į būsimus viešus paketus ir atsisiuntimus.
+- Daiktams be palaikomo įverčio rodoma "Estimated price: in development". Esamos skaitinės HR/WSS kainos ir jų duomenų datos išsaugotos.
+- Paruoštas launcher registracijos įrašas oficialiu name/url/author formatu su dabartiniu Melindaa repozitoriumo adresu.
 
 ### v1.2.73 — Supaprastinti vieši dokumentai
 
