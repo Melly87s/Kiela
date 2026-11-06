@@ -2,11 +2,11 @@
 
 ## Supported Versions
 
-Only the latest official Kiela release is supported.
+Only the latest official Melindaa release is supported.
 Please update before reporting a problem.
 
 Official releases:
-https://github.com/Melly87s/Kiela/releases/latest
+https://github.com/Melly87s/Melindaa/releases/latest
 
 ## Reporting a Vulnerability
 
@@ -23,4 +23,4 @@ and steps to reproduce it through the private reporting channel.
 Reports are reviewed as maintainer availability permits.
 No fixed response or resolution time is guaranteed.
 
-Official project: https://github.com/Melly87s/Kiela
+Official project: https://github.com/Melly87s/Melindaa

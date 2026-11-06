@@ -1,8 +1,8 @@
-# Kiela filter specification / Filtro specifikacija
+# Melindaa filter specification / Filtro specifikacija
 
 ## English
 
-Current policy: **v1.2.71**, seven profiles: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue and Endgame. See the [profile table and installation guide](./README.md).
+Current policy: **v1.2.73**, seven profiles: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue and Endgame. See the [profile table and installation guide](./README.md).
 
 ### Permanent visibility
 
@@ -10,7 +10,7 @@ All profiles show all uniques, including Endgame, so players can collect their u
 
 ### Rare equipment and identification
 
-Farming and Endgame preserve **all unidentified rare equipment**, including lower-level bases. Their actual hidden properties cannot be evaluated before identification. Kiela intentionally accepts more ground clutter to reduce the risk of missing an item that becomes valuable when identified. Some stricter approaches hide more unidentified rare bases and accept that risk; this is not a claim about every filter or a guarantee of value.
+Farming and Endgame preserve **all unidentified rare equipment**, including lower-level bases. Their actual hidden properties cannot be evaluated before identification. Melindaa intentionally accepts more ground clutter to reduce the risk of missing an item that becomes valuable when identified. Some stricter approaches hide more unidentified rare bases and accept that risk; this is not a claim about every filter or a guarantee of value.
 
 After identification, Farming requires relevant combinations for the equipment slot, rather than a universal count of property lines. Endgame requires stronger combinations and **at least 90% when the owned rare ROLL model supports reliable grading**. A property line is not an affix slot. Unsupported or modified rolls do not receive an invented percentage; conservative exceptions remain. Charms and jewels are exempt.
 
@@ -22,11 +22,11 @@ After identification, Farming requires relevant combinations for the equipment s
 
 ### Magic equipment and completed crafts
 
-Craft-only blue bases stop after Baal Runs. Farming with Blue uses Kiela's independent useful skill/speed, caster, physical and socket/life/block signatures plus unidentified affix-potential candidates. Farming without Blue and Endgame hide all ordinary Magic equipment/jewelry, identified or not. Charms, jewels and protected PD2 specials remain visible. All completed orange crafts stay visible at every level. The two Farming modes share Rare/Set/RW selection. Gold: 2000 / 3000 / 4000 at levels 5 / 6 / 7.
+Craft-only blue bases stop after Baal Runs. Farming with Blue uses Melindaa's independent useful skill/speed, caster, physical and socket/life/block signatures plus unidentified affix-potential candidates. Farming without Blue and Endgame hide all ordinary Magic equipment/jewelry, identified or not. Charms, jewels and protected PD2 specials remain visible. All completed orange crafts stay visible at every level. The two Farming modes share Rare/Set/RW selection. Gold: 2000 / 3000 / 4000 at levels 5 / 6 / 7.
 
 ### Runeword bases
 
-From Farming, a base must suit Kiela's advanced-recipe selection and meet its relevant quality requirements. Advanced recipes here use a Pul-or-later rune; this is a selection boundary, not a market-value claim. Starter-only bases, including those only useful for Lore, no longer qualify. Selected low-requirement caster/buff bases remain useful exceptions, including CTA swords and HOTO flails.
+From Farming, a base must suit Melindaa's advanced-recipe selection and meet its relevant quality requirements. Advanced recipes here use a Pul-or-later rune; this is a selection boundary, not a market-value claim. Starter-only bases, including those only useful for Lore, no longer qualify. Selected low-requirement caster/buff bases remain useful exceptions, including CTA swords and HOTO flails.
 
 Endgame additionally requires maximum relevant base bonuses and actual recipe-compatible sockets. Relevant maxima depend on the item: enhanced damage/defense, class-skill properties or Paladin automagic where applicable. This does not promise a perfect combination of every possible stat. A high item level alone does not qualify a base.
 
@@ -44,7 +44,7 @@ Repeated expressions are compiled through shared named formulas; RW eligibility 
 
 ## Lietuviškai
 
-Dabartinė politika: **v1.2.71**, septyni profiliai: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
+Dabartinė politika: **v1.2.73**, septyni profiliai: Normal, Nightmare, Hell, Baal Runs, Farming with Blue, Farming without Blue ir Endgame. [Profilių lentelė ir diegimas](./README.md#lietuviškai).
 
 ### Kas visada matoma
 
@@ -94,13 +94,13 @@ White/gray bases at Farming/Endgame must pass the RW-base selection even with sk
 
 Baltos/pilkos bazės Farming/Endgame lygiuose turi atitikti RW atranką net turėdamos skill bonusų ar tik vieną socketą.
 
-## v1.2.71 ownership labels / Nuosavybės žymos
+## v1.2.73 ownership labels / Nuosavybės žymos
 
 **English:** Unique/Set names show [owned grail] on the ground and in inventory when native ALLOWNED confirms ownership. Pricing and roll details are preserved. The native ownership flag does not provide the owned copy’s stats/roll, so no automatic better-than-owned percentage is claimed.
 
 **Lietuviškai:** Unique/Set vardai žymimi [owned grail] ant žemės ir inventoriuje, kai native ALLOWNED patvirtina turėjimą. Kainos ir roll informacija išsaugomi. Turėjimo žyma negrąžina turimos kopijos statų/roll, todėl automatinis procentinis palyginimas su ja neteikiamas.
 
-## v1.2.71 current update / Dabartinis atnaujinimas
+## v1.2.73 current update / Dabartinis atnaujinimas
 
 **English:** Seven profiles; the two Farming modes differ in ordinary blue gear and gold pickup threshold. Both show all Set, all unidentified Rare and completed Craft. Endgame is level 7 with supported identified Rare/selected Set 90% and perfect RW bases (unsocketed or with matching sockets). Prior six-profile Endgame selections migrate once to 7. Gold-only Magic charms have no numeric quote; sparse seller offers are not reliable value evidence. Craft ingredients use Crafting material, gem recipe lines use their gem colors, socket counts use Sockets: N/M. Existing ownership and protections remain.
 
@@ -120,6 +120,12 @@ Ground resistance labels use Fire res / Cold res / Light res / Poison res for cl
 
 Atsparumai ant žemės rašomi Fire res / Cold res / Light res / Poison res, kad nereikėtų spėlioti trumpinių.
 
-**v1.2.71:** Endgame now accepts selected perfect unsocketed RW bases when capacity supports a practical recipe. Existing sockets must match a selected recipe exactly; bonus quality, special-drop protection and all other profiles remain unchanged. Socket capacity is not a guaranteed socketing result.
+**v1.2.73:** Endgame now accepts selected perfect unsocketed RW bases when capacity supports a practical recipe. Existing sockets must match a selected recipe exactly; bonus quality, special-drop protection and all other profiles remain unchanged. Socket capacity is not a guaranteed socketing result.
 
-**v1.2.71:** Endgame leidžia atrinktas perf RW bazes be socketų, kai jų talpa leidžia praktišką receptą. Esami socketai turi tiksliai atitikti atrinktą receptą; bonusų kokybė, PD2 apsaugos ir kiti profiliai nepakeisti. Talpa negarantuoja socketinimo rezultato.
+**v1.2.73:** Endgame leidžia atrinktas perf RW bazes be socketų, kai jų talpa leidžia praktišką receptą. Esami socketai turi tiksliai atitikti atrinktą receptą; bonusų kokybė, PD2 apsaugos ir kiti profiliai nepakeisti. Talpa negarantuoja socketinimo rezultato.
+
+## v1.2.73 current refinements / Dabartiniai patikslinimai
+
+**English:** Farming with Blue hides unidentified Magic physical throwing weapons unless the base is ETH and elite. The existing potential gate still applies; identification continues into the existing useful-stat test. Rare/Craft/Unique, charms/jewels/materials, inventory and lower profiles retain their policies. Base-purpose rules apply to RW recommendations at every profile: starter levels show more suitable recipes, not arbitrary legal combinations. Socket methods spell out Larzuk quest (Act 5), Larzuk's Puzzlebox/Puzzlepiece and Cube + Larzuk's Malus, with the same capacity-capped results.
+
+**Lietuviškai:** Farming with Blue slepia neidentifikuotus Magic fizinius throwing ginklus, nebent bazė ETH ir elite. Esama potencialo patikra lieka; identifikavus taikoma esama naudingų statų atranka. Rare/Craft/Unique, charmai/jewels/medžiagos, inventorius ir ankstesni lygiai išlaiko savo taisykles. RW bazės paskirtis tikrinama visuose profiliuose: starter lygiuose daugiau tinkamų receptų, ne bet kokių techniškai galimų derinių. Socketų pagalba rašo pilnus Larzuk quest (Act 5), Larzuk's Puzzlebox/Puzzlepiece ir Cube + Larzuk's Malus pavadinimus su tomis pačiomis talpos ribomis.

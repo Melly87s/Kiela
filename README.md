@@ -1,10 +1,10 @@
-# Kiela v1.2.71
+# Melindaa v1.2.73
 
 ## English
 
 Project Diablo 2 loot filter with our own equipment selection, dated HR/WSS estimates, supported ROLL ratings, actual ground bonuses, crafting help and class-aware runeword recommendations.
 
-**[Download ZIP](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)** · **[Download RAR](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** · **[Changelog](./CHANGELOG.md)** · **[Full filter specification](./FILTER-SPECIFICATION.md)**
+**[Download ZIP](https://github.com/Melly87s/Melindaa/releases/latest/download/Melindaa.zip)** · **[Download RAR](https://github.com/Melly87s/Melindaa/releases/latest/download/Melindaa.rar)** · **[Changelog](./CHANGELOG.md)** · **[Full filter specification](./FILTER-SPECIFICATION.md)**
 
 ### Choose your strictness
 
@@ -14,7 +14,7 @@ Project Diablo 2 loot filter with our own equipment selection, dated HR/WSS esti
 | 2 | Nightmare | Shows all items. |
 | 3 | Hell | Broad useful Magic/Rare candidates and cautious unidentified potential. Flawless and Perfect gems. Hides Stamina, Thawing, Oil and loose ID/TP scrolls. |
 | 4 | Baal Runs | Tighter equipment and plain-base selection than Hell. Flawless and Perfect gems. Useful crafting candidates can still appear. |
-| 5 | Farming with Blue | Selected useful Magic combinations and unidentified candidates: skill + speed/cast, socket/block/life and strong weapon candidates. Useful Rare; all Unique/Set/Craft. Good advanced RW bases and CTA/HOTO exceptions. Perfect gems; gold 2,000+. |
+| 5 | Farming with Blue | Selected useful Magic combinations and unidentified candidates: skill + speed/cast, socket/block/life and strong weapons. Unidentified throwing knives/axes/javelins require ETH elite bases; non-ETH or normal/exceptional blue throwing drops are hidden. Useful Rare; all Unique/Set/Craft. Good advanced RW bases and CTA/HOTO exceptions. Perfect gems; gold 2,000+. |
 | 6 | Farming without Blue | Hides all ordinary Magic equipment and jewelry, identified or not. Charms, jewels and PD2 specials remain. Same Rare/Set/RW selection as Farming with Blue. Perfect gems; gold 3,000+. |
 | 7 | Endgame | Hides ordinary Magic gear/jewelry. Stronger identified Rare; selected useful Set; supported Rare/Set roll 90%+. All Unique/Craft and unidentified Rare kept. Perfect relevant RW bonuses; unsocketed or matching existing sockets. Perfect gems; gold 4,000+. |
 
@@ -47,6 +47,19 @@ ROLL describes supported variable properties, not universal build value. Unknown
 The **[owned grail]** marker appears beside Unique/Set item names both on the ground and in inventory. It uses PD2's current Unique/Set collection state, not discovery history or an independent stash scan. Update timing after selling the last copy still needs in-game verification. Item level appears at the bottom of descriptions.
 
 
+
+### Socketing methods
+
+Eligible unsocketed items show the method's full name and socket result, capped by that base's capacity. For example, a Stealskull with maximum two sockets can show:
+
+| Method | Result for this example | How to use |
+| --- | --- | --- |
+| Larzuk quest (Act 5) | 1 socket | Use the Act 5 socket quest reward at Larzuk. |
+| Larzuk's Puzzlebox | 1–2 sockets | Combine the item and the named tool in the Horadric Cube. |
+| Larzuk's Malus | 1 socket | Combine the item and Larzuk's Malus in the Cube; this is an item, not a quest. |
+
+Non-Unique/Set candidates use the eligible **Larzuk's Puzzlepiece** recommendation. Results depend on quality, weapon type and capacity; do not treat the Stealskull example as the result for every item. Already-socketed items keep the compact Sockets: N/M label. Worldstone Shard corruption is a separate risky option.
+
 ### Owned Grail
 
 **[owned grail]** is a duplicate-collection hint for Unique and Set items. It appears beside the item name **on the ground and in inventory**, with **Owned Grail: owned** in its description. The name, supported ROLL and price details remain available.
@@ -57,26 +70,26 @@ The **[owned grail]** marker appears beside Unique/Set item names both on the gr
 | Unidentified Unique/Set | Marked only when PD2 confirms ownership for all variants the unknown drop could be. Ambiguous candidates remain unmarked. |
 | Marker absent | Ownership was not confirmed. It is not proof you never found the item or that it is missing from every stash. |
 | Sold or removed last copy | Marker clears when PD2 updates its ownership state. Immediate versus rejoin timing has not been verified in game. |
-| Another owned copy remains | Marker follows PD2's remaining ownership state. Kiela does not independently scan every stash tab. |
+| Another owned copy remains | Marker follows PD2's remaining ownership state. Melindaa does not independently scan every stash tab. |
 | Previously found, then sold | This is current ownership, not discovery history, a permanent grail achievement or a found-item counter. |
-| Better duplicate rolls | Check the displayed stats/ROLL yourself. The ownership flag does not provide the stored copy's roll, so Kiela cannot calculate an automatic upgrade percentage from it. |
+| Better duplicate rolls | Check the displayed stats/ROLL yourself. The ownership flag does not provide the stored copy's roll, so Melindaa cannot calculate an automatic upgrade percentage from it. |
 
 **Owned Grail never hides a Unique item.** Set visibility still follows the selected strictness; this marker itself does not hide items. Ownership information requires PD2's native support and an updated, reloaded filter.
 
 ### Install or update
 
-1. Extract the latest ZIP/RAR and copy **Kiela.filter** into **C:\Diablo II\ProjectD2\filters\local** (adjust for your installation).
-2. Choose **Item Filter Profiles → Local Filter → Kiela.filter → Save** in the PD2 launcher.
-3. Start/restart PD2, or use your configured **Reload Loot Filter** control. Check **v1.2.71** in the Horadric Cube description.
+1. Extract the latest ZIP/RAR and copy **Melindaa.filter** into **C:\Diablo II\ProjectD2\filters\local** (adjust for your installation).
+2. Choose **Item Filter Profiles → Local Filter → Melindaa.filter → Save** in the PD2 launcher.
+3. Start/restart PD2, or use your configured **Reload Loot Filter** control. Check **v1.2.73** in the Horadric Cube description.
 4. Change strictness with **Increase Filter Level / Decrease Filter Level** under **Esc → Options → Configure Controls**. The filter does not bind keys automatically.
 
-[Required attribution and rights](./THIRD-PARTY-NOTICES.md) · [MIT license notice](./LICENSE-UPSTREAM-MIT.txt)
+[MIT license notice](./MIT-NOTICE.txt)
 
 ## Lietuviškai
 
 Project Diablo 2 filtras su mūsų sukurta įrangos atranka, datuotais HR/WSS kainų įverčiais, palaikomais ROLL vertinimais, tikrais bonusais ant žemės, craft pagalba ir klasei pritaikytomis runeword rekomendacijomis.
 
-**[Atsisiųsti ZIP](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.zip)** · **[Atsisiųsti RAR](https://github.com/Melly87s/Kiela/releases/latest/download/Kiela.rar)** · **[Pakeitimai](./CHANGELOG.md)** · **[Visa filtro specifikacija](./FILTER-SPECIFICATION.md)**
+**[Atsisiųsti ZIP](https://github.com/Melly87s/Melindaa/releases/latest/download/Melindaa.zip)** · **[Atsisiųsti RAR](https://github.com/Melly87s/Melindaa/releases/latest/download/Melindaa.rar)** · **[Pakeitimai](./CHANGELOG.md)** · **[Visa filtro specifikacija](./FILTER-SPECIFICATION.md)**
 
 ### Pasirink strictness lygį
 
@@ -86,7 +99,7 @@ Project Diablo 2 filtras su mūsų sukurta įrangos atranka, datuotais HR/WSS ka
 | 2 | Nightmare | Rodo visus daiktus. |
 | 3 | Hell | Platesnė naudingų Magic/Rare ir neidentifikuotų kandidatų atranka. Flawless ir Perfect gemai. Slepia Stamina, Thawing, Oil ir palaidus ID/TP scrolls. |
 | 4 | Baal Runs | Griežtesnė įrangos ir paprastų bazių atranka negu Hell. Flawless ir Perfect gemai. Naudingi craft kandidatai dar gali būti rodomi. |
-| 5 | Farming with Blue | Atrinkti naudingi Magic deriniai ir neidentifikuoti kandidatai: skill + speed/cast, socket/block/life bei stiprių ginklų kandidatai. Naudingi Rare; visi Unique/Set/Craft. Geros pažangių RW bazės ir CTA/HOTO išimtys. Tik Perfect gemai; gold nuo 2 000. |
+| 5 | Farming with Blue | Atrinkti naudingi Magic deriniai ir neidentifikuoti kandidatai: skill + speed/cast, socket/block/life bei stiprūs ginklai. Neidentifikuoti mėlyni throwing knives/axes/javelins paliekami tik ETH elite bazėse; ne-ETH bei normal/exceptional throwing slepiami. Naudingi Rare; visi Unique/Set/Craft. Geros pažangių RW bazės ir CTA/HOTO išimtys. Tik Perfect gemai; gold nuo 2 000. |
 | 6 | Farming without Blue | Slepia visą įprastą Magic įrangą ir jewelry, ID ir unID. Charmai, jewels ir PD2 specialūs daiktai lieka. Rare/Set/RW atranka tokia pati kaip Farming with Blue. Tik Perfect gemai; gold nuo 3 000. |
 | 7 | Endgame | Slepia įprastą Magic įrangą/jewelry. Stipresni identifikuoti Rare ir atrinkti naudingi Set; palaikomas Rare/Set roll 90%+. Visi Unique/Craft ir neidentifikuoti Rare lieka. RW: maksimalūs aktualūs bonusai; be socketų arba su tinkamais esamais socketais. Tik Perfect gemai; gold nuo 4 000. |
 
@@ -118,6 +131,19 @@ ROLL vertina palaikomas kintamas savybes, ne universalų tinkamumą build. Neži
 
 **[owned grail]** rodoma prie Unique/Set daikto vardo ir ant žemės, ir inventoriuje. Ji naudoja dabartinę PD2 Unique/Set kolekcijos turėjimo būseną, ne atradimų istoriją ar savarankišką stash skenavimą. Atnaujinimo laikas pardavus paskutinę kopiją dar tikrinamas žaidime. Item level rašomas aprašymo apačioje.
 
+
+### Socketų suteikimo būdai
+
+Tinkami daiktai be socketų rodo pilną metodo pavadinimą ir šiai bazei galimą rezultatą. Pavyzdžiui, Stealskull su dviejų socketų talpa gali rodyti:
+
+| Metodas | Rezultatas šiam pavyzdžiui | Kaip naudoti |
+| --- | --- | --- |
+| Larzuk quest (Act 5) | 1 socketas | Pasinaudok Act 5 socketų užduoties atlygiu pas Larzuk. |
+| Larzuk's Puzzlebox | 1–2 socketai | Daiktą ir šį įrankį sudėk į Horadric Cube. |
+| Larzuk's Malus | 1 socketas | Daiktą ir Larzuk's Malus sudėk į Cube; tai daiktas, ne užduotis. |
+
+Ne Unique/Set kandidatams rekomenduojamas tinkamas **Larzuk's Puzzlepiece**. Rezultatas priklauso nuo kokybės, ginklo tipo ir talpos — Stealskull pavyzdys netinka visiems daiktams. Jau socketinti daiktai rodo trumpai Sockets: N/M. Worldstone Shard corruption yra atskiras rizikingas būdas.
+
 ### Owned Grail
 
 **[owned grail]** padeda atpažinti turimų Unique ir Set kolekcijos kopijas. Žyma rodoma prie vardo **ant žemės ir inventoriuje**, o aprašyme — **Owned Grail: owned**. Išlieka vardas, palaikomas ROLL ir kainų informacija.
@@ -128,7 +154,7 @@ ROLL vertina palaikomas kintamas savybes, ne universalų tinkamumą build. Neži
 | Neidentifikuotas Unique/Set | Žymima tik jei PD2 patvirtina visų galimų nežinomo drop variantų turėjimą. Neaiškūs kandidatai nežymimi. |
 | Žymos nėra | Turėjimas nepatvirtintas. Tai neįrodo, kad niekada neradai ar kad daikto nėra nė viename stash. |
 | Parduota ar pašalinta paskutinė kopija | Žyma dingsta, kai PD2 atnaujina turėjimo būseną. Ar iškart, ar po naujo prisijungimo — žaidime dar nepatikrinta. |
-| Kita kopija liko | Žyma remiasi PD2 likusio turėjimo būsena. Kiela savarankiškai neskenuoja visų stash tabų. |
+| Kita kopija liko | Žyma remiasi PD2 likusio turėjimo būsena. Melindaa savarankiškai neskenuoja visų stash tabų. |
 | Kadaise rastas, paskui parduotas | Tai dabartinis turėjimas, ne atradimų istorija, nuolatinis grail pasiekimas ar radimų skaitiklis. |
 | Geresnis naujos kopijos roll | Palygink rodomus status/ROLL pats. Turėjimo žyma negrąžina laikomos kopijos roll, todėl iš jos automatinio pagerėjimo procento apskaičiuoti negalime. |
 
@@ -137,18 +163,18 @@ ROLL vertina palaikomas kintamas savybes, ne universalų tinkamumą build. Neži
 
 ### Diegimas ir atnaujinimas
 
-1. Išarchyvuok naujausią ZIP/RAR ir nukopijuok **Kiela.filter** į **C:\Diablo II\ProjectD2\filters\local** (arba savo žaidimo vietą).
-2. PD2 launcheryje pasirink **Item Filter Profiles → Local Filter → Kiela.filter → Save**.
-3. Paleisk žaidimą iš naujo arba naudok savo nustatytą **Reload Loot Filter** valdymą. Kubo aprašyme patikrink **v1.2.71**.
+1. Išarchyvuok naujausią ZIP/RAR ir nukopijuok **Melindaa.filter** į **C:\Diablo II\ProjectD2\filters\local** (arba savo žaidimo vietą).
+2. PD2 launcheryje pasirink **Item Filter Profiles → Local Filter → Melindaa.filter → Save**.
+3. Paleisk žaidimą iš naujo arba naudok savo nustatytą **Reload Loot Filter** valdymą. Kubo aprašyme patikrink **v1.2.73**.
 4. Strictness keičiamas **Increase Filter Level / Decrease Filter Level**, esančiais **Esc → Options → Configure Controls**. Filtras pats klavišų nepriskiria.
 
-[Privalomi autorių ir teisių įrašai](./THIRD-PARTY-NOTICES.md) · [MIT licencijos įrašas](./LICENSE-UPSTREAM-MIT.txt)
+[MIT licencijos įrašas](./MIT-NOTICE.txt)
 
 ### Practical runeword bases / Praktiškos runeword bazės
 
-**English:** From Farming, recommendations use an explicit practical base/RW shortlist instead of every legal recipe. Examples: CTA Crystal Sword/Flail or staff-mod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/selected bows; merc Insight/Infinity/Pride/Obedience on selected elite polearms/spears where legal; Fortitude/Innocence on selected armor. Insight is not recommended on caster staves. Generic Wind on arbitrary melee bases is removed; Fury targets selected claws. Mercenary candidates show Merc RW on the ground and Possible merc RW in recipe help. Earlier profile recipes remain broader. Existing quality/socket thresholds still apply: popular does not mean any roll/socket layout qualifies. The shortlist uses game compatibility and a bounded current completed-RW trade sample, not a global popularity census. No other loot-filter rules are build inputs.
+**English:** From Farming, recommendations use an explicit practical base/RW shortlist instead of every legal recipe. Examples: CTA Crystal Sword/Flail or staff-mod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/selected bows; merc Insight/Infinity/Pride/Obedience on selected elite polearms/spears where legal; Fortitude/Innocence on selected armor. Insight is not recommended on caster staves. Generic Wind on arbitrary melee bases is removed; Fury targets selected claws. Mercenary candidates show Merc RW on the ground and Possible merc RW in recipe help. Earlier profiles include more starter recipes, but caster/merc base-purpose checks apply at every level; Insight is never recommended on caster staves, HOTO uses Flail, and Lore retains eligible starter helms. Existing quality/socket thresholds still apply: popular does not mean any roll/socket layout qualifies. The shortlist uses game compatibility and a bounded current completed-RW trade sample, not a global popularity census. No other loot-filter rules are build inputs.
 
-**Lietuviškai:** Nuo Farming rekomendacijos remiasi konkrečiu praktinių bazės/RW derinių sąrašu, ne visais techniškai galimais receptais. Pavyzdžiai: CTA Crystal Sword/Flail arba staffmod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/atrinktuose lankuose; merc Insight/Infinity/Pride/Obedience atrinktose elite polearm/spear bazėse, kai leidžia receptas; Fortitude/Innocence atrinktuose šarvuose. Caster staff nebesiūlomas Insight. Bendras Wind bet kokiems melee ginklams pašalintas; Fury paliekamas atrinktoms claws. Merc kandidatams ant žemės rodoma Merc RW, receptuose Possible merc RW. Ankstesnių lygių receptai platesni. Kokybės/socket ribos galioja: populiari bazė nereiškia bet kokio roll/socket varianto. Sąrašas remiasi žaidimo suderinamumu ir ribota dabartinių pagamintų RW prekybos imtimi, ne visų žaidėjų populiarumo statistika. Kitų filtrų taisyklės generatoriui nenaudojamos.
+**Lietuviškai:** Nuo Farming rekomendacijos remiasi konkrečiu praktinių bazės/RW derinių sąrašu, ne visais techniškai galimais receptais. Pavyzdžiai: CTA Crystal Sword/Flail arba staffmod War Scepter; HOTO Flail; Enigma Mage Plate/Dusk Shroud/Archon Plate; Faith Gorgon Crossbow/atrinktuose lankuose; merc Insight/Infinity/Pride/Obedience atrinktose elite polearm/spear bazėse, kai leidžia receptas; Fortitude/Innocence atrinktuose šarvuose. Caster staff nebesiūlomas Insight. Bendras Wind bet kokiems melee ginklams pašalintas; Fury paliekamas atrinktoms claws. Merc kandidatams ant žemės rodoma Merc RW, receptuose Possible merc RW. Ankstesni lygiai rodo daugiau starter receptų, bet caster/merc bazių paskirtis tikrinama visur: staff nebesiūlomas Insight, HOTO siejamas su Flail, o Lore paliekamas tinkamiems starter šalmams. Kokybės/socket ribos galioja: populiari bazė nereiškia bet kokio roll/socket varianto. Sąrašas remiasi žaidimo suderinamumu ir ribota dabartinių pagamintų RW prekybos imtimi, ne visų žaidėjų populiarumo statistika. Kitų filtrų taisyklės generatoriui nenaudojamos.
 
 Farming retains selected plain ETH elite merc weapons and low-requirement caster/buff bases even without enhanced damage; Endgame keeps the stricter perfect-bonus requirement; 0 sockets are allowed, existing sockets must match a selected recipe.
 

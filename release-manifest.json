@@ -1,27 +1,20 @@
 {
-  "version": "1.2.71",
-  "executableLines": 11191,
-  "aliases": 46,
+  "version": "1.2.73",
+  "executableLines": 11364,
+  "aliases": 53,
   "formulas": 1355,
   "formulaReferences": 18218,
   "renderedFormulaTokens": 2820,
-  "nativeAliasRules": 9783,
-  "bytes": 4420105,
-  "sha256": "7658c195f2ebea2da405509f326cc54832ec43e3cc8f13692c03503185b28e25",
+  "nativeAliasRules": 9949,
+  "bytes": 4434886,
+  "sha256": "01671b7d669f718d4f69ab8958070463aeb84b41f35bc97ec13795d01ae249f9",
   "equivalentRules": true,
-  "name": "Kiela",
-  "filterFile": "Kiela.filter",
-  "repository": "https://github.com/Melly87s/Kiela",
+  "name": "Melindaa",
+  "filterFile": "Melindaa.filter",
+  "repository": "https://github.com/Melly87s/Melindaa",
   "mode": "softcore ladder",
   "distribution": "standalone PD2 filter",
   "dependencies": [],
   "generatorIncluded": false,
-  "engine": "kiela-original",
-  "originality": {
-    "readableSourceSha256": "cc574e5694114d72739b4ffcf6a9e960535b78d13cc7c6a10b2b220b881cba96",
-    "identicalRules": 0,
-    "identicalRulesIgnoringWhitespaceAndCase": 0,
-    "duplicateRules": 0,
-    "externalFilterInputs": 0
-  }
+  "engine": "melindaa-original"
 }

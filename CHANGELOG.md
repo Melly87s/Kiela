@@ -1,12 +1,24 @@
-# Kiela Changelog / Pakeitimų istorija
+# Melindaa Changelog / Pakeitimų istorija
 
 [English](#english) · [Lietuviškai](#lietuviškai)
 
 ## English
 
-Kiela uses our own selection rules and features. This changelog records changes to strictness, prices, ROLL ratings, recipes and item labels.
+Melindaa uses our own selection rules and features. This changelog records changes to strictness, prices, ROLL ratings, recipes and item labels.
 
 Newest entries appear first. Later releases may supersede earlier selection rules. This documentation update does not change the filter version.
+
+### v1.2.73 — Simplified public documentation
+
+- Removed the separate ORIGINALITY and THIRD-PARTY-NOTICES documents from the current public package and removed their README links. Internal validation remains private.
+- Required MIT copyright and permission text remains unchanged in **MIT-NOTICE.txt** and the standalone filter header. Gameplay, selection, prices and the Melindaa name remain unchanged from v1.2.72.
+
+### v1.2.72 — Melindaa rename, focused blue drops and clear socketing methods
+
+- Renamed the public project to **Melindaa**, including Melindaa.filter, in-game status, repository, descriptions and Melindaa ZIP/RAR archives. Local launcher settings migrate from the old filename; obsolete local copies are backed up and removed.
+- Farming with Blue now hides unidentified Magic throwing knives, throwing axes and javelins unless ETH and elite. Existing potential and identified-stat checks remain; no general crafting bypass was added. Rare, Crafted, Unique, protected collectibles and earlier profiles are preserved.
+- RW recommendations now respect caster/mercenary base purpose at every profile. Lower levels keep more suitable starter recipes, including Lore helms, but no caster-staff Insight or staff HOTO. Selected Fury/Wind/Obsession base roles are explicit instead of generic compatibility.
+- Replaced ambiguous socket-method abbreviations with **Larzuk quest (Act 5)**, **Larzuk's Puzzlebox**, **Larzuk's Puzzlepiece** and **Cube + Larzuk's Malus**. Capacity-capped results and existing socket counts are unchanged. Added bilingual socket-method examples to the main description.
 
 ### v1.2.71 — Endgame unsocketed RW bases
 
@@ -63,12 +75,12 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Charm and magic-jewel estimates prioritize the same complete modifier set with numeric rolls pooled. Skill tree identities remain separate; one-mod charms cannot inherit two-mod skiller prices. Added missing PD2 large-charm bonus exclusions to all charm quote paths.
 - Rare/crafted comparisons retain core mods and strongest support roll bands; broad fallback quotes that omit support rolls are no longer used. Unsupported samples remain explicitly unquoted. Refreshed the bounded charm modifier-set sample.
 
-### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Close weak RW-base skill bypass
+### [v1.2.62](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.62) — Close weak RW-base skill bypass
 
 - Farming and Endgame now apply the same curated RW-base requirements to one-socket and non-socketable white/gray equipment. A skill bonus alone cannot keep an unusable base, including the reported one-socket Burnt Wand. Earlier profiles, completed crafts, uniques and protected PD2 materials remain unaffected.
 - Includes the ownership markers, practical RW guidance, compact stats, Item class descriptions and estimated-price improvements described below.
 
-### [v1.2.61](https://github.com/Melly87s/Kiela/releases/tag/v1.2.61) — Owned markers, practical RW targets and clearer price estimates
+### [v1.2.61](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.61) — Owned markers, practical RW targets and clearer price estimates
 
 - Added **[owned]** to unique/set ground names when PD2's native collection state reports every candidate variant group owned. This is current ownership, not discovery history or a find counter. Ambiguous unidentified variants are handled conservatively; ownership never hides a unique. After selling the last copy, the marker clears when PD2 reports it no longer owned; another retained copy keeps it. Immediate versus rejoin update timing still needs in-game verification.
 - Reworked magic selection with independently authored signatures: Farming keeps broader useful equipment combinations/potential; Endgame keeps narrower strong skill/speed, socket/block/life, stacked-skill and elite ETH combat candidates. Craft-only blue bases stop after Baal. All completed orange crafts, charms, jewels and protected PD2 special drops remain visible.
@@ -82,7 +94,7 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Expanded RW-base samples by sockets, ETH, Normal/Superior and ED/durability bands. Added plain-map and map-material/tool samples with unambiguous per-item offers. Rolled/modified maps are not priced as plain maps.
 - Preserved all unidentified rare equipment at Farming/Endgame, all uniques for grail, runes, Perfect gems, completed crafts and special-drop protection. Added native regressions for ownership, stricter magic, practical RW/socket rules, element matching and valuable-item variants. Final exact/normalized duplicate audits are part of release validation.
 
-### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Compact drop details, five-day quotes and clear Endgame selection
+### [v1.2.60](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.60) — Compact drop details, five-day quotes and clear Endgame selection
 
 - Shortened all six in-game profile summaries to at most 85 characters. Replaced vague gear wording with Magic/Rare guidance, `Perf gems`, and clear Endgame exclusions. Full details remain in the Cube and specification.
 - Compact ground tags now show actual identified equipment, charm and jewel bonuses, e.g. `BarbSk1`, `DruSumm1`, `PoisDmg4%`, `IAS30%` and `STR24`. Identified charms/jewels use short base labels, with important skill/damage bonuses before secondary stats.
@@ -92,7 +104,7 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Supported charm/jewel/base quotes now also appear on the ground without erasing bonus tags. Missing supported quotes are explained explicitly; NPC gold is separate. A missing quote does not mean no market listings exist. Other baseline prices retain their original dates.
 - Preserved all unidentified rare equipment at Farming/Endgame, all uniques for grail collecting, runes, Perfect gems, completed crafts and protected PD2 drops. Added regressions for screenshot labels, five-day expiry, price matching and Endgame magic exclusion.
 
-### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Clear magic and runeword descriptions
+### [v1.2.59](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.59) — Clear magic and runeword descriptions
 
 - Expanded the filter description and in-game profile text to explain the existing magic/RW selection. This release changes descriptions, not item visibility.
 - Normal/Nightmare show all magic equipment; Hell/Baal use cautious candidate selection. Farming keeps selected exceptional/elite ETH craft bases and strong combinations such as skills + IAS, sockets + block or sockets + life. Endgame narrows ETH crafting to elite bases while retaining strong magic exceptions. All charms and jewels remain visible, including jewels for crafting.
@@ -100,10 +112,10 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Class-recommended runewords and recipe help are green; generic compatible options are gray. The filter recognizes class, not the exact build.
 - Farming/Endgame keep all unidentified rare equipment. Identified rares use useful combinations; Endgame adds 90% where reliable grading is supported. Farming keeps all sets; Endgame selects useful sets with supported 90% grading and conservative identity/roll exceptions. All uniques remain for grail collecting; runes and protected PD2 special drops remain visible.
 
-### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Six profiles, safer rare visibility and lighter initialization
+### [v1.2.58](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.58) — Six profiles, safer rare visibility and lighter initialization
 
-- Simplified strictness to Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. Short English in-game summaries now explain set selection, Perfect gems and late RW bases without the Kiela/version prefix.
-- Farming and Endgame preserve all unidentified rare equipment to reduce the risk of losing a valuable item before identification. Some stricter approaches hide more unidentified rare bases and accept that risk; Kiela deliberately favors greater visibility. Hidden rolls are never guessed.
+- Simplified strictness to Normal, Nightmare, Hell, Baal Runs, Farming Strict and Endgame. Short English in-game summaries now explain set selection, Perfect gems and late RW bases without the Melindaa/version prefix.
+- Farming and Endgame preserve all unidentified rare equipment to reduce the risk of losing a valuable item before identification. Some stricter approaches hide more unidentified rare bases and accept that risk; Melindaa deliberately favors greater visibility. Hidden rolls are never guessed.
 - Farming evaluates identified gear by useful slot-specific combinations. Endgame requires stronger combinations and 90%+ for identified rare/set rolls where reliable grading is supported. Unsupported/modified cases retain conservative exceptions.
 - Farming shows all sets. Endgame selects higher-tier/useful sets, preserves ambiguous shared-base candidates and requires 90% where applicable. All uniques remain visible even in Endgame for unique grail collecting.
 - All charms, jewels, jewel fragments, runes, maps, PD2 orbs, crafting/map-upgrade materials, essences and protected special drops remain visible at every profile.
@@ -112,45 +124,45 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Reduced first-load rule expansion and repeated expression compilation using shared formulas and compact runeword dispatch. This reduces initialization work; actual loading time and connection interruptions still require an in-game test after fully restarting PD2.
 - Preserved dated HR/WSS data, the owned ROLL engine, crafting/socket help, ground bonus labels, stack-only counts and item level at the bottom of descriptions. Added a bilingual filter specification.
 
-### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Category-based strictness
+### [v1.2.57](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.57) — Category-based strictness
 
-- Replaced universal modifier counts with Kiela combinations for eleven categories: gloves, boots, belts, circlets, helmets, shields, body armor, weapons, quivers, rings and amulets.
+- Replaced universal modifier counts with Melindaa combinations for eleven categories: gloves, boots, belts, circlets, helmets, shields, body armor, weapons, quivers, rings and amulets.
 - Identified items are assessed by relevant core/support combinations. Strong items with fewer properties can survive, while many weak properties do not make an item valuable.
 - Unidentified candidates use installed game-table affix availability and native ALVL. Farming retains broader craft-only magic candidates using CRAFTALVL. The filter does not assume unidentified rolled stats.
 - Added strong magic exceptions throughout late profiles, including skill/speed gloves, socket/block shields, socket/life armor, socket/movement circlets and stacked skill equipment.
-- Profile 5 is balanced, 6–7 focused, and 8–11 require top combinations. Selected numeric stat thresholds are 5% more lenient than Kiela's chosen baseline, rounded up; socket, skill and actual affix availability requirements remain exact.
+- Profile 5 is balanced, 6–7 focused, and 8–11 require top combinations. Selected numeric stat thresholds are 5% more lenient than Melindaa's chosen baseline, rounded up; socket, skill and actual affix availability requirements remain exact.
 - Preserved progressive runeword base selection, all uniques and runes, PD2 special-drop protection, potion/gem/gold policies, HR/WSS data, ROLL and stack labels.
 - Added category regressions and checked exact and normalized duplicate directives in readable and distributed filters. No duplicate directives were found.
 
-### [v1.2.56](https://github.com/Melly87s/Kiela/releases/tag/v1.2.56) — English profiles and compact stack labels
+### [v1.2.56](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.56) — English profiles and compact stack labels
 
-- Strictness names and descriptions are now in English. Removed the Kiela name and version from profile lines to save space.
+- Strictness names and descriptions are now in English. Removed the Melindaa name and version from profile lines to save space.
 - Ground quantities appear only for stacks of two or more: `2x Key`, `5x Worldstone Shard`.
 - Removed `x1` from single items, nonstackable equipment and single potions. Gold retains its usual amount display.
 - Class-appropriate runeword ground recommendations are green. If no class recommendation matches, `Possible RW` lists compatible generic runeword names in gray.
 - Item selection and PD2 special-drop protections are preserved.
 
-### [v1.2.55](https://github.com/Melly87s/Kiela/releases/tag/v1.2.55) — PD2 special-drop protection
+### [v1.2.55](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.55) — PD2 special-drop protection
 
 - Added explicit protection at every strictness for maps, map-upgrade materials and orbs, WSS, Puzzlebox, Puzzlepiece, Malus, crafting materials, fragments, essences, boss keys and other cataloged special items.
 - Equipment modifier-count and set-roll requirements do not hide these items.
 - Checked 180 game-table records, including 42 maps, at levels 0–11 across five qualities. Native map-tier detection also protects map codes outside the catalog.
 - Quantities, prices and help continue processing. All 131 automated tests passed.
 
-### [v1.2.54](https://github.com/Melly87s/Kiela/releases/tag/v1.2.54) — Item level in descriptions
+### [v1.2.54](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.54) — Item level in descriptions
 
 - Final item descriptions end with plain text such as `Item level: 85`, using the item's actual level.
 - Item level is displayed in the description rather than beside the item name.
 - Quantity, price, recipe and ROLL information is preserved.
 
-### [v1.2.53](https://github.com/Melly87s/Kiela/releases/tag/v1.2.53) — Stricter set selection
+### [v1.2.53](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.53) — Stricter set selection
 
 - From Endgame – Strict, level 9, known lower-tier sets no longer bypass selection through skill bonuses.
 - This also covers corrupted lower-tier items when their set identity can be determined.
 - Selected higher-tier sets retain a 90% minimum where their variable roll is supported and can be evaluated reliably.
 - Ambiguous shared-base candidates and unsupported rolls remain conservative. Inventory items remain inspectable; unique visibility is preserved.
 
-### [v1.2.52](https://github.com/Melly87s/Kiela/releases/tag/v1.2.52) — Ground quantities and gold thresholds
+### [v1.2.52](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.52) — Ground quantities and gold thresholds
 
 - Introduced a ground quantity label for every visible item: `x1` for single items and the actual stack quantity, such as `x5`. Version 1.2.56 later replaced this with stack-only labels in the `5x` format.
 - Quantities survive WSS prices, gem and potion labels, and identified-equipment name changes. Removed duplicate gem counts.
@@ -168,7 +180,7 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 
 - HR/WSS estimates remain per-item estimates; stack size does not automatically multiply them.
 
-### [v1.2.51](https://github.com/Melly87s/Kiela/releases/tag/v1.2.51) — Useful-property selection
+### [v1.2.51](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.51) — Useful-property selection
 
 - From Farming Strict, identified magic equipment, rings and amulets require a combination of at least two useful properties.
 - Identified rare equipment, rings and amulets require **3 / 4 / 4 / 5 / 6 / 6 / 6** useful properties at levels 5–11.
@@ -178,14 +190,14 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - Identified magic/rare ground labels show actual bonuses, such as `+3 Bow skills` and `+20% IAS`.
 - Runeword recommendations use full names; class recommendations and ordered rune recipes are highlighted in green in descriptions.
 
-### [v1.2.50](https://github.com/Melly87s/Kiela/releases/tag/v1.2.50) — Clearer profiles and 90% set rolls
+### [v1.2.50](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.50) — Clearer profiles and 90% set rolls
 
 - Set a uniform **90%** minimum for supported identified set rolls in the last three profiles.
 - A known lower roll cannot bypass the threshold through skill bonuses. Eligible fixed templates have no variable roll to grade.
 - Unidentified, ambiguous or modified candidates retain conservative handling.
 - Replaced terse profile abbreviations with full category names and clearer descriptions.
 
-### [v1.2.49](https://github.com/Melly87s/Kiela/releases/tag/v1.2.49) — Visibility fixes and runeword bases
+### [v1.2.49](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.49) — Visibility fixes and runeword bases
 
 - Corrected rule-expansion order to match the actual PD2 filter engine. The previous error could leave hidden potions, scrolls, small gold piles and weak bases visible.
 - Added regressions for observed Oil, HP, MP, Thawing, scroll and weak-equipment cases.
@@ -194,7 +206,7 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - From Farming, `Possible RW` recommendations require a base that passes the selected profile's requirements.
 - Narrowed ordinary magic and identified jewelry selection. Introduced late-profile set selection, refined by later releases.
 
-### [v1.2.48](https://github.com/Melly87s/Kiela/releases/tag/v1.2.48) — Progression and reduced clutter
+### [v1.2.48](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.48) — Progression and reduced clutter
 
 - Normal and Nightmare show all items.
 - Hell and Baal Runs use cautious item-level guidance with useful-property and affix-potential exceptions. There is no hard ilvl-85 cutoff.
@@ -203,24 +215,24 @@ Newest entries appear first. Later releases may supersede earlier selection rule
 - From Farming, hide Freezing/cold throwing potions.
 - Restored purple rejuvenation labels: **35%** and **☺FULL☺**.
 
-### [v1.2.47](https://github.com/Melly87s/Kiela/releases/tag/v1.2.47) — Initial skill-item protection
+### [v1.2.47](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.47) — Initial skill-item protection
 
 - Added protection for +2-or-higher all/class/tree/single-skill and oskill bonuses, and conservative unidentified-equipment handling.
 - Protection continued through price, ROLL and help processing.
 - Later releases replaced this blanket protection with specific magic, rare, set and runeword-base selection policies.
 
-### [v1.2.46](https://github.com/Melly87s/Kiela/releases/tag/v1.2.46) — Original Kiela selection engine
+### [v1.2.46](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.46) — Original Melindaa selection engine
 
-- Built a new Kiela selection generator without using other filters as build inputs or rule templates.
+- Built a new Melindaa selection generator without using other filters as build inputs or rule templates.
 - Runeword, crafting and item facts are derived from PD2 game tables.
-- Preserved Kiela HR/WSS displays, ROLL ratings, crafting help, class recommendations and visual features.
+- Preserved Melindaa HR/WSS displays, ROLL ratings, crafting help, class recommendations and visual features.
 - Added generation-time duplicate-rule removal while preserving processing order.
 - Current generator checks report zero duplicate complete ItemDisplay rules and zero external-filter runtime inputs. Those checks alone do not establish authorship of the entire project.
 
 ### Public licensing and distribution cleanup
 
-- Removed Kiela-specific usage restrictions and the separate restrictive Kiela license from the public filter.
-- Preserved required MIT rights, license notices and [third-party notices](./THIRD-PARTY-NOTICES.md).
+- Removed Melindaa-specific usage restrictions and the separate restrictive Melindaa license from the public filter.
+- Preserved required MIT rights, license notices and [MIT notice](./MIT-NOTICE.txt).
 - The public repository distributes the prepared filter and documentation; authoring sources are maintained separately.
 - Releases are available as ZIP and RAR archives. Filter updates are also installed locally and checked for matching contents.
 
@@ -230,9 +242,21 @@ Price dates change only when the price data itself is updated. Documentation-onl
 
 ## Lietuviškai
 
-Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
+Melindaa naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi strictness, kainų, ROLL vertinimo, receptų ir daiktų žymų pakeitimai.
 
 Įrašai pateikti nuo naujausio. Ankstesnių versijų taisykles gali pakeisti vėlesni atnaujinimai.
+
+### v1.2.73 — Supaprastinti vieši dokumentai
+
+- Iš dabartinio viešo paketo pašalinti atskiri ORIGINALITY ir THIRD-PARTY-NOTICES dokumentai bei jų README nuorodos. Vidinės patikros lieka privačios.
+- Privalomas MIT autorių teisių ir leidimų tekstas išlaikytas nepakeistas **MIT-NOTICE.txt** bei atskiro filtro antraštėje. Žaidimo elgesys, atranka, kainos ir Melindaa pavadinimas nepakeisti nuo v1.2.72.
+
+### v1.2.72 — Melindaa pavadinimas, siauresnė mėlynų atranka ir aiškus socketinimas
+
+- Viešas projektas pervadintas į **Melindaa**: Melindaa.filter, žaidimo būsena, repozitoriumas, aprašymai ir Melindaa ZIP/RAR archyvai. Vietinis launcher pasirinkimas perkeliamas iš seno failo; senos kopijos išsaugomos atsarginėse kopijose ir pašalinamos.
+- Farming with Blue slepia neidentifikuotus Magic throwing knives, throwing axes ir javelins, nebent bazė ETH ir elite. Esama potencialo ir identifikuotų statų patikra lieka; bendros craft išimties nepridėta. Rare, Crafted, Unique, saugomi kolekciniai daiktai ir ankstesni lygiai išsaugoti.
+- RW rekomendacijos visuose lygiuose tikrina caster/merc bazės paskirtį. Žemesniuose lygiuose lieka daugiau tinkamų starter receptų, įskaitant Lore šalmus, bet staff nebesiūlomas Insight ar HOTO. Atrinktos Fury/Wind/Obsession bazės turi konkrečią paskirtį, ne bendrą techninį suderinamumą.
+- Neaiškūs socketų metodų trumpiniai pakeisti į **Larzuk quest (Act 5)**, **Larzuk's Puzzlebox**, **Larzuk's Puzzlepiece** ir **Cube + Larzuk's Malus**. Talpos ribojami rezultatai ir esami socketai nepakeisti. Pagrindiniame aprašyme pridėti abiejų kalbų metodų pavyzdžiai.
 
 ### v1.2.71 — Endgame RW bazės be socketų
 
@@ -289,12 +313,12 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Charmų ir magic jewel kainai pirmiausia naudojamas visas sutampantis modų derinys, sujungiant skirtingas skaitines roll reikšmes. Skill medžiai atskiriami; vieno modo charmams netaikomos dviejų modų skillerių kainos. Į visas charmų kainų sąlygas įtrauktos trūkstamos PD2 large charm bonusų išimtys.
 - Rare/crafted palyginimuose išlieka pagrindiniai modai ir stipriausių papildomų modų roll intervalai; platesnės kainos be šių roll palyginimo nebetaikomos. Nepakankama imtis aiškiai paliekama be kainos. Atnaujinta ribota charmų modų derinių skelbimų imtis.
 
-### [v1.2.62](https://github.com/Melly87s/Kiela/releases/tag/v1.2.62) — Silpnų RW bazių skill išimties pataisa
+### [v1.2.62](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.62) — Silpnų RW bazių skill išimties pataisa
 
 - Farming ir Endgame ta pati atrinktų RW bazių patikra taikoma ir vieno socketo bei socketų neturinčiai baltai/pilkai įrangai. Vien skill bonusas nebepalieka netinkamos bazės, įskaitant parodytą vieno socketo Burnt Wand. Ankstesni lygiai, pagaminti craft, unique ir saugomos PD2 medžiagos nepakeisti.
 - Įtrauktos toliau aprašytos owned žymos, praktiški RW patarimai, trumpi statai, Item class aprašymai ir apytikslių kainų patobulinimai.
 
-### [v1.2.61](https://github.com/Melly87s/Kiela/releases/tag/v1.2.61) — Owned žymos, praktiškos RW bazės ir aiškesni kainų įverčiai
+### [v1.2.61](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.61) — Owned žymos, praktiškos RW bazės ir aiškesni kainų įverčiai
 
 - Pridėta **[owned]** žyma unique/set daiktams ant žemės, kai PD2 native kolekcijos būsena rodo, kad turimos visos galimos kandidatų grupės. Tai dabartinis turėjimas, ne radimo istorija ar radimų skaitiklis. Neaiškūs neidentifikuoti variantai vertinami atsargiai; owned niekada neslepia unique. Pardavus paskutinę kopiją žyma dingsta, kai PD2 praneša, kad daikto nebeturi; likus kitai kopijai žyma lieka. Ar būsena atsinaujina iškart, ar po naujo prisijungimo, dar reikia patikrinti žaidime.
 - Magic atranka pakeista savarankiškais deriniais: Farming palieka platesnius naudingos įrangos derinius/potencialą; Endgame – siauresnes stiprių skill/speed, socket/block/life, sudėtų skill ir elite ETH kovinių kandidatų išimtis. Mėlynos craft-only bazės baigiasi po Baal. Visi pagaminti oranžiniai craft, charmai, jewels ir saugomi PD2 daiktai lieka matomi.
@@ -308,7 +332,7 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Išplėstos RW bazių imtys pagal socketus, ETH, Normal/Superior ir ED/durability ribas. Pridėtos paprastų mapų ir mapų medžiagų/įrankių imtys iš aiškių vieneto pasiūlymų. Išridenti/pakeisti mapai nekainuojami kaip paprasti.
 - Išsaugotas visos neidentifikuotos rare įrangos matomumas Farming/Endgame, visi unique grail kolekcijai, runos, Perfect gemai, pagaminti craft ir specialių drop apsauga. Pridėtos native owned, magic griežtumo, RW/socket, elementų bei brangių variantų patikros. Galutiniai tikslūs/normalizuoti dublikatų auditai įtraukti į leidimo patikrą.
 
-### [v1.2.60](https://github.com/Melly87s/Kiela/releases/tag/v1.2.60) — Trumpi drop bonusai, 5 parų kainos ir aiškesnis Endgame
+### [v1.2.60](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.60) — Trumpi drop bonusai, 5 parų kainos ir aiškesnis Endgame
 
 - Šešių profilių žaidimo santraukos sutrumpintos iki ne daugiau kaip 85 simbolių. Neaiškūs įrangos terminai pakeisti Magic/Rare gairėmis, `Perf gems` ir aiškiomis Endgame išimtimis. Pilna informacija lieka Cube bei specifikacijoje.
 - Ant žemės sutrumpintai rodomi tikri identifikuotos įrangos, charmų ir jewels bonusai, pvz., `BarbSk1`, `DruSumm1`, `PoisDmg4%`, `IAS30%`, `STR24`. Identifikuoti charmai/jewels naudoja trumpas bazės žymas; svarbūs skill/damage bonusai eina prieš antrines savybes.
@@ -318,7 +342,7 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Palaikomos charmų/jewels/bazių kainos rodomos ir ant žemės, išlaikant bonusų žymas. Nepalaikoma rinkos kaina paaiškinama aiškiai; NPC gold yra atskira kaina. Įverčio nebuvimas nereiškia, kad nėra skelbimų. Kitų bazinių kainų pradinės datos išsaugotos.
 - Išsaugotas visos neidentifikuotos rare įrangos matomumas Farming/Endgame, visi unique grail kolekcijai, runos, Perfect gemai, pagaminti craft ir saugomi PD2 daiktai. Pridėtos screenshot žymų, 5 parų galiojimo, kainų atitikimo ir Endgame magic slėpimo patikros.
 
-### [v1.2.59](https://github.com/Melly87s/Kiela/releases/tag/v1.2.59) — Aiškesni magic ir runeword aprašymai
+### [v1.2.59](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.59) — Aiškesni magic ir runeword aprašymai
 
 - Papildyti filtro aprašymas ir profilių tekstas žaidime: aiškiau paaiškinta esama magic/RW atranka. Šis leidimas keičia aprašymus, ne daiktų matomumą.
 - Normal/Nightmare rodo visą magic įrangą; Hell/Baal taiko atsargią kandidatų atranką. Farming palieka atrinktas exceptional/elite ETH craft bazes ir stiprius derinius, pvz., skills + IAS, socketai + block ar socketai + life. Endgame ETH craft bazes siaurina iki elite, išlaikydamas stiprių magic derinių išimtis. Visi charmai ir jewels lieka matomi, taip pat jewels craftinimui.
@@ -326,9 +350,9 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Klasei rekomenduojami RW ir receptų pagalba žali; bendri tinkami variantai pilki. Atpažįstama klasė, ne tikslus build.
 - Farming/Endgame palieka visą neidentifikuotą rare įrangą. Identifikuoti rare atrenkami pagal naudingus derinius; Endgame taiko 90%, kai galima patikimai vertinti. Farming palieka visus set; Endgame atrenka naudingus set su palaikoma 90% riba ir atsargiomis tapatybės/roll išimtimis. Visi unique lieka grail kolekcijai; runos ir saugomi PD2 specialūs daiktai matomi visada.
 
-### [v1.2.58](https://github.com/Melly87s/Kiela/releases/tag/v1.2.58) — Šeši profiliai, platesnis rare matomumas ir lengvesnis inicializavimas
+### [v1.2.58](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.58) — Šeši profiliai, platesnis rare matomumas ir lengvesnis inicializavimas
 
-- Palikti Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. Trumpi angliški žaidimo aprašymai paaiškina set atranką, Perfect gemus ir vėlyvas RW bazes be Kiela/versijos prierašo.
+- Palikti Normal, Nightmare, Hell, Baal Runs, Farming Strict ir Endgame. Trumpi angliški žaidimo aprašymai paaiškina set atranką, Perfect gemus ir vėlyvas RW bazes be Melindaa/versijos prierašo.
 - Farming ir Endgame palieka visą neidentifikuotą rare įrangą, kad sumažintume gero daikto praradimo riziką prieš identifikavimą. Kai kurie griežtesni atrankos būdai slepia daugiau tokių bazių ir priima šią riziką; mes sąmoningai pasirenkame didesnį matomumą. Paslėptų roll neatspėjame.
 - Farming identifikuotą įrangą atrenka pagal kategorijai naudingus derinius. Endgame reikalauja stipresnių derinių ir 90%+ identifikuotiems rare/set, kai roll palaikomas ir patikimai įvertinamas. Nepalaikomiems/pakeistiems atvejams lieka atsargios išimtys.
 - Farming rodo visus set. Endgame atrenka aukštesnio lygio/naudingus set, palieka neaiškias bendras bazes ir taiko 90%, kai galima. Visi unique lieka ir Endgame, kad žaidėjai galėtų rinkti unique grail kolekciją.
@@ -338,9 +362,9 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Bendros formulės ir kompaktiškas RW apdorojimas sumažino pirmo krovimo taisyklių išplėtimą bei pasikartojantį išraiškų kompiliavimą. Tikrą krovimo laiką ir ryšio nutrūkimą dar reikia patikrinti visiškai iš naujo paleidus PD2.
 - Išsaugotos datuotos HR/WSS kainos, mūsų ROLL variklis, craft/socket pagalba, bonusai ant žemės, tik krūvelių kiekiai ir item level aprašymo apačioje. Pridėta dvikalbė filtro specifikacija.
 
-### [v1.2.57](https://github.com/Melly87s/Kiela/releases/tag/v1.2.57) — Atranka pagal daikto kategoriją
+### [v1.2.57](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.57) — Atranka pagal daikto kategoriją
 
-- Bendrą modų skaičiavimą pakeitė Kiela deriniai vienuolikai kategorijų: pirštinėms, batams, diržams, circlet tipo šalmams, kitiems šalmams, skydams, šarvams, ginklams, strėlinėms, žiedams ir amuletams.
+- Bendrą modų skaičiavimą pakeitė Melindaa deriniai vienuolikai kategorijų: pirštinėms, batams, diržams, circlet tipo šalmams, kitiems šalmams, skydams, šarvams, ginklams, strėlinėms, žiedams ir amuletams.
 - Identifikuotiems daiktams vertinamas aktualus pagrindinių ir papildomų bonusų derinys. Stiprus daiktas gali likti su mažiau savybių; daug silpnų savybių savaime vertės nesuteikia.
 - Neidentifikuotų kandidatų atranka remiasi žaidimo lentelių affix galimybėmis ir native ALVL. Farming palieka platesnę magic crafting bazių atranką pagal CRAFTALVL. Nežinomi bonusai nėra spėjami.
 - Vėlyvuose profiliuose paliktos stiprių magic derinių išimtys: skill/greičio pirštinės, socket/bloko skydai, socket/life šarvai, socket/judėjimo circlet ir besisumuojančių skill bonusų įranga.
@@ -348,16 +372,16 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Išsaugota progresyvi RW bazių atranka, visų unique ir runų rodymas, PD2 specialių daiktų apsauga, potionų/gemų/goldo taisyklės, HR/WSS, ROLL ir krūvelių žymos.
 - Pridėti kategorijų patikrinimai ir tikslių bei normalizuotų dublikatų auditas privačiame ir platinamame filtre. Pasikartojančių direktyvų nerasta.
 
-### [v1.2.56](https://github.com/Melly87s/Kiela/releases/tag/v1.2.56) — Angliški profiliai ir trumpesnis kiekių rodymas
+### [v1.2.56](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.56) — Angliški profiliai ir trumpesnis kiekių rodymas
 
-- Strict lygių pavadinimai ir aprašymai pakeisti į anglų kalbą. Iš profilių eilučių pašalintas Kiela pavadinimas ir versija, kad tekstas užimtų mažiau vietos.
+- Strict lygių pavadinimai ir aprašymai pakeisti į anglų kalbą. Iš profilių eilučių pašalintas Melindaa pavadinimas ir versija, kad tekstas užimtų mažiau vietos.
 - Kiekis ant žemės rodomas tik tikroms krūvelėms nuo 2 vienetų: `2x Key`, `5x Worldstone Shard`.
 - Nuo pavienių ir nesikaupiančių daiktų bei pavienių potionų pašalintas `x1`.
 - Goldo pavadinimas išlaiko įprastą sumos rodymą. Atrankos taisyklės ir PD2 specialių daiktų apsauga išsaugotos.
 
 - Klasei rekomenduojami runeword ant žemės rodomi žaliai. Kai klasei tinkamos rekomendacijos nėra, `Possible RW` rodo kitus suderinamus runeword pavadinimus pilkai.
 
-### [v1.2.55](https://github.com/Melly87s/Kiela/releases/tag/v1.2.55) — PD2 specialių daiktų apsauga
+### [v1.2.55](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.55) — PD2 specialių daiktų apsauga
 
 - Visuose strict lygiuose atskirai apsaugoti mapai, jų gerinimo medžiagos ir orbai, WSS, Puzzlebox, Puzzlepiece, Malus, crafting medžiagos, fragmentai, essences, boss raktai bei kiti kataloge esantys specialūs daiktai.
 - Šiems daiktams netaikomi įrangos modų skaičiaus ar set roll atrankos reikalavimai.
@@ -365,20 +389,20 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Mapai papildomai apsaugoti pagal žaidimo map tier požymį, net jei jų kodo dar nėra kataloge.
 - Išsaugotas tolesnis kiekių, kainų ir pagalbos rodymas. Praėjo 131 automatinis testas.
 
-### [v1.2.54](https://github.com/Melly87s/Kiela/releases/tag/v1.2.54) — Item level aprašymuose
+### [v1.2.54](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.54) — Item level aprašymuose
 
 - Galutinio daikto aprašymo apačioje pridėta paprasta eilutė `Item level: 85` su tikru daikto lygiu.
 - Item level žyma nededama prie daikto pavadinimo.
 - Išsaugotas kiekio, kainų, receptų ir ROLL rodymas.
 
-### [v1.2.53](https://github.com/Melly87s/Kiela/releases/tag/v1.2.53) — Griežtesnė set atranka
+### [v1.2.53](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.53) — Griežtesnė set atranka
 
 - Nuo **Endgame – Strict**, 9 lygio, atpažinti žemesnės kategorijos set daiktai nebepraeina atrankos vien dėl +skill bonusų.
 - Tai taikoma ir corrupted daiktams, kai jų žemesnės kategorijos set tapatybę galima nustatyti.
 - Atrinktiems geresniems set daiktams paliktas 90% minimumas, kai jų roll palaikomas ir patikimai įvertinamas.
 - Neaiškūs bendros bazės kandidatai ir nepalaikomi roll atvejai saugomi atsargiai. Inventoriaus daiktai neslepiami; unique rodymas išsaugotas.
 
-### [v1.2.52](https://github.com/Melly87s/Kiela/releases/tag/v1.2.52) — Daiktų kiekiai ir goldo ribos
+### [v1.2.52](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.52) — Daiktų kiekiai ir goldo ribos
 
 - Visi matomi daiktai ant žemės rodo kiekį: `x1` pavieniam daiktui arba tikrą krūvelės kiekį, pvz., `x5`.
 - Kiekis išlieka prie WSS kainų, gemų, potionų ir pervadintų magic/rare daiktų. Pašalintas dvigubas gemų kiekio rodymas.
@@ -396,7 +420,7 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 
 - HR/WSS kainos lieka vieneto kainų įverčiais; krūvelės kiekis jų automatiškai nepadaugina.
 
-### [v1.2.51](https://github.com/Melly87s/Kiela/releases/tag/v1.2.51) — Naudingų savybių atranka
+### [v1.2.51](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.51) — Naudingų savybių atranka
 
 - Nuo Farming Strict identifikuotiems magic įrangos daiktams ir žiedams/amuletams reikia bent 2 naudingų savybių derinio.
 - Identifikuotai rare įrangai ir žiedams/amuletams 5–11 lygiuose reikia atitinkamai **3 / 4 / 4 / 5 / 6 / 6 / 6** naudingų savybių.
@@ -406,14 +430,14 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Ant žemės prie identifikuotų magic/rare daiktų pridėti tikri skill ir stat bonusai, pvz., `+3 Bow skills` ir `+20% IAS`.
 - Runeword rekomendacijoms naudojami pilni pavadinimai; klasei rekomenduojami receptai ir runų eilė aprašyme pažymėti žaliai.
 
-### [v1.2.50](https://github.com/Melly87s/Kiela/releases/tag/v1.2.50) — Aiškesni profiliai ir 90% set roll
+### [v1.2.50](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.50) — Aiškesni profiliai ir 90% set roll
 
 - Paskutiniuose trijuose lygiuose palaikomiems identifikuotiems set roll nustatytas vienodas **90%** minimumas.
 - Žinomas mažesnis roll nepraeina vien dėl +skill bonuso. Fiksuotiems tinkamiems šablonams, neturintiems kintamo roll, procentas nepriskiriamas.
 - Neaiškūs, neidentifikuoti ar modifikuoti kandidatai vertinami atsargiai.
 - Profilių aprašymuose trumpiniai pakeisti pilnais kategorijų pavadinimais ir aiškesniais paaiškinimais.
 
-### [v1.2.49](https://github.com/Melly87s/Kiela/releases/tag/v1.2.49) — Slėpimo pataisos ir runeword bazės
+### [v1.2.49](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.49) — Slėpimo pataisos ir runeword bazės
 
 - Pataisyta taisyklių išplėtimo tvarka pagal tikrą PD2 filtro veikimą. Ankstesnė klaida galėjo palikti matomus slepiamus potionus, scrolls, mažas goldo krūveles ir silpnas bazes.
 - Pridėtos patikros pagal žaidime pastebėtus Oil, HP, MP, Thawing, scrolls ir silpnų įrangos daiktų atvejus.
@@ -422,7 +446,7 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Nuo Farming `Possible RW` rekomendacijos rodomos tik bazėms, praeinančioms pasirinkto profilio atranką.
 - Susiaurinta paprastų magic daiktų ir identifikuotos juvelyrikos atranka. Pradėta set atranka paskutiniuose trijuose lygiuose; vėlesnės versijos ją patikslino.
 
-### [v1.2.48](https://github.com/Melly87s/Kiela/releases/tag/v1.2.48) — Progresija ir mažiau nereikalingų daiktų
+### [v1.2.48](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.48) — Progresija ir mažiau nereikalingų daiktų
 
 - Normal ir Nightmare rodo visus daiktus.
 - Hell ir Baal Runs naudoja atsargias item level gaires bei naudingų savybių ir affix potencialo išimtis. Griežto ilvl 85 slenksčio nėra.
@@ -431,24 +455,24 @@ Kiela naudoja mūsų sukurtas atrankos taisykles ir funkcijas. Čia aprašomi st
 - Nuo Farming slepiami Freezing/cold throwing potionai.
 - Grąžintas violetinis rejuvenation rodymas: **35%** ir **☺FULL☺**.
 
-### [v1.2.47](https://github.com/Melly87s/Kiela/releases/tag/v1.2.47) — Pradinė skill daiktų apsauga
+### [v1.2.47](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.47) — Pradinė skill daiktų apsauga
 
 - Pridėta +2 ar didesnių all/class/tree/single skill ir oskill bonusų apsauga bei neidentifikuotos įrangos saugojimas.
 - Apsauga leido tęsti kainų, ROLL ir pagalbos apdorojimą.
 - Vėlesnės versijos šią bendrą apsaugą pakeitė konkrečiomis magic, rare, set ir runeword bazių atrankos taisyklėmis.
 
-### [v1.2.46](https://github.com/Melly87s/Kiela/releases/tag/v1.2.46) — Originalus Kiela atrankos pagrindas
+### [v1.2.46](https://github.com/Melly87s/Melindaa/releases/tag/v1.2.46) — Originalus Melindaa atrankos pagrindas
 
-- Sukurtas naujas Kiela atrankos generatorius, nenaudojantis kitų filtrų kaip kūrimo įvesties ar taisyklių šablono.
+- Sukurtas naujas Melindaa atrankos generatorius, nenaudojantis kitų filtrų kaip kūrimo įvesties ar taisyklių šablono.
 - Runeword, crafting ir daiktų faktai imami iš PD2 žaidimo lentelių.
-- Išsaugotas Kiela HR/WSS kainų rodymas, ROLL vertinimas, crafting pagalba, klasės rekomendacijos ir vaizdinės funkcijos.
+- Išsaugotas Melindaa HR/WSS kainų rodymas, ROLL vertinimas, crafting pagalba, klasės rekomendacijos ir vaizdinės funkcijos.
 - Pridėtas pasikartojančių taisyklių šalinimas generavimo metu, išsaugant jų apdorojimo tvarką.
 - Dabartinio generatoriaus patikros fiksuoja 0 vienodų pasikartojančių ItemDisplay taisyklių ir 0 kitų filtrų kaip vykdymo įvesčių. Šios patikros savaime nėra viso projekto autorystės įrodymas.
 
 ### Viešo filtro licencijos ir platinimo sutvarkymas
 
-- Iš viešo filtro pašalinti Kiela specifiniai naudojimo apribojimai ir atskira ribojanti Kiela licencija.
-- Išsaugoti privalomi MIT teisių ir licencijos įrašai bei [trečiųjų šalių pranešimai](./THIRD-PARTY-NOTICES.md).
+- Iš viešo filtro pašalinti Melindaa specifiniai naudojimo apribojimai ir atskira ribojanti Melindaa licencija.
+- Išsaugoti privalomi MIT teisių ir licencijos įrašai bei [MIT įrašas](./MIT-NOTICE.txt).
 - Viešame repozitoriume platinamas paruoštas filtras ir dokumentacija; generatoriaus šaltiniai palaikomi atskirai.
 - Leidimai platinami ZIP ir RAR archyvais. Pakeitimai taip pat diegiami į vietines žaidimo filtro kopijas ir tikrinamas jų sutapimas.
 
